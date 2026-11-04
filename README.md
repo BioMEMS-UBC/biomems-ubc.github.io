@@ -2,7 +2,7 @@
 
 Website of the Bio-Medical Micro Devices Laboratory (Prof. Karen Cheung, UBC Electrical and Computer Engineering).
 
-Visit **[website URL](#)** 🚀
+Visit **[gsathish.github.io/biomems-lab](https://gsathish.github.io/biomems-lab)** 🚀
 
 Built with the [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs) (Jekyll, v1.4.0) and deployed to GitHub Pages by GitHub Actions.
 Content was migrated in November 2026 from the old WordPress site at biomems.ece.ubc.ca.
