@@ -1,7 +1,8 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
 - id: doi:10.1016/j.snb.2017.02.109
-  title: Fabricating devices with improved adhesion between PDMS and gold-patterned glass
+  title: Fabricating devices with improved adhesion between PDMS and gold-patterned
+    glass
   authors:
   - Jannu Casanova-Moreno
   - Josiah To
@@ -11,12 +12,12 @@
   - Karen C. Cheung
   publisher: 'Sensors and Actuators B: Chemical'
   date: '2017-07-01'
-  link: http://dx.doi.org/10.1016/j.snb.2017.02.109
+  link: https://doi.org/f97979
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.nancom.2017.02.002
-  title: 'Simulating with AcCoRD: Actor-based Communication via Reaction–Diffusion'
+  title: "Simulating with AcCoRD: Actor-based Communication via Reaction\u2013Diffusion"
   authors:
   - Adam Noel
   - Karen C. Cheung
@@ -25,12 +26,13 @@
   - Abdelhakim Hafid
   publisher: Nano Communication Networks
   date: '2017-03-01'
-  link: http://dx.doi.org/10.1016/j.nancom.2017.02.002
+  link: https://doi.org/gbhrnx
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/TMBMC.2016.2589239
-  title: Modeling and Simulation of Molecular Communication Systems with a Reversible Adsorption Receiver
+  title: Modeling and Simulation of Molecular Communication Systems with a Reversible
+    Adsorption Receiver
   authors:
   - Yansha Deng
   - Adam Noel
@@ -39,7 +41,7 @@
   - Karen C. Cheung
   publisher: IEEE Transactions on Molecular, Biological and Multi-Scale Communications
   date: '2016-01-01'
-  link: http://dx.doi.org/10.1109/TMBMC.2016.2589239
+  link: https://doi.org/gft2cq
   type: journal
   plugin: sources.py
   file: sources.yaml
@@ -53,7 +55,7 @@
   - K. C. Cheung
   publisher: Biomicrofluidics
   date: '2016-07-01'
-  link: http://dx.doi.org/10.1063/1.4959031
+  link: https://doi.org/hcq7fz
   type: journal
   plugin: sources.py
   file: sources.yaml
@@ -69,12 +71,13 @@
   - Karen C. Cheung
   publisher: Optics Express
   date: '2016-07-01'
-  link: http://dx.doi.org/10.1364/OE.24.015672
+  link: https://doi.org/ggft47
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1088/1758-5090/8/1/015008
-  title: Investigation of the hydrodynamic response of cells in drop on demand piezoelectric inkjet nozzles
+  title: Investigation of the hydrodynamic response of cells in drop on demand piezoelectric
+    inkjet nozzles
   authors:
   - Eric Cheng
   - Haoran Yu
@@ -82,12 +85,13 @@
   - Karen C Cheung
   publisher: Biofabrication
   date: '2016-01-29'
-  link: http://dx.doi.org/10.1088/1758-5090/8/1/015008
+  link: https://doi.org/gpjxmj
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.3390/s150820030
-  title: Designing a Microfluidic Device with Integrated Ratiometric Oxygen Sensors for the Long-Term Control and Monitoring of Chronic and Cyclic Hypoxia
+  title: Designing a Microfluidic Device with Integrated Ratiometric Oxygen Sensors
+    for the Long-Term Control and Monitoring of Chronic and Cyclic Hypoxia
   authors:
   - Samantha Grist
   - Jonathan Schmok
@@ -96,7 +100,7 @@
   - Karen Cheung
   publisher: Sensors
   date: '2015-08-14'
-  link: http://dx.doi.org/10.3390/s150820030
+  link: https://doi.org/hcq7f3
   type: journal
   plugin: sources.py
   file: sources.yaml
@@ -108,19 +112,20 @@
   - Robert Schober
   publisher: IEEE Transactions on Molecular, Biological and Multi-Scale Communications
   date: '2015-03-01'
-  link: http://dx.doi.org/10.1109/TMBMC.2015.2465511
+  link: https://doi.org/hcq7f4
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1007/s10404-015-1589-x
-  title: Measurement of the oscillatory flow field inside tapered cylindrical inkjet nozzles using micro-particle image velocimetry
+  title: Measurement of the oscillatory flow field inside tapered cylindrical inkjet
+    nozzles using micro-particle image velocimetry
   authors:
   - E. Cheng
   - A. Ahmadi
   - K. C. Cheung
   publisher: Microfluidics and Nanofluidics
   date: '2015-05-05'
-  link: http://dx.doi.org/10.1007/s10404-015-1589-x
+  link: https://doi.org/hcq7f6
   type: journal
   plugin: sources.py
   file: sources.yaml
@@ -136,12 +141,13 @@
   - K. C. Cheung
   publisher: Biomicrofluidics
   date: '2015-03-01'
-  link: http://dx.doi.org/10.1063/1.4918754
+  link: https://doi.org/f69sqm
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1007/s10544-014-9918-5
-  title: Alginate core-shell beads for simplified three-dimensional tumor spheroid culture and drug screening
+  title: Alginate core-shell beads for simplified three-dimensional tumor spheroid
+    culture and drug screening
   authors:
   - Linfen Yu
   - Cynthia Ni
@@ -150,24 +156,26 @@
   - Karen C. Cheung
   publisher: Biomedical Microdevices
   date: '2015-02-15'
-  link: http://dx.doi.org/10.1007/s10544-014-9918-5
+  link: https://doi.org/f6535v
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/JSAC.2014.2367693
-  title: A Unifying Model for External Noise Sources and ISI in Diffusive Molecular Communication
+  title: A Unifying Model for External Noise Sources and ISI in Diffusive Molecular
+    Communication
   authors:
   - Adam Noel
   - Karen C. Cheung
   - Robert Schober
   publisher: IEEE Journal on Selected Areas in Communications
   date: '2014-12-01'
-  link: http://dx.doi.org/10.1109/JSAC.2014.2367693
+  link: https://doi.org/gg7scc
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1039/c4an00765d
-  title: Fabrication and laser patterning of polystyrene optical oxygen sensor films for lab-on-a-chip applications
+  title: Fabrication and laser patterning of polystyrene optical oxygen sensor films
+    for lab-on-a-chip applications
   authors:
   - S. M. Grist
   - N. Oyunerdene
@@ -178,24 +186,26 @@
   - K. C. Cheung
   publisher: The Analyst
   date: '2014-01-01'
-  link: http://dx.doi.org/10.1039/c4an00765d
+  link: https://doi.org/hcq7f9
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/TNB.2014.2337239
-  title: Optimal Receiver Design for Diffusive Molecular Communication With Flow and Additive Noise
+  title: Optimal Receiver Design for Diffusive Molecular Communication With Flow and
+    Additive Noise
   authors:
   - Adam Noel
   - Karen C. Cheung
   - Robert Schober
   publisher: IEEE Transactions on NanoBioscience
   date: '2014-09-01'
-  link: http://dx.doi.org/10.1109/TNB.2014.2337239
+  link: https://doi.org/gft7fg
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1002/bit.25294
-  title: A simple method for eliminating fixed‐region interference of aptamer binding during SELEX
+  title: "A simple method for eliminating fixed\u2010region interference of aptamer\
+    \ binding during SELEX"
   authors:
   - Eric Ouellet
   - Eric T. Lagally
@@ -203,36 +213,39 @@
   - Charles A. Haynes
   publisher: Biotechnology and Bioengineering
   date: '2014-07-14'
-  link: http://dx.doi.org/10.1002/bit.25294
+  link: https://doi.org/f6kfbf
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1039/C3LC51352A
-  title: Application of a three-dimensional (3D) particle tracking method to microfluidic particle focusing
+  title: Application of a three-dimensional (3D) particle tracking method to microfluidic
+    particle focusing
   authors:
   - Michael H. Winer
   - Ali Ahmadi
   - Karen C. Cheung
   publisher: Lab Chip
   date: '2014-01-01'
-  link: http://dx.doi.org/10.1039/C3LC51352A
+  link: https://doi.org/hcq7gc
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/TNB.2013.2295546
-  title: Improving Receiver Performance of Diffusive Molecular Communication With Enzymes
+  title: Improving Receiver Performance of Diffusive Molecular Communication With
+    Enzymes
   authors:
   - Adam Noel
   - Karen C. Cheung
   - Robert Schober
   publisher: IEEE Transactions on NanoBioscience
   date: '2014-03-01'
-  link: http://dx.doi.org/10.1109/TNB.2013.2295546
+  link: https://doi.org/gft7fp
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1002/jbio.201300012
-  title: A silicon photonic biosensor using phase‐shifted Bragg gratings in slot waveguide
+  title: "A silicon photonic biosensor using phase\u2010shifted Bragg gratings in\
+    \ slot waveguide"
   authors:
   - Xu Wang
   - Jonas Flueckiger
@@ -246,7 +259,7 @@
   - Lukas Chrostowski
   publisher: Journal of Biophotonics
   date: '2013-04-11'
-  link: http://dx.doi.org/10.1002/jbio.201300012
+  link: https://doi.org/f2b7m2
   type: journal
   plugin: sources.py
   file: sources.yaml
@@ -265,19 +278,20 @@
   - Lukas Chrostowski
   publisher: Optics Express
   date: '2013-03-26'
-  link: http://dx.doi.org/10.1364/OE.21.007994
+  link: https://doi.org/hcq7gf
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1002/bit.24562
-  title: Improving piezoelectric cell printing accuracy and reliability through neutral buoyancy of suspensions
+  title: Improving piezoelectric cell printing accuracy and reliability through neutral
+    buoyancy of suspensions
   authors:
   - Daljeet Chahal
   - Ali Ahmadi
   - Karen C. Cheung
   publisher: Biotechnology and Bioengineering
   date: '2012-06-08'
-  link: http://dx.doi.org/10.1002/bit.24562
+  link: https://doi.org/f39wjf
   type: journal
   plugin: sources.py
   file: sources.yaml
@@ -288,7 +302,7 @@
   - Karen C. Cheung
   publisher: Polymers
   date: '2011-10-10'
-  link: http://dx.doi.org/10.3390/polym3041684
+  link: https://doi.org/dxb5dv
   type: journal
   plugin: sources.py
   file: sources.yaml
@@ -299,7 +313,7 @@
   - Vahid Bazargan
   - Boris Stoeber
   - Karen C. Cheung
-  publisher: Sensors and Actuators B – Chemical. (Elsevier) 160(1) (2011) 864-874
+  publisher: "Sensors and Actuators B \u2013 Chemical. (Elsevier) 160(1) (2011) 864-874"
   date: '2011-01-01'
   plugin: sources.py
   file: sources.yaml
@@ -314,56 +328,59 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1039/c004590j
-  title: Droplet-based microfluidic system for multicellular tumor spheroid formation and anticancer drug testing
+  title: Droplet-based microfluidic system for multicellular tumor spheroid formation
+    and anticancer drug testing
   authors:
   - Linfen Yu
   - Michael C. W. Chen
   - Karen C. Cheung
   publisher: Lab on a Chip
   date: '2010-01-01'
-  link: http://dx.doi.org/10.1039/c004590j
+  link: https://doi.org/crhp9k
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1002/cyto.a.20910
-  title: Microfluidic impedance‐based flow cytometry
+  title: "Microfluidic impedance\u2010based flow cytometry"
   authors:
   - Karen C. Cheung
   - Marco Di Berardino
-  - Grit Schade‐Kampmann
+  - "Grit Schade\u2010Kampmann"
   - Monika Hebeisen
   - Arkadiusz Pierzchalski
   - Jozsef Bocsi
   - Anja Mittag
-  - Attila Tárnok
+  - "Attila T\xE1rnok"
   publisher: Cytometry Part A
   date: '2010-06-25'
-  link: http://dx.doi.org/10.1002/cyto.a.20910
+  link: https://doi.org/ccrkbn
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1088/1758-5082/2/2/025003
-  title: Effects of surfactant and gentle agitation on inkjet dispensing of living cells
+  title: Effects of surfactant and gentle agitation on inkjet dispensing of living
+    cells
   authors:
   - Shabnam Parsa
   - Madhuja Gupta
-  - Frédéric Loizeau
+  - "Fr\xE9d\xE9ric Loizeau"
   - Karen C Cheung
   publisher: Biofabrication
   date: '2010-06-01'
-  link: http://dx.doi.org/10.1088/1758-5082/2/2/025003
+  link: https://doi.org/c6p67t
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1007/s10544-010-9417-2
-  title: Alginate-based microfluidic system for tumor spheroid formation and anticancer agent screening
+  title: Alginate-based microfluidic system for tumor spheroid formation and anticancer
+    agent screening
   authors:
   - Michael C. W. Chen
   - Madhuja Gupta
   - Karen C. Cheung
   publisher: Biomedical Microdevices
   date: '2010-03-17'
-  link: http://dx.doi.org/10.1007/s10544-010-9417-2
+  link: https://doi.org/c7788q
   type: journal
   plugin: sources.py
   file: sources.yaml
@@ -375,7 +392,7 @@
   - Karen  C. Cheung
   publisher: Sensors
   date: '2009-11-18'
-  link: http://dx.doi.org/10.3390/s91109196
+  link: https://doi.org/ff6bj3
   type: journal
   plugin: sources.py
   file: sources.yaml
@@ -386,14 +403,14 @@
   - Karen C. Cheung
   publisher: IEEE Transactions on Biomedical Circuits and Systems
   date: '2009-08-01'
-  link: http://dx.doi.org/10.1109/TBCAS.2009.2021657
+  link: https://doi.org/c79jt6
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.sna.2007.07.027
   title: Demonstration of cortical recording using novel flexible polymer neural probes
   authors:
-  - André Mercanzini
+  - "Andr\xE9 Mercanzini"
   - Karen Cheung
   - Derek L. Buhl
   - Marc Boers
@@ -404,7 +421,7 @@
   - Philippe Renaud
   publisher: 'Sensors and Actuators A: Physical'
   date: '2008-05-01'
-  link: http://dx.doi.org/10.1016/j.sna.2007.07.027
+  link: https://doi.org/bbrf2b
   type: journal
   plugin: sources.py
   file: sources.yaml
@@ -414,12 +431,13 @@
   - Karen C. Cheung
   publisher: Biomedical Microdevices
   date: '2007-01-25'
-  link: http://dx.doi.org/10.1007/s10544-006-9045-z
+  link: https://doi.org/bc6d95
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.bios.2006.08.035
-  title: Flexible polyimide microelectrode array for in vivo recordings and current source density analysis
+  title: Flexible polyimide microelectrode array for in vivo recordings and current
+    source density analysis
   authors:
   - Karen C. Cheung
   - Philippe Renaud
@@ -427,7 +445,7 @@
   - Kaj Djupsund
   publisher: Biosensors and Bioelectronics
   date: '2007-03-01'
-  link: http://dx.doi.org/10.1016/j.bios.2006.08.035
+  link: https://doi.org/dgcbbn
   type: journal
   plugin: sources.py
   file: sources.yaml
@@ -438,24 +456,26 @@
   - Philippe Renaud
   publisher: Solid-State Electronics
   date: '2006-04-01'
-  link: http://dx.doi.org/10.1016/j.sse.2006.03.023
+  link: https://doi.org/dn7fb3
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1002/cyto.a.20141
-  title: 'Impedance spectroscopy flow cytometry: On‐chip label‐free cell differentiation'
+  title: "Impedance spectroscopy flow cytometry: On\u2010chip label\u2010free cell\
+    \ differentiation"
   authors:
   - Karen Cheung
   - Shady Gawad
   - Philippe Renaud
   publisher: Cytometry Part A
   date: '2005-05-10'
-  link: http://dx.doi.org/10.1002/cyto.a.20141
+  link: https://doi.org/bwtcjw
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1039/B313761A
-  title: 'Dielectric spectroscopy in a micromachined flow cytometer: theoretical and practical considerations'
+  title: 'Dielectric spectroscopy in a micromachined flow cytometer: theoretical and
+    practical considerations'
   authors:
   - Shady Gawad
   - Karen Cheung
@@ -464,7 +484,7 @@
   - Philippe Renaud
   publisher: Lab on a Chip
   date: '2004-01-01'
-  link: http://dx.doi.org/10.1039/B313761A
+  link: https://doi.org/bnwhj9
   type: journal
   plugin: sources.py
   file: sources.yaml
@@ -477,12 +497,13 @@
   - L.P. Lee
   publisher: Journal of Microelectromechanical Systems
   date: '2003-04-01'
-  link: http://dx.doi.org/10.1109/JMEMS.2003.809962
+  link: https://doi.org/fwqcr2
   type: journal
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1063/1.1576297
-  title: Simultaneous imaging of ionic conductivity and morphology of a microfluidic system
+  title: Simultaneous imaging of ionic conductivity and morphology of a microfluidic
+    system
   authors:
   - Cristian Ionescu-Zanetti
   - Karen Cheung
@@ -490,12 +511,13 @@
   - Luke P. Lee
   publisher: Journal of Applied Physics
   date: '2003-06-15'
-  link: http://dx.doi.org/10.1063/1.1576297
+  link: https://doi.org/fgwbt5
   type: journal
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: On-Chip Study of the Drug Response of MCF-7 Breast Cancer Tumour Spheroids under Chronic and Cycling Hypoxia
+  title: On-Chip Study of the Drug Response of MCF-7 Breast Cancer Tumour Spheroids
+    under Chronic and Cycling Hypoxia
   authors:
   - Samantha M. Grist
   - Soroush Nasseri
@@ -503,13 +525,15 @@
   - Andrea Diaz Gaxiola
   - Lukas Chrostowski
   - Karen C. Cheung
-  publisher: Proceedings of the 20th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2016). Dublin, Ireland. Oct. 9-13, 2016
+  publisher: Proceedings of the 20th International Conference on Miniaturized Systems
+    for Chemistry and Life Sciences (MicroTAS 2016). Dublin, Ireland. Oct. 9-13, 2016
   date: '2016-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Real-Time Monitoring of Tumour Spheroid Swelling Under Transient Hypoxia Using Two-Photon Microscopy
+  title: Real-Time Monitoring of Tumour Spheroid Swelling Under Transient Hypoxia
+    Using Two-Photon Microscopy
   authors:
   - Samantha M. Grist
   - Loic Laplatine
@@ -517,7 +541,8 @@
   - Andrea Diaz Gaxiola
   - Lukas Chrostowski
   - Karen C. Cheung
-  publisher: Proceedings of the 20th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2016). Dublin, Ireland. Oct. 9-13, 2016
+  publisher: Proceedings of the 20th International Conference on Miniaturized Systems
+    for Chemistry and Life Sciences (MicroTAS 2016). Dublin, Ireland. Oct. 9-13, 2016
   date: '2016-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
@@ -530,25 +555,30 @@
   - Haoran Yu
   - Ali Ahmadi
   - Karen C. Cheung
-  publisher: Proceedings of the 16th Hilton Head Workshop on the science and technology of solid-state sensors, actuators, and microsystems (Hilton Head 2016). Hilton Head Island, USA. Jun. 5-9, 2016
+  publisher: Proceedings of the 16th Hilton Head Workshop on the science and technology
+    of solid-state sensors, actuators, and microsystems (Hilton Head 2016). Hilton
+    Head Island, USA. Jun. 5-9, 2016
   date: '2016-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Effects of Rheological Manipulation on Suspended Cells for Inkjet Bioprinting Applications
+  title: Effects of Rheological Manipulation on Suspended Cells for Inkjet Bioprinting
+    Applications
   authors:
   - Eric Cheng
   - Haoran Yu
   - Ali Ahmadi
   - Karen C. Cheung
-  publisher: Proceedings of the 29th IEEE International Conference on. Micro Electro Mechanical Systems. (MEMS 2016). Shanghai, China. Jan. 24-28, 2016. (pp. 784-787)
+  publisher: Proceedings of the 29th IEEE International Conference on. Micro Electro
+    Mechanical Systems. (MEMS 2016). Shanghai, China. Jan. 24-28, 2016. (pp. 784-787)
   date: '2016-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: A Microfluidic Platform to Study Real-Time Tumour Spheroid Response to Chronic/Transient Hypoxia
+  title: A Microfluidic Platform to Study Real-Time Tumour Spheroid Response to Chronic/Transient
+    Hypoxia
   authors:
   - Samantha Grist
   - Jonathan C. Schmok
@@ -556,13 +586,15 @@
   - Meng-Chi (Andy) Liu
   - Lukas Chrostowski
   - Karen C. Cheung
-  publisher: Proceedings of the 19th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2015). Gyeongju, South Korea. Oct. 25-29, 2015. (pp. 2081-2082)
+  publisher: Proceedings of the 19th International Conference on Miniaturized Systems
+    for Chemistry and Life Sciences (MicroTAS 2015). Gyeongju, South Korea. Oct. 25-29,
+    2015. (pp. 2081-2082)
   date: '2015-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'μSee3D: On-Chip Tissue Clearing for Imaging 3D Cell Cultures'
+  title: "\u03BCSee3D: On-Chip Tissue Clearing for Imaging 3D Cell Cultures"
   authors:
   - Samantha Grist
   - Soroush Nasseri
@@ -570,13 +602,16 @@
   - Cynthia Ni
   - Calvin Roskelley
   - Karen C. Cheung
-  publisher: Proceedings of the 19th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2015). Gyeongju, South Korea. Oct. 25-29, 2015. (pp. 308-310)
+  publisher: Proceedings of the 19th International Conference on Miniaturized Systems
+    for Chemistry and Life Sciences (MicroTAS 2015). Gyeongju, South Korea. Oct. 25-29,
+    2015. (pp. 308-310)
   date: '2015-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Two-Photon Imaging for Long-Term Tumor Model Monitoring in a Microfluidic Device
+  title: Two-Photon Imaging for Long-Term Tumor Model Monitoring in a Microfluidic
+    Device
   authors:
   - Samantha Grist
   - Soroush Nasseri
@@ -584,42 +619,53 @@
   - Meng-Chi (Andy) Liu
   - Calvin Roskelley
   - Karen C. Cheung
-  publisher: Proceedings of the 19th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2015). Gyeongju, South Korea. Oct. 25-29, 2015. (pp. 594-596)
+  publisher: Proceedings of the 19th International Conference on Miniaturized Systems
+    for Chemistry and Life Sciences (MicroTAS 2015). Gyeongju, South Korea. Oct. 25-29,
+    2015. (pp. 594-596)
   date: '2015-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Automated Analysis of Collagen Reorganization Over Time in Three-Dimensional Cell Cultures
+  title: Automated Analysis of Collagen Reorganization Over Time in Three-Dimensional
+    Cell Cultures
   authors:
   - Eric Cheng
   - Chi Hoon Song
   - Linfen Yu
   - Karen C. Cheung
-  publisher: Proceedings of the 18th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2014). San Antonio, USA. Oct. 26-30, 2014. (pp 2514-2515)
+  publisher: Proceedings of the 18th International Conference on Miniaturized Systems
+    for Chemistry and Life Sciences (MicroTAS 2014). San Antonio, USA. Oct. 26-30,
+    2014. (pp 2514-2515)
   date: '2014-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Modulated Two-Photon Imaging of Whole Spheroids for Three-Dimensional Cell Cultures
+  title: Modulated Two-Photon Imaging of Whole Spheroids for Three-Dimensional Cell
+    Cultures
   authors:
   - Samantha Grist
   - Eric Cheng
   - Linfen Yu
   - Karen C. Cheung
-  publisher: Proceedings of the 18th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2014). San Antonio, USA. Oct. 26-30, 2014. (pp 551-553)
+  publisher: Proceedings of the 18th International Conference on Miniaturized Systems
+    for Chemistry and Life Sciences (MicroTAS 2014). San Antonio, USA. Oct. 26-30,
+    2014. (pp 551-553)
   date: '2014-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Effects of Density Difference Between Particles and Fluid on Inertial Focusing Positions in Transient Micro-Flows
+  title: Effects of Density Difference Between Particles and Fluid on Inertial Focusing
+    Positions in Transient Micro-Flows
   authors:
   - Michael Winer
   - Ali Ahmadi
   - Karen C. Cheung
-  publisher: Proceedings of the 18th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2014). San Antonio, USA. Oct. 26-30, 2014. (pp 2462-2464)
+  publisher: Proceedings of the 18th International Conference on Miniaturized Systems
+    for Chemistry and Life Sciences (MicroTAS 2014). San Antonio, USA. Oct. 26-30,
+    2014. (pp 2462-2464)
   date: '2014-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
@@ -631,7 +677,9 @@
   - Eric Cheng
   - Cynthia Ni
   - Karen C. Cheung
-  publisher: Proceedings of the 18th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2014). San Antonio, USA. Oct. 26-30, 2014. (pp 527-529)
+  publisher: Proceedings of the 18th International Conference on Miniaturized Systems
+    for Chemistry and Life Sciences (MicroTAS 2014). San Antonio, USA. Oct. 26-30,
+    2014. (pp 527-529)
   date: '2014-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
@@ -645,40 +693,48 @@
   - Linfen Yu
   - Lukas Chrostowski
   - Karen C. Cheung
-  publisher: Proceedings of the 37th Canadian Medical and Biological Engineering Conference (CMBES37). Vancouver, Canada. 20-24, 2014. (4 pp.)
+  publisher: Proceedings of the 37th Canadian Medical and Biological Engineering Conference
+    (CMBES37). Vancouver, Canada. 20-24, 2014. (4 pp.)
   date: '2014-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'Apparent Size Correlation: A Simple Method to Determine Vertical Positions of Particles Using Conventional Microscopy'
+  title: 'Apparent Size Correlation: A Simple Method to Determine Vertical Positions
+    of Particles Using Conventional Microscopy'
   authors:
   - Michael Winer
   - Ali Ahmadi
   - Karen C. Cheung
-  publisher: Proceedings of the 27th IEEE International Conference on Micro Electro Mechanical Systems (MEMS 2014). San Francisco, USA. Jan. 26-30, 2014. (pp 939-942)
+  publisher: Proceedings of the 27th IEEE International Conference on Micro Electro
+    Mechanical Systems (MEMS 2014). San Francisco, USA. Jan. 26-30, 2014. (pp 939-942)
   date: '2014-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'Transient Inertial Flows: A New Degree of Freedom for Particle Focusing in Microfluidic Channels'
+  title: 'Transient Inertial Flows: A New Degree of Freedom for Particle Focusing
+    in Microfluidic Channels'
   authors:
   - Michael Winer
   - Ali Ahmadi
   - Karen C. Cheung
-  publisher: Proceedings of the 27th IEEE International Conference on Micro Electro Mechanical Systems (MEMS 2014). San Francisco, USA. Jan. 26-30, 2014. (pp 1051-4)
+  publisher: Proceedings of the 27th IEEE International Conference on Micro Electro
+    Mechanical Systems (MEMS 2014). San Francisco, USA. Jan. 26-30, 2014. (pp 1051-4)
   date: '2014-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Alginate Encapsulation of Cell-Laden Beads for Microfluidic Tumor Spheroid Culture
+  title: Alginate Encapsulation of Cell-Laden Beads for Microfluidic Tumor Spheroid
+    Culture
   authors:
   - Carmen Bayly
   - Linfen Yu
   - Karen C. Cheung
-  publisher: Proceedings of the 17th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2013). Freiburg, Germany. Oct. 27-31, 2013. pp. 1710-1712
+  publisher: Proceedings of the 17th International Conference on Miniaturized Systems
+    for Chemistry and Life Sciences (MicroTAS 2013). Freiburg, Germany. Oct. 27-31,
+    2013. pp. 1710-1712
   date: '2013-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
@@ -689,7 +745,9 @@
   - Linfen Yu
   - Carmen Bayly
   - Karen C. Cheung
-  publisher: Proceedings of the 17th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2013). Freiburg, Germany. Oct. 27-31, 2013. pp. 1716-1718
+  publisher: Proceedings of the 17th International Conference on Miniaturized Systems
+    for Chemistry and Life Sciences (MicroTAS 2013). Freiburg, Germany. Oct. 27-31,
+    2013. pp. 1716-1718
   date: '2013-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
@@ -700,7 +758,9 @@
   - Samantha Grist
   - Lukas Chrostowski
   - Karen C. Cheung
-  publisher: Proceedings of the 16th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2012). Okinawa, Japan. Oct. 28-Nov. 1, 2012. (pp 668-670)
+  publisher: Proceedings of the 16th International Conference on Miniaturized Systems
+    for Chemistry and Life Sciences (MicroTAS 2012). Okinawa, Japan. Oct. 28-Nov.
+    1, 2012. (pp 668-670)
   date: '2012-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
@@ -712,30 +772,37 @@
   - Linfen Yu
   - Lukas Chrostowski
   - Karen C. Cheung
-  publisher: Proceedings of the International Society for Optics and Photonics (SPIE Photonics West MOEMS-MEMS). San Francisco, USA. 21-26, 2012. 825103 (12 pp)
+  publisher: Proceedings of the International Society for Optics and Photonics (SPIE
+    Photonics West MOEMS-MEMS). San Francisco, USA. 21-26, 2012. 825103 (12 pp)
   date: '2012-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Label-Free Biosensing Using Cascaded Silicon-on-Insulator Micro-Racetrack Resonators Integrated with PDMS Microfluidic Channels
+  title: Label-Free Biosensing Using Cascaded Silicon-on-Insulator Micro-Racetrack
+    Resonators Integrated with PDMS Microfluidic Channels
   authors:
   - Jonas Flueckiger
   - Samantha M. Grist
   - Eric Ouellet
   - Lukas Chrostowski
   - Karen C. Cheung
-  publisher: Proceedings of the 15th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2011). Seattle, USA. Oct. 2-6, 2011. (pp 565-567)
+  publisher: Proceedings of the 15th International Conference on Miniaturized Systems
+    for Chemistry and Life Sciences (MicroTAS 2011). Seattle, USA. Oct. 2-6, 2011.
+    (pp 565-567)
   date: '2011-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Characterization of Drug-Induced Autophagy and Cytotoxicity in MCF7 Cells on Multilayer Microfluidic Device
+  title: Characterization of Drug-Induced Autophagy and Cytotoxicity in MCF7 Cells
+    on Multilayer Microfluidic Device
   authors:
   - Linfen Yu
   - Karen C. Cheung
-  publisher: Proceedings of the 15th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2011). Seattle, USA. Oct. 2-6, 2011. pp.103-105
+  publisher: Proceedings of the 15th International Conference on Miniaturized Systems
+    for Chemistry and Life Sciences (MicroTAS 2011). Seattle, USA. Oct. 2-6, 2011.
+    pp.103-105
   date: '2011-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
@@ -745,7 +812,8 @@
   authors:
   - Linfen Yu
   - Karen C. Cheung
-  publisher: Proceedings of the 23rd Canadian Congress of Applied Mechanics (2011 CANCAM). Vancouver, Canada. 5-9, 2011. (pp 45-48)
+  publisher: Proceedings of the 23rd Canadian Congress of Applied Mechanics (2011
+    CANCAM). Vancouver, Canada. 5-9, 2011. (pp 45-48)
   date: '2011-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
@@ -756,7 +824,9 @@
   - Michael C.W. Chen
   - Madhuja Gupta
   - Karen C. Cheung
-  publisher: Proceedings of the 13th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2009). Jeju Island, Korea. Nov, 2009. 1916-1918
+  publisher: Proceedings of the 13th International Conference on Miniaturized Systems
+    for Chemistry and Life Sciences (MicroTAS 2009). Jeju Island, Korea. Nov, 2009.
+    1916-1918
   date: '2009-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
@@ -767,7 +837,9 @@
   - Michael C.W. Chen
   - Madhuja Gupta
   - Karen C. Cheung
-  publisher: Proceedings of the 30th Annual International Conference of the IEEE Engineering in Medicine and Biology Society. (IEEE EMBC’08). Vancouver, British Columbia, Canada. Aug, 2008. 4848-4851
+  publisher: "Proceedings of the 30th Annual International Conference of the IEEE\
+    \ Engineering in Medicine and Biology Society. (IEEE EMBC\u201908). Vancouver,\
+    \ British Columbia, Canada. Aug, 2008. 4848-4851"
   date: '2008-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
@@ -777,13 +849,16 @@
   authors:
   - Jonas Flueckiger
   - Karen C. Cheung
-  publisher: Proceedings of the 12th International Conference on Miniaturized Systems for Chemistry and Life Sciences. (MicroTAS 2008). San Diego, California, United States. Oct, 2008. 775 – 777
+  publisher: "Proceedings of the 12th International Conference on Miniaturized Systems\
+    \ for Chemistry and Life Sciences. (MicroTAS 2008). San Diego, California, United\
+    \ States. Oct, 2008. 775 \u2013 777"
   date: '2008-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Demonstration of Cortical Recording and Reduced Inflammatory Response Using Flexible Polymer Neural Probes
+  title: Demonstration of Cortical Recording and Reduced Inflammatory Response Using
+    Flexible Polymer Neural Probes
   authors:
   - Andre Mercanzini
   - Karen C. Cheung
@@ -795,19 +870,22 @@
   - Arnaud Bertsch
   - Alan Carleton
   - Philippe Renaud
-  publisher: Proceedings of the 20th IEEE International Conference on MEMS. Kobe, Japan. Jan, 2007. 573 – 576
+  publisher: "Proceedings of the 20th IEEE International Conference on MEMS. Kobe,\
+    \ Japan. Jan, 2007. 573 \u2013 576"
   date: '2007-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Comparison of Tissue Reaction to Implanted Polyimide and Silicon Microelectrode Arrays
+  title: Comparison of Tissue Reaction to Implanted Polyimide and Silicon Microelectrode
+    Arrays
   authors:
   - Karen C. Cheung
   - Yinghui Zhong
   - Philippe Renaud
   - Ravi Bellamkonda
-  publisher: European Cells and Materials Vol. 10 Suppl. 5, page TM2 (Biosurf VI – Tissue-Surface Interaction, Lausanne, Switzerland). 2005
+  publisher: "European Cells and Materials Vol. 10 Suppl. 5, page TM2 (Biosurf VI\
+    \ \u2013 Tissue-Surface Interaction, Lausanne, Switzerland). 2005"
   date: '2005-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
@@ -818,7 +896,8 @@
   - Shady Gawad
   - Karen C. Cheung
   - Philippe Renaud
-  publisher: Proceedings of the 8th International Conference on Micro Total Analysis Systems. Malmo, Sweden. Sep, 2004. 58 – 60
+  publisher: "Proceedings of the 8th International Conference on Micro Total Analysis\
+    \ Systems. Malmo, Sweden. Sep, 2004. 58 \u2013 60"
   date: '2004-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
@@ -829,7 +908,8 @@
   - Karen C. Cheung
   - Shady Gawad
   - Philippe Renaud
-  publisher: Proceedings of the 8th International Conference on Micro Total Analysis Systems. Malmo, Sweden. Sep, 2004. 55 – 57
+  publisher: "Proceedings of the 8th International Conference on Micro Total Analysis\
+    \ Systems. Malmo, Sweden. Sep, 2004. 55 \u2013 57"
   date: '2004-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
@@ -840,7 +920,8 @@
   - Karen C. Cheung
   - Shady Gawad
   - Philippe Renaud
-  publisher: Proceedings of the 17th IEEE International Conference on MEMS. Maastricht, Netherlands. Jan, 2004. 343 – 346
+  publisher: "Proceedings of the 17th IEEE International Conference on MEMS. Maastricht,\
+    \ Netherlands. Jan, 2004. 343 \u2013 346"
   date: '2004-01-01'
   subtype: Extended abstract (2 pages) refereed
   plugin: sources.py
@@ -859,7 +940,7 @@
   - L. Chrostowski
   publisher: SPIE Proceedings
   date: '2017-02-28'
-  link: http://dx.doi.org/10.1117/12.2256068
+  link: https://doi.org/hcq7gp
   type: conference
   plugin: sources.py
   file: sources.yaml
@@ -871,7 +952,8 @@
   - Maged Elkashlan
   - Arumugam Nallanathan
   - Karen C. Cheung
-  publisher: Proceedings of the IEEE International Conference on Communications (IEEE ICC 2016). Kuala Lumpur, Malaysia. May 23-27 2016. Best Paper Award
+  publisher: Proceedings of the IEEE International Conference on Communications (IEEE
+    ICC 2016). Kuala Lumpur, Malaysia. May 23-27 2016. Best Paper Award
   date: '2016-01-01'
   subtype: Full paper refereed
   plugin: sources.py
@@ -882,9 +964,10 @@
   - Adam Noel
   - Karen C. Cheung
   - Robert Schober
-  publisher: Proceedings of the Second Annual International Conference on Nanoscale Computing and Communication
+  publisher: Proceedings of the Second Annual International Conference on Nanoscale
+    Computing and Communication
   date: '2015-09-21'
-  link: http://dx.doi.org/10.1145/2800795.2800821
+  link: https://doi.org/gft7fh
   type: conference
   plugin: sources.py
   file: sources.yaml
@@ -894,7 +977,8 @@
   - Adam Noel
   - Karen C. Cheung
   - Robert Schober
-  publisher: Proceedings of the IEEE International Conference on Communications (ICC 2015). London, UK. 8-12 June, 2015. (pp. 1109-1115)
+  publisher: Proceedings of the IEEE International Conference on Communications (ICC
+    2015). London, UK. 8-12 June, 2015. (pp. 1109-1115)
   date: '2015-01-01'
   subtype: Full paper refereed
   plugin: sources.py
@@ -905,13 +989,17 @@
   - Adam Noel
   - Karen C. Cheung
   - Robert Schober
-  publisher: 'Proceedings of the IEEE Global Communications Conference (Globecom 2014), Symposium on Selected Areas in Communications: GC14 SAC Nanotechnology (‘GC14 SAC Nanotechnology’). Austin, USA. 8-12 Dec, 2014. (pp. 2813-2819). Best Paper Finalist (top 6%)'
+  publisher: "Proceedings of the IEEE Global Communications Conference (Globecom 2014),\
+    \ Symposium on Selected Areas in Communications: GC14 SAC Nanotechnology (\u2018\
+    GC14 SAC Nanotechnology\u2019). Austin, USA. 8-12 Dec, 2014. (pp. 2813-2819).\
+    \ Best Paper Finalist (top 6%)"
   date: '2014-01-01'
   subtype: Full paper refereed
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1117/12.2062389
-  title: Improving the performance of silicon photonic rings, disks, and Bragg gratings for use in label-free biosensing
+  title: Improving the performance of silicon photonic rings, disks, and Bragg gratings
+    for use in label-free biosensing
   authors:
   - Shon Schmidt
   - Jonas Flueckiger
@@ -931,17 +1019,19 @@
   - Daniel Ratner
   publisher: SPIE Proceedings
   date: '2014-08-27'
-  link: http://dx.doi.org/10.1117/12.2062389
+  link: https://doi.org/hcq7gr
   type: conference
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Investigation of the Hydrodynamics of Suspended Cells for Reliable Inkjet Cell Printing
+  title: Investigation of the Hydrodynamics of Suspended Cells for Reliable Inkjet
+    Cell Printing
   authors:
   - Eric Cheng
   - Ali Ahmadi
   - Karen C. Cheung
-  publisher: Proceedings of the ASME 2014 Fluids Engineering Summer Meeting (FEDSM2014). Chicago, USA. Aug. 3-7, 2014. (8 pp)
+  publisher: Proceedings of the ASME 2014 Fluids Engineering Summer Meeting (FEDSM2014).
+    Chicago, USA. Aug. 3-7, 2014. (8 pp)
   date: '2014-01-01'
   subtype: Full paper refereed
   plugin: sources.py
@@ -952,18 +1042,21 @@
   - Adam Noel
   - Karen C. Cheung
   - Robert Schober
-  publisher: Proceedings of the IEEE International Conference on Communications (ICC 2014). Sydney, Australia. 10-14 June, 2014. (pp 3600 – 3606)
+  publisher: "Proceedings of the IEEE International Conference on Communications (ICC\
+    \ 2014). Sydney, Australia. 10-14 June, 2014. (pp 3600 \u2013 3606)"
   date: '2014-01-01'
   subtype: Full paper refereed
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Imaging Method Developed for the Tracking of Single Cell Behaviours in Inkjet Cell Printing Systems
+  title: Imaging Method Developed for the Tracking of Single Cell Behaviours in Inkjet
+    Cell Printing Systems
   authors:
   - Eric Cheng
   - Ali Ahmadi
   - Karen C. Cheung
-  publisher: Proceedings of the 37th Canadian Medical and Biological Engineering Conference (CMBES37). Vancouver, Canada. 20-24, 2014. (4 pp.)
+  publisher: Proceedings of the 37th Canadian Medical and Biological Engineering Conference
+    (CMBES37). Vancouver, Canada. 20-24, 2014. (4 pp.)
   date: '2014-01-01'
   subtype: Full paper refereed
   plugin: sources.py
@@ -974,7 +1067,9 @@
   - Adam Noel
   - Karen C. Cheung
   - Robert Schober
-  publisher: Proceedings of the 1st ACM International Conference on Nanoscale Computing and Communication (ACM NANOCOM 2014). Atlanta, Georgia, USA, May 13-14, 2014. (9 pp)
+  publisher: Proceedings of the 1st ACM International Conference on Nanoscale Computing
+    and Communication (ACM NANOCOM 2014). Atlanta, Georgia, USA, May 13-14, 2014.
+    (9 pp)
   date: '2014-01-01'
   subtype: Full paper refereed
   plugin: sources.py
@@ -990,7 +1085,8 @@
   - Karen C. Cheung
   - Lukas Chrostowski
   - Daniel M. Ratner
-  publisher: Biomedical Engineering Society BMES Annual Meeting. Seattle, USA. Sep. 25-28, 2013
+  publisher: Biomedical Engineering Society BMES Annual Meeting. Seattle, USA. Sep.
+    25-28, 2013
   date: '2013-01-01'
   subtype: Full paper refereed
   plugin: sources.py
@@ -1001,18 +1097,21 @@
   - Carmen Bayly
   - Linfen Yu
   - Karen C. Cheung
-  publisher: 2013 Biomedical Engineering Society BMES Annual Meeting. Seattle, USA. Sep. 25-28, 2013
+  publisher: 2013 Biomedical Engineering Society BMES Annual Meeting. Seattle, USA.
+    Sep. 25-28, 2013
   date: '2013-01-01'
   subtype: Full paper refereed
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Using Dimensional Analysis to Assess Scalability and Accuracy in Molecular Communication
+  title: Using Dimensional Analysis to Assess Scalability and Accuracy in Molecular
+    Communication
   authors:
   - Adam Noel
   - Karen C. Cheung
   - Robert Schober
-  publisher: IEEE International Conference on Communications, 9-13 June, 2013. Budapest, Hungary. (pp 818-823)
+  publisher: IEEE International Conference on Communications, 9-13 June, 2013. Budapest,
+    Hungary. (pp 818-823)
   date: '2013-01-01'
   subtype: Full paper refereed
   plugin: sources.py
@@ -1042,7 +1141,9 @@
   - Adam Noel
   - Karen C. Cheung
   - Robert Schober
-  publisher: Proceedings of Bionetics 2012, 7th International Conference on Bio- Inspired Models of Network, Information, and Computing Systems. Dec 10-11, 2012. Lugano, Switzerland (15 pp)
+  publisher: Proceedings of Bionetics 2012, 7th International Conference on Bio- Inspired
+    Models of Network, Information, and Computing Systems. Dec 10-11, 2012. Lugano,
+    Switzerland (15 pp)
   date: '2012-01-01'
   subtype: Full paper refereed
   plugin: sources.py
@@ -1064,41 +1165,48 @@
   - Shon A. Schmidt
   - Daniel M. Ratner
   - Nicolas A. F. Jaeger
-  publisher: Proceedings of the International Society for Optics and Photonics (SPIE Photonics West MOEMS-MEMS). San Francisco, USA. 21-26, 2012. 823610 (17 pp)
+  publisher: Proceedings of the International Society for Optics and Photonics (SPIE
+    Photonics West MOEMS-MEMS). San Francisco, USA. 21-26, 2012. 823610 (17 pp)
   date: '2012-01-01'
   subtype: Full paper refereed
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Cascaded silicon-on-insulator microring resonators for the detection of biomolecules in PDMS microfluidic channels
+  title: Cascaded silicon-on-insulator microring resonators for the detection of biomolecules
+    in PDMS microfluidic channels
   authors:
   - Jonas Flueckiger
   - Samantha M. Grist
   - Gurpal Bisra
   - Lukas Chrostowski
   - Karen C. Cheung
-  publisher: Proceedings of the International Society for Optics and Photonics (SPIE Photonics West MOEMS-MEMS). San Francisco, USA. 22-27, 2011. 79290I-1 (10 pp)
+  publisher: Proceedings of the International Society for Optics and Photonics (SPIE
+    Photonics West MOEMS-MEMS). San Francisco, USA. 22-27, 2011. 79290I-1 (10 pp)
   date: '2011-01-01'
   subtype: Full paper refereed
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Electrospun Electroactive Polymer and Metal Oxide Nanofibers for Chemical Sensor Applications
+  title: Electrospun Electroactive Polymer and Metal Oxide Nanofibers for Chemical
+    Sensor Applications
   authors:
   - Jonas Flueckiger
   - Frank Ko
   - Karen C. Cheung
-  publisher: Proceedings of the ASME 2010 International Mechanical Engineering Congress & Exposition. (IMECE2010). Vancouver, Canada. 12-18, 2010. (pp 583-589)
+  publisher: Proceedings of the ASME 2010 International Mechanical Engineering Congress
+    & Exposition. (IMECE2010). Vancouver, Canada. 12-18, 2010. (pp 583-589)
   date: '2010-01-01'
   subtype: Full paper refereed
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Droplet-Based Microfluidic System for Tumor Cell Encapsulation in Alginate Beads and Anticancer Drug Testing
+  title: Droplet-Based Microfluidic System for Tumor Cell Encapsulation in Alginate
+    Beads and Anticancer Drug Testing
   authors:
   - Linfen Yu
   - Karen C. Cheung
-  publisher: Proceedings of the 33rd Conference of the Canadian Medical and Biological Engineering Society. (CMBEC 33). Vancouver, Canada. Jun 15-18, 2010. (4 pp.)
+  publisher: Proceedings of the 33rd Conference of the Canadian Medical and Biological
+    Engineering Society. (CMBEC 33). Vancouver, Canada. Jun 15-18, 2010. (4 pp.)
   date: '2010-01-01'
   subtype: Full paper refereed
   plugin: sources.py
@@ -1109,7 +1217,8 @@
   - Jonas Flueckiger
   - Frank Ko
   - Karen C. Cheung
-  publisher: Proceedings of the 33rd Conference of the Canadian Medical and Biological Engineering Society. (CMBEC 33). Vancouver, Canada. Jun 15-18, 2010. (3 pp.)
+  publisher: Proceedings of the 33rd Conference of the Canadian Medical and Biological
+    Engineering Society. (CMBEC 33). Vancouver, Canada. Jun 15-18, 2010. (3 pp.)
   date: '2010-01-01'
   subtype: Full paper refereed
   plugin: sources.py
@@ -1121,7 +1230,8 @@
   - Philippe Renaud
   - Heikki Tanila
   - Kaj Djupsund
-  publisher: Proceedings of the 29th Canadian Medical and Biological Engineering Conference. Vancouver, British Columbia, Canada. Jun, 2006
+  publisher: Proceedings of the 29th Canadian Medical and Biological Engineering Conference.
+    Vancouver, British Columbia, Canada. Jun, 2006
   date: '2006-01-01'
   subtype: Full paper refereed
   plugin: sources.py
@@ -1132,7 +1242,9 @@
   - Karen C. Cheung
   - Tim Kubow
   - Luke P. Lee
-  publisher: Proceedings of the 2nd Annual International IEEE-EMBS Special Topic Conference on Microtechnologies in Medicine and Biology. Madison, Wisconsin, United States. May, 2002. 72 – 76
+  publisher: "Proceedings of the 2nd Annual International IEEE-EMBS Special Topic\
+    \ Conference on Microtechnologies in Medicine and Biology. Madison, Wisconsin,\
+    \ United States. May, 2002. 72 \u2013 76"
   date: '2002-01-01'
   subtype: Full paper refereed
   plugin: sources.py
@@ -1144,7 +1256,8 @@
   - Karen C. Cheung
   - Loren F. Bentley
   - Luke P. Lee
-  publisher: Proceedings of the Materials Research Society Spring 2002 Meeting. San Francisco, United States. Jun, 2002
+  publisher: Proceedings of the Materials Research Society Spring 2002 Meeting. San
+    Francisco, United States. Jun, 2002
   date: '2002-01-01'
   subtype: Full paper refereed
   plugin: sources.py
@@ -1156,7 +1269,8 @@
   - Yang-Kyu Choi
   - Tim Kubow
   - Luke P. Lee
-  publisher: Proceedings of the Materials Research Society Spring 2002 Meeting. San Francisco, United States. Jun, 2002
+  publisher: Proceedings of the Materials Research Society Spring 2002 Meeting. San
+    Francisco, United States. Jun, 2002
   date: '2002-01-01'
   subtype: Full paper refereed
   plugin: sources.py
@@ -1168,7 +1282,9 @@
   - Yang-Kyu Choi
   - Tim Kubow
   - Luke P. Lee
-  publisher: Proceedings of the 6th International Conference on Micro Total Analysis Systems. 6th International Conference on Micro Total Analysis Systems. Nara, Japan. Nov, 2002. 778 – 780
+  publisher: "Proceedings of the 6th International Conference on Micro Total Analysis\
+    \ Systems. 6th International Conference on Micro Total Analysis Systems. Nara,\
+    \ Japan. Nov, 2002. 778 \u2013 780"
   date: '2002-01-01'
   subtype: Full paper refereed
   plugin: sources.py
@@ -1181,7 +1297,9 @@
   - Kaj Djupsund
   - Yang Dan
   - Luke P. Lee
-  publisher: Proceedings of the 1st Annual International IEEE-EMBS Special Topic Conference on Microtechnologies in Medicine and Biology. Lyon, France. Oct, 2000. 507 – 511
+  publisher: "Proceedings of the 1st Annual International IEEE-EMBS Special Topic\
+    \ Conference on Microtechnologies in Medicine and Biology. Lyon, France. Oct,\
+    \ 2000. 507 \u2013 511"
   date: '2000-01-01'
   subtype: Full paper refereed
   plugin: sources.py
@@ -1193,7 +1311,9 @@
   - Karen C. Cheung
   - W.H. Chu
   - Mauro Ferrari
-  publisher: Proceedings of the 19th Annual International Conference of the IEEE Engineering in Medicine and Biology Society. Chicago, USA. Oct, 1997. 2578 – 2581
+  publisher: "Proceedings of the 19th Annual International Conference of the IEEE\
+    \ Engineering in Medicine and Biology Society. Chicago, USA. Oct, 1997. 2578 \u2013\
+    \ 2581"
   date: '1997-01-01'
   subtype: Full paper refereed
   plugin: sources.py
