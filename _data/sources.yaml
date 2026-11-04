@@ -1,7 +1,355 @@
 # Lab publications, migrated from the old WordPress site (list last edited 2017).
 # Add new papers at the top. An entry with `id: doi:...` is filled in automatically;
 # fields you write here (title, authors, date, type) override the automatic ones.
+# Entries marked `source: google-scholar` were added in November 2026 from Karen Cheung's Google Scholar profile.
 
+- id: doi:10.1038/s41598-026-68845-4
+  type: journal
+  source: google-scholar
+- id: doi:10.1038/s41598-026-69468-5
+  type: journal
+  source: google-scholar
+- id: doi:10.24908/pceea.2026.21647
+  type: conference
+  source: google-scholar
+- id: doi:10.24908/pceea.2026.21578
+  type: conference
+  source: google-scholar
+- id: doi:10.1109/pn70808.2026.11657736
+  type: conference
+  source: google-scholar
+- id: doi:10.1063/5.0330876
+  type: journal
+  source: google-scholar
+- id: doi:10.1021/acs.analchem.5c07174
+  type: journal
+  source: google-scholar
+- id: doi:10.64898/2026.09.28.755099
+  type: preprint
+  source: google-scholar
+- id: doi:10.64898/2026.09.26.754695
+  type: preprint
+  source: google-scholar
+- id: doi:10.1364/opticaopen.31314124.v1
+  type: preprint
+  source: google-scholar
+- id: doi:10.1016/j.biosx.2026.100759
+  type: journal
+  source: google-scholar
+- id: doi:10.1039/d5lc00575b
+  type: journal
+  source: google-scholar
+- id: doi:10.1109/sensors59705.2025.11331227
+  type: conference
+  source: google-scholar
+- id: doi:10.1039/d5lc00514k
+  type: journal
+  source: google-scholar
+- id: doi:10.1101/2025.09.15.676407
+  type: preprint
+  source: google-scholar
+- type: conference
+  title: Evaluating STEM/Engineering Identity of Elementary and High School Students in STEM Outreach Programs
+  authors:
+  - Yas Oloumi Yazdi
+  - Chia-Chien Selina Tai
+  - Chenxi Jenny Ge
+  - Xinyang Liu
+  - Jessica Wolf
+  - Kaylin McLeod
+  - Robyn Newell
+  - Katherine Lyon
+  - Agnes d’Entremont
+  - Jenna Usprech
+  - Karen C Cheung
+  publisher: Proceedings of the Canadian Engineering Education Association (CEEA)
+  date: '2025-01-01'
+  link: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:VLnqNzywnoUC
+  source: google-scholar
+- id: doi:10.24908/pceea.2025.19608
+  type: conference
+  source: google-scholar
+- id: doi:10.1117/12.3040917
+  type: conference
+  source: google-scholar
+- id: doi:10.24908/pceea.2024.18567
+  type: conference
+  source: google-scholar
+- id: doi:10.24908/pceea.2024.18561
+  type: conference
+  source: google-scholar
+- id: doi:10.1364/oe.545801
+  type: journal
+  source: google-scholar
+- type: preprint
+  title: An integrated evanescent-field biosensor in silicon
+  authors:
+  - Mohammed A Al-Qadasi
+  - Samantha M Grist
+  - Matthew Mitchell
+  - Karyn Newton
+  - Stephen Kioussis
+  - Sheri J Chowdhury
+  - Avineet Randhawa
+  - Yifei Liu
+  - Piramon Tisapramotkul
+  - Karen C Cheung
+  - Lukas Chrostowski
+  - Sudip Shekhar
+  publisher: arXiv preprint arXiv:2409.15489
+  date: '2024-01-01'
+  link: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:dQ2og3OwTAUC
+  source: google-scholar
+- type: conference
+  title: Injectable GelMA Hydrogels For Axonal Regeneration Following Spinal Cord Injury
+  authors:
+  - I Liubchak
+  - A Pieters
+  - T Bennet
+  - TM Caffrey
+  - KC Cheung
+  publisher: TISSUE ENGINEERING PART A 30 (15-16), S462-S462
+  date: '2024-01-01'
+  link: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:Fu2w8maKXqMC
+  source: google-scholar
+- id: doi:10.18260/1-2--47774
+  type: conference
+  date: '2024-01-01'
+  source: google-scholar
+- type: patent
+  title: Photonic sensor using a fixed-wavelength laser
+  authors:
+  - Lukas Chrostowski
+  - Sudip Shekhar
+  - Samantha GRIST
+  - Karen C Cheung
+  - Mohammed Ali AL-QADASI
+  publisher: US Patent 11,940,386
+  date: '2024-01-01'
+  link: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:ye4kPcJQO24C
+  source: google-scholar
+- id: doi:10.1364/oe.510036
+  type: journal
+  source: google-scholar
+- type: conference
+  title: 'Silicon photonic biosensing: towards portable diagnostics at the point of need'
+  authors:
+  - Samantha M Grist
+  - Lauren S Puumala
+  - Mohammed A Al-Qadasi
+  - Avineet Randhawa
+  - Sheri Jahan Chowdhury
+  - Kithmin Wickremasinghe
+  - So Jung Kim
+  - Yas Oloumi Yazdi
+  - Luis G Alde
+  - Yifei Liu
+  - Nicholas C Tang
+  - Matthew Mitchell
+  - Lukas Chrostowski
+  - Sudip Shekhar
+  - Karen C Cheung
+  publisher: Microfluidics, BioMEMS, and Medical Microsystems XXI, PC1237404
+  date: '2023-01-01'
+  link: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:LjlpjdlvIbIC
+  source: google-scholar
+- id: doi:10.3390/bios13010053
+  type: journal
+  source: google-scholar
+- id: doi:10.3390/cells11233854
+  type: journal
+  source: google-scholar
+- id: doi:10.3390/bios12100840
+  type: journal
+  source: google-scholar
+- id: doi:10.3390/mi13101573
+  type: journal
+  source: google-scholar
+- id: doi:10.1146/annurev-anchem-061020-111458
+  type: journal
+  source: google-scholar
+- type: patent
+  title: Facilitating controlled particle deposition from a droplet dispenser
+  authors:
+  - Karen Chihmin CHEUNG
+  - Eric Kin-Kwok CHENG
+  publisher: US Patent App. 17/649,959
+  date: '2022-01-01'
+  link: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:HE397vMXCloC
+  source: google-scholar
+- id: doi:10.3390/cells10071602
+  type: journal
+  source: google-scholar
+- id: doi:10.1096/fj.201802376rrrr
+  type: journal
+  source: google-scholar
+- id: doi:10.3390/mi12040441
+  type: journal
+  source: google-scholar
+- id: doi:10.1117/12.2579095
+  type: conference
+  source: google-scholar
+- id: doi:10.1364/ofc.2020.m1c.5
+  type: conference
+  source: google-scholar
+- id: doi:10.1109/mems46641.2020.9056449
+  type: conference
+  source: google-scholar
+- type: conference
+  title: Inkjet system design optimization for reliable cell printing
+  authors:
+  - B Enright
+  - E Cheng
+  - H Yu
+  - KC Cheung
+  - A Ahmadi
+  publisher: Chemical and Biological Microsystems Society
+  date: '2017-01-01'
+  link: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:WA5NYHcadZ8C
+  source: google-scholar
+- id: doi:10.1364/ol.44.005981
+  type: journal
+  source: google-scholar
+- id: doi:10.1038/s41598-019-54001-8
+  type: journal
+  source: google-scholar
+- id: doi:10.1016/j.electacta.2019.07.004
+  type: journal
+  source: google-scholar
+- id: doi:10.1364/boe.10.004825
+  type: journal
+  source: google-scholar
+- id: doi:10.23919/ps.2019.8817799
+  type: conference
+  source: google-scholar
+- id: doi:10.1016/j.snb.2018.07.025
+  type: journal
+  source: google-scholar
+- id: doi:10.3390/s18103519
+  type: journal
+  source: google-scholar
+- id: doi:10.1109/group4.2018.8478728
+  type: conference
+  source: google-scholar
+- id: doi:10.1007/s10544-018-0260-1
+  type: journal
+  source: google-scholar
+- id: doi:10.1007/978-1-4939-7778-9_30
+  type: chapter
+  source: google-scholar
+- id: doi:10.1109/jstqe.2018.2821842
+  type: journal
+  source: google-scholar
+- id: doi:10.1117/12.2287621
+  type: conference
+  source: google-scholar
+- id: doi:10.1109/iedm.2017.8268367
+  type: conference
+  source: google-scholar
+- id: doi:10.1016/j.jchromb.2017.09.041
+  type: journal
+  source: google-scholar
+- id: doi:10.1109/newcas.2016.7604838
+  type: conference
+  source: google-scholar
+- type: conference
+  title: 'Beyond poisson: Passive focusing toward one-cell-per-drop printing'
+  authors:
+  - Y Li
+  - A Ahmadi
+  - H Yu
+  - KC Cheung
+  publisher: Chemical and Biological Microsystems Society
+  date: '2016-01-01'
+  link: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:eMMeJKvmdy0C
+  source: google-scholar
+- type: conference
+  title: Density-based single particle isolation using micro-wells on digital microfluidics
+  authors:
+  - Mohammad Paknahad
+  - Ali Ahmadi
+  - Breanne Enright
+  - Karen C Cheung
+  - Mina Hoorfar
+  publisher: Chemical and Biological Microsystems Society
+  date: '2016-01-01'
+  link: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:AXPGKjj_ei8C
+  source: google-scholar
+- type: conference
+  title: Fluid Flow in Cell Printing
+  authors:
+  - Maziyar Jalaal
+  - Eric Cheng
+  - Ali Ahmadi
+  - Karen Cheung
+  - Boris Stoeber
+  publisher: APS Division of Fluid Dynamics Meeting Abstracts, D19. 001
+  date: '2013-01-01'
+  link: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:M3NEmzRMIkIC
+  source: google-scholar
+- type: patent
+  title: Microfluidic arrays and methods for their preparation and use
+  authors:
+  - YU Linfen
+  - Karen C Cheung
+  publisher: US Patent App. 13/567,801
+  date: '2013-01-01'
+  link: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:hMod-77fHWUC
+  source: google-scholar
+- id: doi:10.1007/978-0-387-98120-8_6
+  type: chapter
+  source: google-scholar
+- type: conference
+  title: Microfluidic patterning of alginate hydrogels for reversible co-culture of cells
+  authors:
+  - Michael CW Chen
+  - Madhuja Gupta
+  - Karen C Cheung
+  publisher: Panomino 2008
+  date: '2008-01-01'
+  link: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:isC4tDSrTZIC
+  source: google-scholar
+- id: doi:10.1109/ims3tw.2008.4581623
+  type: conference
+  source: google-scholar
+- type: chapter
+  title: Technological and Bioelectrical Considerations for Neural Interfacing Microelectrode Arrays
+  authors:
+  - Ph Renaud
+  - P Linderholm
+  - A Mercanzini
+  - K Cheung
+  publisher: Dynamical principles for neuroscience and intelligent biomimetic devices, 45
+  date: '2006-01-01'
+  link: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:j3f4tGmQtD8C
+  source: google-scholar
+- type: chapter
+  title: 'The Lausanne Neuroprosthesis: A Flexible Polyimide Microelectrode for Acute and Chronic Cortical Recordings'
+  authors:
+  - André Mercanzini
+  - Karen Cheung
+  - Arnaud Bertsch
+  - Philippe Renaud
+  publisher: Dynamical principles for neuroscience and intelligent biomimetic devices, 109
+  date: '2006-01-01'
+  link: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:R3hNpaxXUhUC
+  source: google-scholar
+- id: doi:10.1109/essder.2005.1546656
+  type: conference
+  date: '2005-01-01'
+  source: google-scholar
+- type: thesis
+  title: Microscale and nanoscale neural interfaces
+  authors:
+  - Karen Chihmin Cheung
+  publisher: PhD thesis, University of California, Berkeley
+  date: '2002-01-01'
+  link: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:7PzlFSSx8tAC
+  source: google-scholar
+- id: doi:10.1109/mmb.2000.893842
+  type: conference
+  date: '2000-01-01'
+  source: google-scholar
 - id: doi:10.1016/j.snb.2017.02.109
   type: journal
 - id: doi:10.1016/j.nancom.2017.02.002
@@ -502,6 +850,7 @@
   - Lukas Chrostowski
   publisher: SPIE Photonics West MEMS, 2-7 Feb, (13 pp)
   subtype: Full paper refereed
+  date: '2013-01-01'
 - type: conference
   title: Improving Diffusion-Based Molecular Communication with Unanchored Enzymes
   authors:

@@ -175,7 +175,23 @@ article:
 
 conference:
   icon: fa-solid fa-people-group
-  description: Conference paper
+  text: Conference paper
+  tooltip: Conference paper
+
+patent:
+  icon: fa-solid fa-certificate
+  text: Patent
+  tooltip: Patent
+
+chapter:
+  icon: fa-solid fa-book
+  text: Book chapter
+  tooltip: Book chapter
+
+thesis:
+  icon: fa-solid fa-graduation-cap
+  text: Thesis
+  tooltip: Thesis
 
 journal:
   icon: fa-regular fa-newspaper
