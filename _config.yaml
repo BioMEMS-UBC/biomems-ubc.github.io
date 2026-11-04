@@ -1,80 +1,74 @@
-# site properties and page defaults
-title: BioMEMS Lab
-subtitle: Bio-Medical Micro Devices Laboratory · UBC Electrical and Computer Engineering
-description: The Bio-Medical Micro Devices Laboratory at the University of British Columbia builds microfluidic and microfabricated tools for 3-D cell culture, tumour models, imaging and cell printing.
-header: images/header.jpg
-footer: images/footer.jpg
-proofer: false
+# BioMEMS Lab website (custom Jekyll theme)
 
-# site social media and other links (shown in the footer)
-links:
+title: BioMEMS Lab
+long_title: Bio-Medical Micro Devices Laboratory
+tagline: UBC Electrical and Computer Engineering
+description: The Bio-Medical Micro Devices Laboratory at the University of British Columbia builds microfluidic, photonic and microfabricated tools for 3-D cell culture, organs-on-chip, biosensing and cell printing.
+lang: en-CA
+logo: images/icon.png
+image: images/share.jpg
+
+# contact details used in the footer and on the Contact page
+contact:
+  pi: Prof. Karen Cheung
   email: kcheung@ece.ubc.ca
-  google-scholar: ff8dRzkAAAAJ
-  youtube: playlist?list=PLFpEETyPCgTSJdhBpAsKbH3AR96cyLS7O
+  phone: 604 827 4114
+  room: 146A Brimacombe Building (AMPEL)
+  street: 2355 East Mall
+  city: Vancouver, BC V6T 1Z4
+  country: Canada
+  map: https://www.google.com/maps/search/?api=1&query=2355+East+Mall,+Vancouver,+BC+V6T+1Z4
+
+links:
+  scholar: https://scholar.google.ca/citations?user=ff8dRzkAAAAJ
+  youtube: https://www.youtube.com/playlist?list=PLFpEETyPCgTSJdhBpAsKbH3AR96cyLS7O
+  department: https://ece.ubc.ca/
+
+# main navigation, in order
+nav:
+  - title: Research
+    url: /research/
+  - title: Publications
+    url: /publications/
+  - title: Team
+    url: /team/
+  - title: News
+    url: /news/
+  - title: Join us
+    url: /join/
+  - title: Contact
+    url: /contact/
 
 # keep old WordPress post URLs (/YYYY/MM/DD/slug/)
 permalink: /:year/:month/:day/:title/
 
-### jekyll settings
-
-# front matter defaults
-defaults:
-  # all markdown files
-  - scope:
-      path: ""
-    values:
-      layout: default
-  # markdown files in /_members
-  - scope:
-      type: "members"
-    values:
-      layout: member
-  # markdown files in /_posts
-  - scope:
-      type: "posts"
-    values:
-      layout: post
-
 collections:
-  # generate page for each member
   members:
     output: true
-  # generate page for each post
-  posts:
-    output: true
+    permalink: /members/:name/
 
-# jekyll plugins
+defaults:
+  - scope: { path: "" }
+    values: { layout: page }
+  - scope: { type: members }
+    values: { layout: member }
+  - scope: { type: posts }
+    values: { layout: post }
+
 plugins:
-  - jekyll-spaceship
+  - jekyll-feed
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jekyll-feed
-  - jekyll-last-modified-at
+  - jekyll-seo-tag
 
-# code block syntax highlighting
-highlighter: rouge
-
-# jekyll theme
-theme: null
-
-# sass settings
 sass:
-  sass_dir: _styles
+  style: compressed
 
-# force jekyll to include certain files/folders
-include:
-  - _styles
-  - _scripts
-
-# force jekyll to exclude certain files/folders
 exclude:
   - README.md
-  - EDITING.md
   - LICENSE.md
-  - CITATION.cff
-
-# configure jekyll spaceship
-jekyll-spaceship:
-  mathjax-processor:
-    src:
-      - https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js
+  - Gemfile
+  - Gemfile.lock
+  - _cite
+  - vendor
+  - .github

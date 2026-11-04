@@ -4,7 +4,8 @@ Website of the Bio-Medical Micro Devices Laboratory (Prof. Karen Cheung, UBC Ele
 
 Visit **[gsathish.github.io/biomems-lab](https://gsathish.github.io/biomems-lab)** 🚀
 
-Built with the [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs) (Jekyll, v1.4.0) and deployed to GitHub Pages by GitHub Actions.
+Built with Jekyll and a custom theme (IBM Plex type, UBC colours), deployed to GitHub Pages by GitHub Actions.
+The automatic citation and preview workflows come from the [Lab Website Template](https://github.com/greenelab/lab-website-template).
 Content was migrated in November 2026 from the old WordPress site at biomems.ece.ubc.ca.
 
 ## How to edit
@@ -20,9 +21,11 @@ For changes you want someone to check first, commit to a new branch and open a p
 | Publications | `_data/sources.yaml` |
 | News | add `_posts/YYYY-MM-DD-short-title.md` |
 | Research areas | `_data/research.yaml` (images in `images/research/`) |
-| Page text | `index.md`, `research/`, `team/`, `join/`, `contact/` |
-| Site title, footer links | `_config.yaml` |
-| Colours and fonts | `_styles/-theme.scss` |
+| Publication topics | `_data/topics.yml` (keywords matched against titles) |
+| Page text | `_layouts/home.html`, `research/`, `team/`, `join/`, `contact/` |
+| Site title, navigation, contact details | `_config.yaml` |
+| Colours, fonts and layout | `assets/css/main.scss` |
+| Interactive behaviour | `assets/js/site.js` |
 
 ### Add a person
 
@@ -50,6 +53,7 @@ With a DOI, title, authors, journal and date are filled in automatically:
   type: journal      # or conference
 ```
 
+`type` is one of `journal`, `conference`, `preprint`, `chapter`, `patent` or `thesis`.
 Without a DOI, write the fields yourself:
 
 ```yaml
@@ -76,9 +80,15 @@ tags: [award]
 One or two paragraphs.
 ```
 
+## Preview locally
+
+```
+bundle install
+bundle exec jekyll serve
+```
+
 ## Known content gaps from the old site
 
 - The team list was last updated in 2021, and publications stop in 2017.
 - The Join us page is draft text that Karen should rewrite.
 - Seven people have no photo and use a placeholder.
-- One SPIE Photonics West paper has no year in the old list.

@@ -1,0 +1,12 @@
+<article class="news-card" data-reveal>
+  <a href="{{ post.url | relative_url }}" class="news-link">
+    <div class="news-media">
+      {%- if post.image %}<img src="{{ post.image | relative_url }}" alt="" loading="lazy">{% else %}<span class="news-placeholder" aria-hidden="true"></span>{% endif -%}
+    </div>
+    <div class="news-body">
+      <time class="eyebrow" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %B %Y" }}</time>
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.excerpt | strip_html | truncatewords: 24 }}</p>
+    </div>
+  </a>
+</article>

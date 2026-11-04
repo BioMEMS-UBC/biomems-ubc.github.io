@@ -1,0 +1,46 @@
+---
+title: Team
+eyebrow: People
+lead: Graduate students, postdoctoral fellows and undergraduates from engineering, physics and the life sciences.
+wide: true
+---
+{%- assign pi = site.members | where: "role", "principal-investigator" | first -%}
+{%- if pi %}
+<section class="pi-card" data-reveal>
+  <a class="pi-photo" href="{{ pi.url | relative_url }}"><img src="{{ pi.image | relative_url }}" alt="{{ pi.name }}"></a>
+  <div>
+    <p class="eyebrow">Principal Investigator</p>
+    <h2><a href="{{ pi.url | relative_url }}">{{ pi.name }}</a></h2>
+    <p>{{ pi.content | strip_html | truncatewords: 60 }}</p>
+    <p class="person-links">
+      {%- if pi.links.email %}<a href="mailto:{{ pi.links.email }}">{% include icon.html name="mail" %}{{ pi.links.email }}</a>{% endif -%}
+      <a href="{{ site.links.scholar }}">{% include icon.html name="scholar" %}Google Scholar</a>
+    </p>
+  </div>
+</section>
+{%- endif %}
+
+{%- for r in site.data.roles %}
+  {%- if r.id == "principal-investigator" or r.id == "alumni" %}{% continue %}{% endif %}
+  {%- assign people = site.members | where: "role", r.id | sort: "order" -%}
+  {%- if people.size == 0 %}{% continue %}{% endif %}
+<section class="team-group">
+  <h2>{{ r.plural }}</h2>
+  <div class="people-grid">
+    {%- for m in people %}{% include person-card.html %}{% endfor %}
+  </div>
+</section>
+{%- endfor %}
+
+{%- assign alumni = site.members | where: "role", "alumni" | sort: "name" -%}
+<section class="team-group">
+  <h2>Alumni <span class="count">{{ alumni.size }}</span></h2>
+  <div class="people-grid people-grid-compact">
+    {%- for m in alumni %}{% include person-card.html compact=true %}{% endfor %}
+  </div>
+</section>
+
+<figure class="figure figure-wide" data-reveal>
+  <img src="{{ '/images/lab/karen-jonas.jpg' | relative_url }}" alt="Karen Cheung and Jonas Flückiger reviewing results in the lab" loading="lazy">
+  <figcaption>Karen Cheung and Jonas Flückiger in the lab.</figcaption>
+</figure>

@@ -1,8 +1,21 @@
-<head>
-  {% include analytics.html %}
-  {% include verification.html %}
-  {% include meta.html %}
-  {% include fonts.html %}
-  {% include styles.html %}
-  {% include scripts.html %}
-</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<script>
+  // set theme before paint to avoid a flash
+  document.documentElement.classList.add("js");
+  (function () {
+    try {
+      var t = localStorage.getItem("theme");
+      if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  })();
+</script>
+{% seo %}
+{% feed_meta %}
+<link rel="icon" href="{{ site.logo | relative_url }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>

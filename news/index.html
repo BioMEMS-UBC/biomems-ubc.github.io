@@ -1,0 +1,11 @@
+---
+title: News
+eyebrow: Announcements
+lead: Conference talks, awards and new papers from the lab.
+wide: true
+---
+<div class="news-grid">
+  {%- for post in site.posts %}
+  {% include news-card.html %}
+  {%- endfor %}
+</div>

@@ -1,6 +1,8 @@
 ---
 name: Jonas Flückiger
 image: images/team/jonas-fluckiger.jpg
+aliases:
+- Jonas Flueckiger
 role: alumni
 order: 14
 links:

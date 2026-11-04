@@ -1,6 +1,8 @@
 ---
 name: Vinny Randhawa
 image: images/team/vinny-randhawa.jpg
+aliases:
+- Avineet Randhawa
 role: masters
 order: 6
 links:

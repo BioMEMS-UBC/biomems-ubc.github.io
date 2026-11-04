@@ -1,0 +1,22 @@
+# Team roles, in the order they appear on the Team page.
+- id: principal-investigator
+  title: Principal Investigator
+  plural: Principal Investigator
+- id: postdoc
+  title: Postdoctoral Fellow
+  plural: Postdoctoral Fellows
+- id: phd
+  title: PhD Student
+  plural: PhD Students
+- id: masters
+  title: MASc Student
+  plural: MASc Students
+- id: undergrad
+  title: Undergraduate Researcher
+  plural: Undergraduate Researchers
+- id: staff
+  title: Research Staff
+  plural: Research Staff
+- id: alumni
+  title: Alumni
+  plural: Alumni

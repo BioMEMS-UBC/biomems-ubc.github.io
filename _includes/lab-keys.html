@@ -1,0 +1,15 @@
+{%- comment -%}
+  Builds `lab_keys`: ",k cheung,s grist,..." from member names and aliases
+  (first initial + last name), used to highlight lab authors.
+  Pass member=<doc> to build keys for one person only.
+{%- endcomment -%}
+{%- assign lab_keys = "," -%}
+{%- if include.member -%}{%- assign key_people = "" | split: "" | push: include.member -%}{%- else -%}{%- assign key_people = site.members -%}{%- endif -%}
+{%- for m in key_people -%}
+  {%- assign names = m.aliases | default: "" | join: "|" | split: "|" | push: m.name -%}
+  {%- for n in names -%}
+    {%- assign last = n | split: " " | last | downcase | remove: "." | remove: "," -%}
+    {%- assign first = n | slice: 0 | downcase -%}
+    {%- assign lab_keys = lab_keys | append: first | append: " " | append: last | append: "," -%}
+  {%- endfor -%}
+{%- endfor -%}

@@ -1,0 +1,36 @@
+# Topic filters on the Publications page.
+# A paper gets a topic when its title (lower case, with a leading space) contains any keyword.
+# Start a keyword with a space to match only at the start of a word.
+- id: photonics
+  title: Silicon photonic biosensors
+  keywords: [photonic, resonator, bragg, waveguide, biosens, interferometer, laser integration, sub-wavelength]
+- id: culture
+  title: 3-D culture and tumour models
+  keywords: [spheroid, tumor, tumour, 3-d, 3d, three-dimensional, core-shell, alginate, extracellular, tamoxifen, anticancer, cancer]
+- id: organ
+  title: Organs-on-chip and hydrogels
+  keywords: [on-a-chip, organ-on-chip, airway, brain, lung, gelma, hydrogel, neurite, axonal, spinal]
+- id: oxygen
+  title: Oxygen and hypoxia
+  keywords: [oxygen, hypoxia]
+- id: imaging
+  title: Imaging and tissue clearing
+  keywords: [imaging, clearing, two-photon, hyclear, optical properties]
+- id: printing
+  title: Inkjet and cell printing
+  keywords: [inkjet, printing, print, dispens, drop, one-cell-per-drop, partitioning, nanowell]
+- id: neural
+  title: Neural interfaces
+  keywords: [neural, microelectrode, neuroprosthesis, cortical, patch clamp, patch-clamp, implant]
+- id: microfluidics
+  title: Microfluidics and flow
+  keywords: [microfluidic, flow, inertial, particle, impedance, cytometr, pdms, parylene]
+- id: molcom
+  title: Molecular communication
+  keywords: [molecular communication, diffusive, reaction-diffusion, molecular, receiver]
+- id: education
+  title: Engineering education
+  keywords: [" stem", engineering identity, graduate program, outreach, engineering education]
+- id: sensors
+  title: Chemical sensors and materials
+  keywords: [gas sensor, chemical sensor, nanofib, graphene, electrode, etch mask, biocapsule, aptamer, coating]

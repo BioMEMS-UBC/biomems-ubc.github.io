@@ -1,0 +1,19 @@
+# Publication categories, in page order. `types` are the `type:` values in sources.yaml.
+journal:
+  title: Journal articles
+  short: Journal
+conference:
+  title: Conference papers
+  short: Conference
+preprint:
+  title: Preprints
+  short: Preprint
+chapter:
+  title: Book chapters
+  short: Chapter
+patent:
+  title: Patents
+  short: Patent
+thesis:
+  title: Theses
+  short: Thesis

@@ -1,0 +1,8 @@
+{%- assign role = site.data.roles | where: "id", m.role | first -%}
+<a class="person{% if include.compact %} person-compact{% endif %}" href="{{ m.url | relative_url }}" data-reveal>
+  <span class="person-photo">
+    {%- if m.image %}<img src="{{ m.image | relative_url }}" alt="" loading="lazy">{% else %}<span class="person-initials" aria-hidden="true">{{ m.name | split: " " | first | slice: 0 }}{{ m.name | split: " " | last | slice: 0 }}</span>{% endif -%}
+  </span>
+  <span class="person-name">{{ m.name }}</span>
+  {%- unless include.compact %}<span class="person-role">{{ role.title }}</span>{% endunless %}
+</a>

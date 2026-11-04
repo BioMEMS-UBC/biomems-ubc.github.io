@@ -1,51 +1,46 @@
 ---
 layout: default
 ---
-
-{% capture floatcontent %}
-
-{% include portrait.html lookup=page.slug %}
-
-<div>
-  {% for link in page.links %}
-    {% assign key = link[0] %}
-    {% assign value = link[1] %}
-    {% include button.html type=key link=value style="bare" %}<br>
-  {% endfor %}
-</div>
-
-{% endcapture %}
-
-{% include float.html content=floatcontent %}
-
+{%- assign role = site.data.roles | where: "id", page.role | first -%}
+{%- include lab-keys.html member=page -%}
+{%- assign member_keys = lab_keys -%}
+{%- include lab-keys.html -%}
+<section class="page-hero">
+  <div class="container member-head">
+    <div class="member-photo">
+      {%- if page.image %}<img src="{{ page.image | relative_url }}" alt="{{ page.name }}">{% else %}<span class="person-initials" aria-hidden="true">{{ page.name | split: " " | first | slice: 0 }}{{ page.name | split: " " | last | slice: 0 }}</span>{% endif -%}
+    </div>
+    <div>
+      <p class="eyebrow"><a href="{{ '/team/' | relative_url }}">Team</a> · {{ role.title }}</p>
+      <h1>{{ page.name }}</h1>
+      <p class="person-links">
+        {%- if page.links.email %}<a href="mailto:{{ page.links.email }}">{% include icon.html name="mail" %}{{ page.links.email }}</a>{% endif -%}
+        {%- if page.links.google-scholar %}<a href="https://scholar.google.com/citations?user={{ page.links.google-scholar }}">{% include icon.html name="scholar" %}Google Scholar</a>{% endif -%}
+        {%- if page.links.linkedin %}<a href="https://www.linkedin.com/in/{{ page.links.linkedin }}">{% include icon.html name="linkedin" %}LinkedIn</a>{% endif -%}
+        {%- if page.links.home-page %}<a href="{{ page.links.home-page }}">{% include icon.html name="link" %}Website</a>{% endif -%}
+      </p>
+    </div>
+  </div>
+</section>
+<div class="container page-body prose">
 {{ content }}
-
-{% assign aliases = page.aliases
-  | default: page.name
-  | default: page.title
-  | join: ","
-  | split: ","
-  | array_filter
-%}
-
-{% capture search -%}
-  publications/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
-{%- endcapture %}
-
-<p class="center">
-  <a href="{{ search | relative_url | uri_escape }}">
-    Search for {{ page.name | default: page.title }}'s papers on the Publications page
-  </a>
-</p>
-
-{% capture search -%}
-  blog/?search={{ page.name }}
-{%- endcapture %}
-
-<!--
-<p class="center">
-  <a href="{{ search | relative_url | uri_escape }}">
-    See {{ page.name | default: page.title }}'s posts on the Blog page
-  </a>
-</p>
--->
+</div>
+{%- assign mine = "" | split: "" -%}
+{%- assign all = site.data.citations | sort: "date" | reverse -%}
+{%- for p in all -%}
+  {%- for a in p.authors -%}
+    {%- assign last = a | split: " " | last | downcase | remove: "." | remove: "," -%}
+    {%- assign key = a | slice: 0 | downcase | append: " " | append: last | append: "," | prepend: "," -%}
+    {%- if member_keys contains key -%}{%- assign mine = mine | push: p -%}{%- break -%}{%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- if mine.size > 0 %}
+<section class="container page-body">
+  <h2>Publications with the lab <span class="count">{{ mine.size }}</span></h2>
+  <ol class="pub-list">
+    {%- for p in mine %}
+    {% include pub.html %}
+    {%- endfor %}
+  </ol>
+</section>
+{%- endif %}

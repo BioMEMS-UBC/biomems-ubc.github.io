@@ -1,6 +1,8 @@
 ---
 name: Jannu Casanova Moreno
 image: images/team/jannu-casanova-moreno.jpg
+aliases:
+- Jannu Casanova-Moreno
 role: alumni
 order: 17
 links:

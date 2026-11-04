@@ -1,0 +1,42 @@
+---
+title: Research
+eyebrow: Research areas
+lead: Three-dimensional cell cultures reproduce the natural growth environment of cells far better than flat monolayers. We combine microfluidics, biomaterials, optics and sensing to build and study these models under controlled conditions.
+wide: true
+redirect_from:
+  - /projects/
+---
+<div class="with-toc">
+  <nav class="toc" aria-label="On this page">
+    <p class="side-label">On this page</p>
+    <ol>
+      {%- for a in site.data.research %}
+      <li><a href="#{{ a.slug }}" data-toc-link="{{ a.slug }}">{{ a.title }}</a></li>
+      {%- endfor %}
+    </ol>
+  </nav>
+  <div class="toc-main">
+    {%- for a in site.data.research %}
+    <section class="research-area" id="{{ a.slug }}" data-toc-section="{{ a.slug }}">
+      <p class="area-num">{{ forloop.index | prepend: "0" }}</p>
+      <h2>{{ a.title }}</h2>
+      <div class="prose">{{ a.summary | markdownify }}</div>
+      {%- if a.image %}
+      <figure class="figure" data-reveal>
+        <img src="{{ a.image | relative_url }}" alt="{{ a.title }}" loading="lazy">
+        {%- if a.caption %}<figcaption>{{ a.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>{% endif %}
+      </figure>
+      {%- endif %}
+      {%- assign videos = a.media | where: "kind", "video" -%}
+      {%- if videos.size > 0 %}
+      <div class="video-grid">
+        {%- for m in videos %}
+        {% include youtube.html id=m.youtube caption=m.caption %}
+        {%- endfor %}
+      </div>
+      {%- endif %}
+    </section>
+    {%- endfor %}
+    <p class="muted">More videos are on our <a href="{{ site.links.youtube }}">YouTube playlist</a>.</p>
+  </div>
+</div>

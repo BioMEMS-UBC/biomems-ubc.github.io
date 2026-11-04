@@ -1,0 +1,63 @@
+---
+title: Publications
+eyebrow: Papers, patents and preprints
+lead: Journal articles, conference papers, preprints, book chapters, patents and theses from the lab. Names of lab members are in bold.
+wide: true
+---
+{%- include lab-keys.html -%}
+{%- assign all = site.data.citations | sort: "date" | reverse -%}
+
+<div class="pubs-layout" data-pubs>
+  <aside class="pubs-side" aria-label="Publication navigation and filters">
+    <div class="pubs-side-inner">
+      <label class="search-field">
+        {% include icon.html name="search" %}
+        <span class="visually-hidden">Search publications</span>
+        <input type="search" placeholder="Search title, author, venue" data-pub-search autocomplete="off">
+      </label>
+
+      <p class="side-label">Jump to</p>
+      <ul class="jump-list" data-jump>
+        {%- for t in site.data.pubtypes -%}
+          {%- assign items = all | where: "type", t[0] -%}
+          {%- if items.size > 0 %}
+        <li><a href="#{{ t[0] }}" data-jump-link="{{ t[0] }}"><span>{{ t[1].title }}</span><span class="count" data-count="{{ t[0] }}">{{ items.size }}</span></a></li>
+          {%- endif -%}
+        {%- endfor %}
+      </ul>
+
+      <p class="side-label">Topics</p>
+      <div class="chips" role="group" aria-label="Filter by topic">
+        {%- for t in site.data.topics %}
+        <button type="button" class="chip" data-topic="{{ t.id }}" aria-pressed="false">{{ t.title }}</button>
+        {%- endfor %}
+      </div>
+
+      <p class="pubs-status" aria-live="polite" data-pub-status>{{ all.size }} publications</p>
+      <button type="button" class="link-button" data-pub-reset hidden>Clear filters</button>
+      <p class="side-note">Updated from <a href="{{ site.links.scholar }}">Google Scholar</a>.</p>
+    </div>
+  </aside>
+
+  <div class="pubs-main">
+    {%- for t in site.data.pubtypes -%}
+      {%- assign items = all | where: "type", t[0] -%}
+      {%- if items.size == 0 %}{% continue %}{% endif %}
+    <section class="pub-section" id="{{ t[0] }}" data-section="{{ t[0] }}">
+      <h2>{{ t[1].title }} <span class="count">{{ items.size }}</span></h2>
+      {%- assign years = items | group_by_exp: "p", "p.date | date: '%Y'" -%}
+      {%- for y in years %}
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">{{ y.name }}</h3>
+        <ol class="pub-list">
+          {%- for p in y.items %}
+          {% include pub.html %}
+          {%- endfor %}
+        </ol>
+      </div>
+      {%- endfor %}
+    </section>
+    {%- endfor %}
+    <p class="empty-state" data-pub-empty hidden>No publications match. Try a different search or clear the filters.</p>
+  </div>
+</div>
