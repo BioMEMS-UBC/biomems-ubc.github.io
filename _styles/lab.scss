@@ -1,0 +1,56 @@
+---
+---
+
+// BioMEMS Lab additions on top of the Lab Website Template styles
+
+.video {
+  width: 100%;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--rounded);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.research-area .figure-caption,
+.video .figure-caption {
+  font-size: 0.9rem;
+  text-align: left;
+  line-height: var(--compact);
+}
+
+.lead {
+  font-size: var(--large);
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.partners {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px 40px;
+}
+
+.partners h3 {
+  margin-top: 0;
+}
+
+.address {
+  line-height: var(--compact);
+}
