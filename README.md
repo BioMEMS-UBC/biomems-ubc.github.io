@@ -20,7 +20,8 @@ For changes you want someone to check first, commit to a new branch and open a p
 | Someone who left | set `role: alumni` in their file; don't delete it |
 | Publications | `_data/sources.yaml` |
 | News | add `_posts/YYYY-MM-DD-short-title.md` |
-| Research areas | `_data/research.yaml` (images in `images/research/`) |
+| Project blurbs and links | `_data/research.yaml` |
+| Full project descriptions | `research/<project-slug>/index.md` |
 | Publication topics | `_data/topics.yml` (keywords matched against titles) |
 | Page text | `_layouts/home.html`, `research/`, `team/`, `join/`, `contact/` |
 | Site title, navigation, contact details | `_config.yaml` |

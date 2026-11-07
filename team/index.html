@@ -1,7 +1,7 @@
 ---
 title: Team
 eyebrow: People
-lead: Graduate students, postdoctoral fellows and undergraduates from engineering, physics and the life sciences.
+lead: Our team brings together students and researchers with diverse expertise and perspectives to address challenges at the intersection of engineering, biology, and medicine. We value collaboration and mentorship, and are proud of our alumni who continue to make contributions in academia, industry, and medicine.
 wide: true
 ---
 {%- assign pi = site.members | where: "role", "principal-investigator" | first -%}
@@ -11,7 +11,12 @@ wide: true
   <div>
     <p class="eyebrow">Principal Investigator</p>
     <h2><a href="{{ pi.url | relative_url }}">{{ pi.name }}</a></h2>
+    {% if pi.summary %}
+    <p>{{ pi.summary }}</p>
+    {% else %}
     <p>{{ pi.content | strip_html | truncatewords: 60 }}</p>
+    {% endif %}
+    <p><a class="text-link" href="{{ pi.url | relative_url }}">Read full bio {% include icon.html name="arrow" %}</a></p>
     <p class="person-links">
       {%- if pi.links.email %}<a href="mailto:{{ pi.links.email }}">{% include icon.html name="mail" %}{{ pi.links.email }}</a>{% endif -%}
       <a href="{{ site.links.scholar }}">{% include icon.html name="scholar" %}Google Scholar</a>

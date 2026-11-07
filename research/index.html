@@ -1,7 +1,7 @@
 ---
 title: Research
-eyebrow: Research areas
-lead: Three-dimensional cell cultures reproduce the natural growth environment of cells far better than flat monolayers. We combine microfluidics, biomaterials, optics and sensing to build and study these models under controlled conditions.
+eyebrow: Research projects
+lead: We harness the unique capabilities of micro- and nanoscale engineering to develop technologies for biology and medicine, bridging advances in engineering with new opportunities for scientific discovery and biomedical innovation.
 wide: true
 redirect_from:
   - /projects/
@@ -20,23 +20,10 @@ redirect_from:
     <section class="research-area" id="{{ a.slug }}" data-toc-section="{{ a.slug }}">
       <p class="area-num">{{ forloop.index | prepend: "0" }}</p>
       <h2>{{ a.title }}</h2>
-      <div class="prose">{{ a.summary | markdownify }}</div>
-      {%- if a.image %}
-      <figure class="figure" data-reveal>
-        <img src="{{ a.image | relative_url }}" alt="{{ a.title }}" loading="lazy">
-        {%- if a.caption %}<figcaption>{{ a.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>{% endif %}
-      </figure>
-      {%- endif %}
-      {%- assign videos = a.media | where: "kind", "video" -%}
-      {%- if videos.size > 0 %}
-      <div class="video-grid">
-        {%- for m in videos %}
-        {% include youtube.html id=m.youtube caption=m.caption %}
-        {%- endfor %}
-      </div>
-      {%- endif %}
+      {%- for anchor in a.legacy_anchors %}<span id="{{ anchor }}" aria-hidden="true"></span>{% endfor %}
+      <div class="prose">{{ a.description | markdownify }}</div>
+      <p><a class="text-link" href="{{ a.link | relative_url }}">Explore this project {% include icon.html name="arrow" %}</a></p>
     </section>
     {%- endfor %}
-    <p class="muted">More videos are on our <a href="{{ site.links.youtube }}">YouTube playlist</a>.</p>
   </div>
 </div>
