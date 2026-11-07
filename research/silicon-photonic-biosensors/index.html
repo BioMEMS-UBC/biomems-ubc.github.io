@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<script>
+  // set theme before paint to avoid a flash
+  document.documentElement.classList.add("js");
+  (function () {
+    try {
+      var t = localStorage.getItem("theme");
+      if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  })();
+</script>
+<!-- Begin Jekyll SEO tag v2.9.1 -->
+<title>Silicon Photonic Biosensors for Accessible Molecular Measurements | BioMEMS Lab</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Silicon Photonic Biosensors for Accessible Molecular Measurements" />
+<meta property="og:locale" content="en_CA" />
+<meta name="description" content="The Bio-Medical Micro Devices Laboratory at the University of British Columbia develops micro- and nanoscale technologies for biology and medicine, with research in biosensing, bioprinting, microfluidic tissue models, neural repair, and engineering education." />
+<meta name="twitter:description" property="og:description" content="The Bio-Medical Micro Devices Laboratory at the University of British Columbia develops micro- and nanoscale technologies for biology and medicine, with research in biosensing, bioprinting, microfluidic tissue models, neural repair, and engineering education." />
+<link rel="canonical" href="https://biomems-ubc.github.io/research/silicon-photonic-biosensors/" />
+<meta property="og:url" content="https://biomems-ubc.github.io/research/silicon-photonic-biosensors/" />
+<meta property="og:site_name" content="BioMEMS Lab" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Silicon Photonic Biosensors for Accessible Molecular Measurements" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"The Bio-Medical Micro Devices Laboratory at the University of British Columbia develops micro- and nanoscale technologies for biology and medicine, with research in biosensing, bioprinting, microfluidic tissue models, neural repair, and engineering education.","headline":"Silicon Photonic Biosensors for Accessible Molecular Measurements","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://biomems-ubc.github.io/images/icon.png"}},"url":"https://biomems-ubc.github.io/research/silicon-photonic-biosensors/"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link type="application/atom+xml" rel="alternate" href="https://biomems-ubc.github.io/feed.xml" title="BioMEMS Lab" />
+<link rel="icon" href="/images/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<link rel="stylesheet" href="/assets/css/main.css">
+<script src="/assets/js/site.js" defer></script>
+
+</head>
+<body class="layout-page">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" data-header>
+  <div class="container header-inner">
+    <a class="brand" href="/" aria-label="BioMEMS Lab home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text">
+        <span class="brand-title">BioMEMS Lab</span>
+        <span class="brand-sub">UBC Electrical and Computer Engineering</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Main" data-nav>
+      <ul>
+        <li><a href="/research/" aria-current="page">Research</a></li>
+        <li><a href="/publications/">Publications</a></li>
+        <li><a href="/team/">Team</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/join/">Join us</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" type="button" data-theme-toggle aria-label="Toggle dark mode">
+        <span class="when-light"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+        <span class="when-dark"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+      </button>
+      <button class="icon-button nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Menu">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">Research project</p>
+    <h1>Silicon Photonic Biosensors for Accessible Molecular Measurements</h1>
+    <p class="lead">More biomarkers. More often. In more places.</p>
+  </div>
+</section>
+<div class="container page-body prose">
+<p><a href="/research/">Back to all research projects</a></p>
+
+<p><a href="#moving-from-molecular-snapshots-to-molecular-trajectories">Overview</a> · <a href="#silicon-photonic-biosensing-research-and-technology">Research and technology</a> · <a href="#applications-and-future-directions">Applications and future directions</a></p>
+
+<h2 id="moving-from-molecular-snapshots-to-molecular-trajectories">Moving from molecular snapshots to molecular trajectories</h2>
+
+<p>Our bodies are constantly changing, and so are the molecular signals that reflect our health. Hormones fluctuate across menstrual cycles and life stages. Biomarkers associated with injury and disease can change as conditions progress or patients recover. Biological responses to therapies may also depend on physiological conditions that vary over time.</p>
+
+<p>Yet many of our most powerful molecular measurement technologies remain concentrated in specialized laboratories. Although these methods provide valuable information, practical limitations on testing frequency and accessibility can make it difficult to capture how biological processes change over time.</p>
+
+<p>How can we move from isolated molecular snapshots to a more complete understanding of molecular trajectories?</p>
+
+<p>Our research aims to address this challenge by developing silicon photonic biosensors—miniature optical devices that use light to detect biological molecules.</p>
+
+<h2 id="using-light-to-measure-molecules">Using light to measure molecules</h2>
+
+<p>Silicon photonics allows light to be guided through microscopic structures fabricated on silicon chips using technologies related to semiconductor manufacturing.</p>
+
+<p>By attaching molecular recognition elements, such as antibodies, to different sensing regions, we can design a single chip to detect multiple biological targets.</p>
+
+<p>Our research combines these optical sensors with biochemical assays and microfluidic technologies, with the longer-term goal of creating compact systems capable of quantitative, multiplexed molecular measurements.</p>
+
+<p><a href="#silicon-photonic-biosensing-research-and-technology">Explore our research and technology</a></p>
+
+<h2 id="demonstrating-multiplexed-hormone-detection">Demonstrating multiplexed hormone detection</h2>
+
+<p>As an important proof of principle, our team has demonstrated the detection of two hormone-related biomarkers—follicle-stimulating hormone (FSH) and pregnanediol glucuronide (PdG)—on a single silicon photonic chip using artificial urine.</p>
+
+<p>FSH is a protein hormone involved in reproductive function, while PdG is a urinary metabolite of progesterone. These molecules differ substantially in their biochemical properties and require different detection approaches.</p>
+
+<p>Detecting both on one chip demonstrates the potential to combine different molecular assays within a shared sensing platform.</p>
+
+<p>This work provides a foundation for developing more versatile molecular measurement systems.</p>
+
+<h2 id="where-could-better-molecular-measurements-make-a-difference">Where could better molecular measurements make a difference?</h2>
+
+<p>We are particularly interested in applications where access to molecular information is limited, where important biomarkers change over time, or where current measurement methods leave significant questions unanswered.</p>
+
+<ul>
+  <li>
+    <p><strong>Women’s health:</strong> Investigating hormonal dynamics across menstrual cycles, perimenopause, and other physiological transitions.</p>
+  </li>
+  <li>
+    <p><strong>Neurological health:</strong> Developing assays for biomarkers associated with neural injury, with potential applications in studying neurological injury and recovery.</p>
+  </li>
+  <li>
+    <p><strong>Therapeutic development:</strong> Exploring how measurements of changing physiological conditions could help researchers investigate variability in responses to emerging therapies.</p>
+  </li>
+  <li>
+    <p><strong>Health security and other applications:</strong> Investigating adaptable molecular sensing approaches for infectious disease, distributed testing, and other settings where timely molecular information could be valuable.</p>
+  </li>
+</ul>
+
+<p><a href="#applications-and-future-directions">Explore applications and future directions</a></p>
+
+<h2 id="our-vision">Our vision</h2>
+
+<p>Our longer-term goal is to make sophisticated molecular measurements more informative and accessible:</p>
+
+<ul>
+  <li>
+    <p><strong>More biomarkers:</strong> Measuring multiple molecular targets from the same sample.</p>
+  </li>
+  <li>
+    <p><strong>More often:</strong> Supporting repeated measurements to investigate changing biological processes.</p>
+  </li>
+  <li>
+    <p><strong>More places:</strong> Developing compact systems that could extend molecular testing beyond specialized laboratories.</p>
+  </li>
+</ul>
+
+<p>Achieving this vision requires advances in molecular assays, microfluidics, integrated instrumentation, and application-specific validation.</p>
+
+<p>Our research continues to advance these interconnected technologies, with the goal of enabling new ways to study changing biological processes and improve access to molecular information.</p>
+
+<h2 id="silicon-photonic-biosensing-research-and-technology">Silicon Photonic Biosensing: Research and Technology</h2>
+
+<p>Our research focuses on developing silicon photonic biosensors for quantitative, multiplexed detection of biological molecules. We combine advances in optical sensor design, surface functionalization, molecular recognition assays, and microfluidics to address the challenges of translating sensitive optical devices into reliable biological measurement systems.</p>
+
+<p>Our work spans four interconnected research areas:</p>
+
+<h3 id="photonic-sensor-design">Photonic sensor design</h3>
+
+<p>Silicon photonic sensors use the interaction between guided light and molecules near a waveguide surface to detect changes in the local refractive index. Microring resonators provide a sensitive optical readout of these interactions, while their small dimensions allow multiple sensing elements to be integrated on a single chip.</p>
+
+<p>Our research includes engineered waveguide structures, such as subwavelength-grating and fishbone waveguides, to enhance optical sensitivity, as well as sensor architectures that support multiplexed measurements and reference-based signal correction.</p>
+
+<h3 id="surface-functionalization-and-biointerfaces">Surface functionalization and biointerfaces</h3>
+
+<p>The performance of a photonic biosensor depends critically on the interface between the optical sensor and the biological sample. Reliable detection requires stable immobilization of molecular recognition elements, preservation of their binding activity, and control of nonspecific adsorption.</p>
+
+<p>We investigate surface functionalization strategies, including silane-based chemistry, Protein A-mediated immobilization, and polydopamine coatings, together with antifouling approaches and methods to improve assay reproducibility.</p>
+
+<p>A particular emphasis of our work is understanding and addressing sources of variability that can limit the reliability of photonic immunoassays.</p>
+
+<h3 id="molecular-recognition-assays-and-signal-amplification">Molecular recognition assays and signal amplification</h3>
+
+<p>We develop immunoassays for detecting different classes of biomarkers, including proteins and small molecules.</p>
+
+<p>Our work includes sandwich and competitive assay formats, together with quantum-dot-based signal amplification to enhance the optical response from molecular binding.</p>
+
+<p>We have demonstrated multiplexed detection of follicle-stimulating hormone (FSH) and pregnanediol glucuronide (PdG) on a single silicon photonic chip using artificial urine. These biomarkers require different assay formats, illustrating the versatility of the sensing platform.</p>
+
+<p>More recently, we have been developing photonic assays for neurofilament light chain (NfL), a biomarker associated with neuroaxonal injury, including approaches for improving detection at low concentrations.</p>
+
+<h3 id="microfluidics-and-system-integration">Microfluidics and system integration</h3>
+
+<p>Reliable biosensing requires controlled delivery of samples and reagents to the sensing surface. Our research investigates microfluidic interfaces, molecular transport, and assay protocols to improve measurement reproducibility and performance.</p>
+
+<p>We are also exploring the integration of digital microfluidics for programmable droplet manipulation and multistep assay operation.</p>
+
+<p>In parallel, collaborative work on optical and electronic instrumentation is investigating approaches to reduce reliance on conventional wavelength-swept laser systems and support more compact photonic readout.</p>
+
+<p>Together, these efforts contribute toward the longer-term development of integrated molecular measurement platforms.</p>
+
+<h3 id="publications">Publications</h3>
+
+<p>Our publications provide further details on the underlying sensor technologies, biointerface engineering, assay development, and system integration.</p>
+
+<p>Our research continues to advance these interconnected technologies, with an emphasis on improving analytical performance, reproducibility, and integration for future applications.</p>
+
+<p><a href="/publications/">Browse lab publications</a></p>
+
+<h2 id="applications-and-future-directions">Applications and Future Directions</h2>
+
+<h3 id="expanding-access-to-molecular-measurements">Expanding access to molecular measurements</h3>
+
+<p>Many biological processes involve molecular changes that are difficult to capture through occasional laboratory measurements. Our research explores how silicon photonic biosensors could provide more accessible, quantitative measurements of multiple biomarkers, opening new opportunities to investigate biological processes over time.</p>
+
+<p>While our current work focuses on developing and validating the underlying sensing technologies, we are interested in several areas where these capabilities could eventually be useful.</p>
+
+<h3 id="womens-health-and-hormonal-dynamics">Women’s health and hormonal dynamics</h3>
+
+<p>Hormonal changes occur across menstrual cycles, between individuals, and during transitions such as perimenopause. However, detailed longitudinal measurements remain difficult to obtain, limiting our understanding of how these changes relate to health and physiological function.</p>
+
+<p>Our demonstration of multiplexed FSH and PdG detection provides an initial foundation for developing more comprehensive hormone measurement capabilities. Future research could investigate individual hormonal trajectories, relationships between hormonal variability and symptoms, and potential implications for treatment response.</p>
+
+<h3 id="neurological-injury-and-recovery">Neurological injury and recovery</h3>
+
+<p>Molecular biomarkers may provide information about neurological injury and recovery that complements clinical assessments and imaging.</p>
+
+<p>We are developing silicon photonic assays for neurofilament light chain (NfL), a biomarker associated with neuroaxonal injury. Longer-term applications could include studying biomarker changes following traumatic brain injury, cardiac arrest, and other neurological conditions.</p>
+
+<h3 id="therapeutic-development-and-precision-medicine">Therapeutic development and precision medicine</h3>
+
+<p>Physiological conditions can change over time and may influence responses to treatment. Better access to molecular measurements could help researchers investigate these relationships.</p>
+
+<p>One emerging area of interest is whether naturally occurring reproductive hormone dynamics influence the performance of emerging therapies, including lipid nanoparticle-based drug delivery. This remains an open scientific question that would benefit from interdisciplinary investigation.</p>
+
+<h3 id="infectious-disease-and-health-security">Infectious disease and health security</h3>
+
+<p>The sensing platform can potentially be adapted to different molecular targets through changes in the recognition chemistry.</p>
+
+<p>Our research has included assays for SARS-CoV-2 spike protein as a model target. Future applications could include infectious disease testing, health security, and distributed molecular measurements in settings where access to conventional laboratory infrastructure is limited.</p>
+
+<h3 id="biological-and-environmental-systems">Biological and environmental systems</h3>
+
+<p>Beyond clinical diagnostics, multiplexed molecular sensing could provide new ways to study biological and environmental systems.</p>
+
+<p>Potential applications include monitoring molecular signaling in engineered tissues and organ-on-chip models, as well as detecting selected contaminants or biological targets in environmental samples.</p>
+
+<p>These directions remain exploratory and would require application-specific assay development and validation.</p>
+
+<h3 id="looking-ahead">Looking ahead</h3>
+
+<p>Our current research focuses on advancing the underlying sensing technologies and establishing the capabilities needed for future applications. We are interested in scientific exchanges with researchers and organizations working on related measurement challenges, which may help inform future research directions.</p>
+
+<p><a href="/research/">Back to all research projects</a></p>
+
+</div>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-title">Bio-Medical Micro Devices Laboratory</p>
+      <p class="muted">The Bio-Medical Micro Devices Laboratory at the University of British Columbia develops micro- and nanoscale technologies for biology and medicine, with research in biosensing, bioprinting, microfluidic tissue models, neural repair, and engineering education.</p>
+    </div>
+    <div>
+      <p class="eyebrow">Visit</p>
+      <address>
+        146A Brimacombe Building (AMPEL)<br>
+        2355 East Mall<br>
+        Vancouver, BC V6T 1Z4<br>
+        Canada
+      </address>
+    </div>
+    <div>
+      <p class="eyebrow">Connect</p>
+      <ul class="footer-links">
+        <li><a href="mailto:kcheung@ece.ubc.ca"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5h18v11H3z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m3.5 7 8.5 6.5L20.5 7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>kcheung@ece.ubc.ca</a></li>
+        <li><a href="https://scholar.google.ca/citations?user=ff8dRzkAAAAJ"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 1.5 9.5 12 16l10.5-6.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M5.5 12v4.5c0 1.5 3 3.5 6.5 3.5s6.5-2 6.5-3.5V12" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>Google Scholar</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLFpEETyPCgTSJdhBpAsKbH3AR96cyLS7O"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="3.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m10 9 5 3-5 3z" fill="currentColor"/></svg>YouTube</a></li>
+        <li><a href="https://ece.ubc.ca/"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3.2-3.2a4 4 0 0 0-5.7-5.7L12 6.3M14 10a4 4 0 0 0-5.7 0l-3.2 3.2a4 4 0 0 0 5.7 5.7l1.2-1.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>UBC ECE</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-base">
+    <span>&copy; 2026 The University of British Columbia</span>
+    <span>Last updated 7 November 2026</span>
+  </div>
+</footer>
+
+</body>
+</html>
