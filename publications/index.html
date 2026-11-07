@@ -1,0 +1,2068 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<script>
+  // set theme before paint to avoid a flash
+  document.documentElement.classList.add("js");
+  (function () {
+    try {
+      var t = localStorage.getItem("theme");
+      if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  })();
+</script>
+<!-- Begin Jekyll SEO tag v2.9.1 -->
+<title>Publications | BioMEMS Lab</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Publications" />
+<meta property="og:locale" content="en_CA" />
+<meta name="description" content="The Bio-Medical Micro Devices Laboratory at the University of British Columbia builds microfluidic, photonic and microfabricated tools for 3-D cell culture, organs-on-chip, biosensing and cell printing." />
+<meta name="twitter:description" property="og:description" content="The Bio-Medical Micro Devices Laboratory at the University of British Columbia builds microfluidic, photonic and microfabricated tools for 3-D cell culture, organs-on-chip, biosensing and cell printing." />
+<link rel="canonical" href="https://biomems-ubc.github.io/publications/" />
+<meta property="og:url" content="https://biomems-ubc.github.io/publications/" />
+<meta property="og:site_name" content="BioMEMS Lab" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Publications" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"The Bio-Medical Micro Devices Laboratory at the University of British Columbia builds microfluidic, photonic and microfabricated tools for 3-D cell culture, organs-on-chip, biosensing and cell printing.","headline":"Publications","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://biomems-ubc.github.io/images/icon.png"}},"url":"https://biomems-ubc.github.io/publications/"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link type="application/atom+xml" rel="alternate" href="https://biomems-ubc.github.io/feed.xml" title="BioMEMS Lab" />
+<link rel="icon" href="/images/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<link rel="stylesheet" href="/assets/css/main.css">
+<script src="/assets/js/site.js" defer></script>
+
+</head>
+<body class="layout-page">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" data-header>
+  <div class="container header-inner">
+    <a class="brand" href="/" aria-label="BioMEMS Lab home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text">
+        <span class="brand-title">BioMEMS Lab</span>
+        <span class="brand-sub">UBC Electrical and Computer Engineering</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Main" data-nav>
+      <ul>
+        <li><a href="/research/">Research</a></li>
+        <li><a href="/publications/" aria-current="page">Publications</a></li>
+        <li><a href="/team/">Team</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/join/">Join us</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" type="button" data-theme-toggle aria-label="Toggle dark mode">
+        <span class="when-light"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+        <span class="when-dark"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+      </button>
+      <button class="icon-button nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Menu">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">Papers, patents and preprints</p>
+    <h1>Publications</h1>
+    <p class="lead">Journal articles, conference papers, preprints, book chapters, patents and theses from the lab. Names of lab members are in bold.</p>
+  </div>
+</section>
+<div class="container page-body is-wide">
+<div class="pubs-layout" data-pubs>
+  <aside class="pubs-side" aria-label="Publication navigation and filters">
+    <div class="pubs-side-inner">
+      <label class="search-field">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <span class="visually-hidden">Search publications</span>
+        <input type="search" placeholder="Search title, author, venue" data-pub-search autocomplete="off">
+      </label>
+
+      <p class="side-label">Jump to</p>
+      <ul class="jump-list" data-jump>
+        <li><a href="#journal" data-jump-link="journal"><span>Journal articles</span><span class="count" data-count="journal">63</span></a></li>
+        <li><a href="#conference" data-jump-link="conference"><span>Conference papers</span><span class="count" data-count="conference">84</span></a></li>
+        <li><a href="#preprint" data-jump-link="preprint"><span>Preprints</span><span class="count" data-count="preprint">5</span></a></li>
+        <li><a href="#chapter" data-jump-link="chapter"><span>Book chapters</span><span class="count" data-count="chapter">4</span></a></li>
+        <li><a href="#patent" data-jump-link="patent"><span>Patents</span><span class="count" data-count="patent">3</span></a></li>
+        <li><a href="#thesis" data-jump-link="thesis"><span>Theses</span><span class="count" data-count="thesis">1</span></a></li>
+      </ul>
+
+      <p class="side-label">Topics</p>
+      <div class="chips" role="group" aria-label="Filter by topic">
+        <button type="button" class="chip" data-topic="photonics" aria-pressed="false">Silicon photonic biosensors</button>
+        <button type="button" class="chip" data-topic="culture" aria-pressed="false">3-D culture and tumour models</button>
+        <button type="button" class="chip" data-topic="organ" aria-pressed="false">Organs-on-chip and hydrogels</button>
+        <button type="button" class="chip" data-topic="oxygen" aria-pressed="false">Oxygen and hypoxia</button>
+        <button type="button" class="chip" data-topic="imaging" aria-pressed="false">Imaging and tissue clearing</button>
+        <button type="button" class="chip" data-topic="printing" aria-pressed="false">Inkjet and cell printing</button>
+        <button type="button" class="chip" data-topic="neural" aria-pressed="false">Neural interfaces</button>
+        <button type="button" class="chip" data-topic="microfluidics" aria-pressed="false">Microfluidics and flow</button>
+        <button type="button" class="chip" data-topic="molcom" aria-pressed="false">Molecular communication</button>
+        <button type="button" class="chip" data-topic="education" aria-pressed="false">Engineering education</button>
+        <button type="button" class="chip" data-topic="sensors" aria-pressed="false">Chemical sensors and materials</button>
+      </div>
+
+      <p class="pubs-status" aria-live="polite" data-pub-status>160 publications</p>
+      <button type="button" class="link-button" data-pub-reset hidden>Clear filters</button>
+      <p class="side-note">Updated from <a href="https://scholar.google.ca/citations?user=ff8dRzkAAAAJ">Google Scholar</a>.</p>
+    </div>
+  </aside>
+
+  <div class="pubs-main">
+    <section class="pub-section" id="journal" data-section="journal">
+      <h2>Journal articles <span class="count">63</span></h2>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2026</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2026" data-topics="organ">
+  <p class="pub-title"><a href="https://doi.org/10.1038/s41598-026-68845-4">Effects of MRI on an injectable hydrogel with magnetically alignable microstructures</a></p>
+  <p class="pub-authors">Yas Oloumi Yazdi, <strong>Tanya Bennet</strong>, Andrew Yung, Kirsten Bale, Alex Pieters, Iryna Liubchak, Anna A. Meyer, Tara M. Caffrey, Stefan A. Reinsberg, Laura De Laporte, John D. W. Madden, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Scientific Reports</span>
+    <span class="pub-year">2026</span><a class="pub-doi" href="https://doi.org/10.1038/s41598-026-68845-4">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2026" data-topics="organ microfluidics">
+  <p class="pub-title"><a href="https://doi.org/10.1038/s41598-026-69468-5">Engineering a multilayer microfluidic airway-on-a-chip with tunable GelMA hydrogel for physiologically relevant aerosol exposure studies</a></p>
+  <p class="pub-authors"><strong>Tanya J. Bennet</strong>, <strong>Avineet Randhawa</strong>, Alex Pieters, Tara M. Caffrey, Tanya Solomon, Eric Lyall, Ryan D. Huff, Carley Schwartz, Yu Xi, Christopher Carlsten, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Scientific Reports</span>
+    <span class="pub-year">2026</span><a class="pub-doi" href="https://doi.org/10.1038/s41598-026-69468-5">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2026" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.1063/5.0330876">A segmented resonator architecture for fixed-wavelength silicon photonic biosensors with CMOS-driven, resonance-tracking readout</a></p>
+  <p class="pub-authors">Mohammed A. Al-Qadasi, <strong>Samantha M. Grist</strong>, Matthew Mitchell, Karyn Newton, Stephen Kioussis, Sheri J. Chowdhury, <strong>Avineet Randhawa</strong>, Yifei Liu, Piramon Tisapramotkul, <strong>Karen C. Cheung</strong>, Lukas Chrostowski, Sudip Shekhar</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">APL Photonics</span>
+    <span class="pub-year">2026</span><a class="pub-doi" href="https://doi.org/10.1063/5.0330876">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2026" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.1016/j.biosx.2026.100759">What could go wrong? Promoting success by planning for failure in label-free biosensor assay development</a></p>
+  <p class="pub-authors">Sajida Chowdhury, <strong>Samantha M. Grist</strong>, <strong>Avineet Randhawa</strong>, Maggie Wang, Karyn Newton, Lauren S. Puumala, Yuting Hou, Lukas Chrostowski, Sudip Shekhar, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Biosensors and Bioelectronics: X</span>
+    <span class="pub-year">2026</span><a class="pub-doi" href="https://doi.org/10.1016/j.biosx.2026.100759">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2026" data-topics="printing microfluidics">
+  <p class="pub-title"><a href="https://doi.org/10.1021/acs.analchem.5c07174">SPIN: Inkjet-Driven Nanowell Workflow for Scalable and Sensitive Single-Cell Proteomics</a></p>
+  <p class="pub-authors"><strong>Eric Cheng</strong>, Shuxin Chi, Huan Zhong, Robin Coope, Leonard J. Foster, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Analytical Chemistry</span>
+    <span class="pub-year">2026</span><a class="pub-doi" href="https://doi.org/10.1021/acs.analchem.5c07174">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2025</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2025" data-topics="printing">
+  <p class="pub-title"><a href="https://doi.org/10.1039/d5lc00514k">High-speed cell partitioning through reactive machine learning-guided inkjet printing</a></p>
+  <p class="pub-authors"><strong>Eric Cheng</strong>, Glenn Chang, Haley MacDonald, Miguel Ramirez, Pamela A. Hoodless, Robin Coope, Adi Steif, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Lab on a Chip</span>
+    <span class="pub-year">2025</span><a class="pub-doi" href="https://doi.org/10.1039/d5lc00514k">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2025" data-topics="photonics microfluidics">
+  <p class="pub-title"><a href="https://doi.org/10.1039/d5lc00575b">Resonating with replicability: factors shaping assay yield and variability in microfluidics-integrated silicon photonic biosensors</a></p>
+  <p class="pub-authors">Lauren S. Puumala, <strong>Samantha M. Grist</strong>, Karyn Newton, So Jung Kim, Stephen Kioussis, Sajida Chowdhury, Maggie Wang, Myra Wei, Yas Oloumi Yazdi, <strong>Avineet Randhawa</strong>, Yuting Hou, Lukas Chrostowski, Sudip Shekhar, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Lab on a Chip</span>
+    <span class="pub-year">2025</span><a class="pub-doi" href="https://doi.org/10.1039/d5lc00575b">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2024</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2024" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.1364/oe.545801">On-chip resonance peak extraction in evanescent field silicon photonic biosensors</a></p>
+  <p class="pub-authors">Sarthak Panda, Mohammed A. Al-Qadasi, Avilash Mukherjee, <strong>Samantha M. Grist</strong>, Mieszko Lis, <strong>Karen C. Cheung</strong>, Lukas Chrostowski, Sudip Shekhar</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Optics Express</span>
+    <span class="pub-year">2024</span><a class="pub-doi" href="https://doi.org/10.1364/oe.545801">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2024" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.1364/oe.510036">On-chip hybrid integration of swept frequency distributed-feedback laser with silicon photonic circuits using photonic wire bonding</a></p>
+  <p class="pub-authors">Sheri Jahan Chowdhury, Kithmin Wickremasinghe, <strong>Samantha M. Grist</strong>, Hang Zou, Matthew Mitchell, Mohammed A. Al-Qadasi, Becky Lin, Davin Birdi, Shannon Smythe, Sudip Shekhar, <strong>Karen C. Cheung</strong>, Lukas Chrostowski</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Optics Express</span>
+    <span class="pub-year">2024</span><a class="pub-doi" href="https://doi.org/10.1364/oe.510036">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2022</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2022" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.3390/bios13010053">Biofunctionalization of Multiplexed Silicon Photonic Biosensors</a></p>
+  <p class="pub-authors">Lauren S. Puumala, <strong>Samantha M. Grist</strong>, Jennifer M. Morales, Justin R. Bickford, Lukas Chrostowski, Sudip Shekhar, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Biosensors</span>
+    <span class="pub-year">2022</span><a class="pub-doi" href="https://doi.org/10.3390/bios13010053">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2022" data-topics="imaging">
+  <p class="pub-title"><a href="https://doi.org/10.3390/cells11233854">HyClear: A Novel Tissue Clearing Solution for One-Step Clearing of Microtissues</a></p>
+  <p class="pub-authors"><strong>S. Soroush Nasseri</strong>, Erika M. J. Siren, Jayachandran N. Kizhakkedathu, <strong>Karen Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Cells</span>
+    <span class="pub-year">2022</span><a class="pub-doi" href="https://doi.org/10.3390/cells11233854">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2022" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.3390/bios12100840">An Optimization Framework for Silicon Photonic Evanescent-Field Biosensors Using Sub-Wavelength Gratings</a></p>
+  <p class="pub-authors">Lauren S. Puumala, <strong>Samantha M. Grist</strong>, Kithmin Wickremasinghe, Mohammed A. Al-Qadasi, Sheri Jahan Chowdhury, Yifei Liu, Matthew Mitchell, Lukas Chrostowski, Sudip Shekhar, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Biosensors</span>
+    <span class="pub-year">2022</span><a class="pub-doi" href="https://doi.org/10.3390/bios12100840">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2022" data-topics="organ microfluidics">
+  <p class="pub-title"><a href="https://doi.org/10.3390/mi13101573">PDMS Organ-On-Chip Design and Fabrication: Strategies for Improving Fluidic Integration and Chip Robustness of Rapidly Prototyped Microfluidic In Vitro Models</a></p>
+  <p class="pub-authors"><strong>Tiffany C. Cameron</strong>, <strong>Avineet Randhawa</strong>, <strong>Samantha M. Grist</strong>, <strong>Tanya Bennet</strong>, <strong>Jessica Hua</strong>, Luis G. Alde, Tara M. Caffrey, Cheryl L. Wellington, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Micromachines</span>
+    <span class="pub-year">2022</span><a class="pub-doi" href="https://doi.org/10.3390/mi13101573">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2022" data-topics="oxygen">
+  <p class="pub-title"><a href="https://doi.org/10.1146/annurev-anchem-061020-111458">Oxygen Measurement in Microdevices</a></p>
+  <p class="pub-authors"><strong>Samantha M. Grist</strong>, Kevin L. Bennewith, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Annual Review of Analytical Chemistry</span>
+    <span class="pub-year">2022</span><a class="pub-doi" href="https://doi.org/10.1146/annurev-anchem-061020-111458">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2021</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2021" data-topics="organ">
+  <p class="pub-title"><a href="https://doi.org/10.3390/cells10071602">Airway-On-A-Chip: Designs and Applications for Lung Repair and Disease</a></p>
+  <p class="pub-authors"><strong>Tanya J. Bennet</strong>, <strong>Avineet Randhawa</strong>, <strong>Jessica Hua</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Cells</span>
+    <span class="pub-year">2021</span><a class="pub-doi" href="https://doi.org/10.3390/cells10071602">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2021" data-topics="">
+  <p class="pub-title"><a href="https://doi.org/10.1096/fj.201802376rrrr">An improved in vitro model for studying the structural and functional properties of the endothelial glycocalyx in arteries, capillaries and veins</a></p>
+  <p class="pub-authors">Erika M. J. Siren, Haiming D. Luo, Sargun Bajaj, Jordan MacKenzie, Masoud Daneshi, D. Mark Martinez, Edward M. Conway, <strong>Karen C. Cheung</strong>, Jayachandran N. Kizhakkedathu</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">The FASEB Journal</span>
+    <span class="pub-year">2021</span><a class="pub-doi" href="https://doi.org/10.1096/fj.201802376rrrr">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2021" data-topics="organ">
+  <p class="pub-title"><a href="https://doi.org/10.3390/mi12040441">Review of Design Considerations for Brain-on-a-Chip Models</a></p>
+  <p class="pub-authors"><strong>Tiffany Cameron</strong>, <strong>Tanya Bennet</strong>, Elyn Rowe, Mehwish Anwer, Cheryl Wellington, <strong>Karen Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Micromachines</span>
+    <span class="pub-year">2021</span><a class="pub-doi" href="https://doi.org/10.3390/mi12040441">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2019</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2019" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.1364/ol.44.005981">High-performance sub-wavelength grating-based resonator sensors with substrate overetch</a></p>
+  <p class="pub-authors"><strong>Enxiao Luan</strong>, Kashif M. Awan, <strong>Karen C. Cheung</strong>, Lukas Chrostowski</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Optics Letters</span>
+    <span class="pub-year">2019</span><a class="pub-doi" href="https://doi.org/10.1364/ol.44.005981">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2019" data-topics="culture oxygen microfluidics">
+  <p class="pub-title"><a href="https://doi.org/10.1038/s41598-019-54001-8">Long-term monitoring in a microfluidic system to study tumour spheroid response to chronic and cycling hypoxia</a></p>
+  <p class="pub-authors"><strong>Samantha M. Grist</strong>, <strong>S. Soroush Nasseri</strong>, <strong>Loïc Laplatine</strong>, <strong>Jonathan C. Schmok</strong>, <strong>Dickson Yao</strong>, <strong>Jessica Hua</strong>, Lukas Chrostowski, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Scientific Reports</span>
+    <span class="pub-year">2019</span><a class="pub-doi" href="https://doi.org/10.1038/s41598-019-54001-8">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2019" data-topics="sensors">
+  <p class="pub-title"><a href="https://doi.org/10.1016/j.electacta.2019.07.004">Electrodeposition of reduced graphene oxide onto gold electrodes: creating thin electrochemically active and optically transparent overlayers</a></p>
+  <p class="pub-authors"><strong>Yan Li</strong>, Isaac Martens, <strong>Karen C. Cheung</strong>, Dan Bizzotto</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Electrochimica Acta</span>
+    <span class="pub-year">2019</span><a class="pub-doi" href="https://doi.org/10.1016/j.electacta.2019.07.004">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2019" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.1364/boe.10.004825">Label-free biosensing with a multi-box sub-wavelength phase-shifted Bragg grating waveguide</a></p>
+  <p class="pub-authors"><strong>Enxiao Luan</strong>, Han Yun, Minglei Ma, Daniel M. Ratner, <strong>Karen C. Cheung</strong>, Lukas Chrostowski</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Biomedical Optics Express</span>
+    <span class="pub-year">2019</span><a class="pub-doi" href="https://doi.org/10.1364/boe.10.004825">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2019" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.1109/jstqe.2018.2821842">Enhanced Sensitivity of Subwavelength Multibox Waveguide Microring Resonator Label-Free Biosensors</a></p>
+  <p class="pub-authors"><strong>Enxiao Luan</strong>, Han Yun, <strong>Loic Laplatine</strong>, Yonathan Dattner, Daniel M. Ratner, <strong>Karen C. Cheung</strong>, Lukas Chrostowski</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">IEEE Journal of Selected Topics in Quantum Electronics</span>
+    <span class="pub-year">2019</span><a class="pub-doi" href="https://doi.org/10.1109/jstqe.2018.2821842">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2018</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2018" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.1016/j.snb.2018.07.025">System-level integration of active silicon photonic biosensors using Fan-Out Wafer-Level-Packaging for low cost and multiplexed point-of-care diagnostic testing</a></p>
+  <p class="pub-authors"><strong>Loic Laplatine</strong>, <strong>Enxiao Luan</strong>, <strong>Karen Cheung</strong>, Daniel M. Ratner, Yonathan Dattner, Lukas Chrostowski</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Sensors and Actuators B: Chemical</span>
+    <span class="pub-year">2018</span><a class="pub-doi" href="https://doi.org/10.1016/j.snb.2018.07.025">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2018" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.3390/s18103519">Silicon Photonic Biosensors Using Label-Free Detection</a></p>
+  <p class="pub-authors"><strong>Enxiao Luan</strong>, Hossam Shoman, Daniel M. Ratner, <strong>Karen C. Cheung</strong>, Lukas Chrostowski</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Sensors</span>
+    <span class="pub-year">2018</span><a class="pub-doi" href="https://doi.org/10.3390/s18103519">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2018" data-topics="culture">
+  <p class="pub-title"><a href="https://doi.org/10.1007/s10544-018-0260-1">A novel approach to producing uniform 3-D tumor spheroid constructs using ultrasound treatment</a></p>
+  <p class="pub-authors">Solmaz Karamikamkar, Ehsan Behzadfar, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Biomedical Microdevices</span>
+    <span class="pub-year">2018</span><a class="pub-doi" href="https://doi.org/10.1007/s10544-018-0260-1">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2017</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2017" data-topics="culture">
+  <p class="pub-title"><a href="https://doi.org/10.1016/j.jchromb.2017.09.041">Different in vitro cellular responses to tamoxifen treatment in polydimethylsiloxane-based devices compared to normal cell culture</a></p>
+  <p class="pub-authors">Lingyu Wang, <strong>Linfen Yu</strong>, <strong>Samantha Grist</strong>, <strong>Karen C. Cheung</strong>, David D.Y. Chen</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Journal of Chromatography B</span>
+    <span class="pub-year">2017</span><a class="pub-doi" href="https://doi.org/10.1016/j.jchromb.2017.09.041">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2017" data-topics="microfluidics">
+  <p class="pub-title"><a href="https://doi.org/10.1016/j.snb.2017.02.109">Fabricating devices with improved adhesion between PDMS and gold-patterned glass</a></p>
+  <p class="pub-authors"><strong>Jannu Casanova-Moreno</strong>, <strong>Josiah To</strong>, Cheng Wei Tony Yang, Robin F.B. Turner, Dan Bizzotto, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Sensors and Actuators B: Chemical</span>
+    <span class="pub-year">2017</span><a class="pub-doi" href="https://doi.org/10.1016/j.snb.2017.02.109">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2017" data-topics="">
+  <p class="pub-title"><a href="https://doi.org/10.1016/j.nancom.2017.02.002">Simulating with AcCoRD: Actor-based Communication via Reaction–Diffusion</a></p>
+  <p class="pub-authors"><strong>Adam Noel</strong>, <strong>Karen C. Cheung</strong>, Robert Schober, Dimitrios Makrakis, Abdelhakim Hafid</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Nano Communication Networks</span>
+    <span class="pub-year">2017</span><a class="pub-doi" href="https://doi.org/10.1016/j.nancom.2017.02.002">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2016</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2016" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.1364/OE.24.015672">Sub-wavelength grating for enhanced ring resonator biosensor</a></p>
+  <p class="pub-authors"><strong>Jonas Flueckiger</strong>, Shon Schmidt, Valentina Donzella, Ahmed Sherwali, Daniel M. Ratner, Lukas Chrostowski, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Optics Express</span>
+    <span class="pub-year">2016</span><a class="pub-doi" href="https://doi.org/10.1364/OE.24.015672">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2016" data-topics="culture imaging">
+  <p class="pub-title"><a href="https://doi.org/10.1063/1.4959031">On-chip clearing of arrays of 3-D cell cultures and micro-tissues</a></p>
+  <p class="pub-authors"><strong>S. M. Grist</strong>, <strong>S. S. Nasseri</strong>, T. Poon, C. Roskelley, <strong>K. C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Biomicrofluidics</span>
+    <span class="pub-year">2016</span><a class="pub-doi" href="https://doi.org/10.1063/1.4959031">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2016" data-topics="printing">
+  <p class="pub-title"><a href="https://doi.org/10.1088/1758-5090/8/1/015008">Investigation of the hydrodynamic response of cells in drop on demand piezoelectric inkjet nozzles</a></p>
+  <p class="pub-authors"><strong>Eric Cheng</strong>, Haoran Yu, <strong>Ali Ahmadi</strong>, <strong>Karen C Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Biofabrication</span>
+    <span class="pub-year">2016</span><a class="pub-doi" href="https://doi.org/10.1088/1758-5090/8/1/015008">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2016" data-topics="molcom">
+  <p class="pub-title"><a href="https://doi.org/10.1109/TMBMC.2016.2589239">Modeling and Simulation of Molecular Communication Systems with a Reversible Adsorption Receiver</a></p>
+  <p class="pub-authors">Yansha Deng, <strong>Adam Noel</strong>, Maged Elkashlan, Arumugam Nallanathan, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">IEEE Transactions on Molecular, Biological and Multi-Scale Communications</span>
+    <span class="pub-year">2016</span><a class="pub-doi" href="https://doi.org/10.1109/TMBMC.2016.2589239">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2015</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2015" data-topics="oxygen microfluidics">
+  <p class="pub-title"><a href="https://doi.org/10.3390/s150820030">Designing a Microfluidic Device with Integrated Ratiometric Oxygen Sensors for the Long-Term Control and Monitoring of Chronic and Cyclic Hypoxia</a></p>
+  <p class="pub-authors"><strong>Samantha Grist</strong>, <strong>Jonathan Schmok</strong>, Meng-Chi Liu, Lukas Chrostowski, <strong>Karen Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Sensors</span>
+    <span class="pub-year">2015</span><a class="pub-doi" href="https://doi.org/10.3390/s150820030">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2015" data-topics="printing microfluidics">
+  <p class="pub-title"><a href="https://doi.org/10.1007/s10404-015-1589-x">Measurement of the oscillatory flow field inside tapered cylindrical inkjet nozzles using micro-particle image velocimetry</a></p>
+  <p class="pub-authors"><strong>E. Cheng</strong>, <strong>A. Ahmadi</strong>, <strong>K. C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Microfluidics and Nanofluidics</span>
+    <span class="pub-year">2015</span><a class="pub-doi" href="https://doi.org/10.1007/s10404-015-1589-x">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2015" data-topics="culture organ">
+  <p class="pub-title"><a href="https://doi.org/10.1063/1.4918754">Core-shell hydrogel beads with extracellular matrix for tumor spheroid formation</a></p>
+  <p class="pub-authors"><strong>L. Yu</strong>, <strong>S. M. Grist</strong>, <strong>S. S. Nasseri</strong>, <strong>E. Cheng</strong>, Y.-C. E. Hwang, <strong>C. Ni</strong>, <strong>K. C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Biomicrofluidics</span>
+    <span class="pub-year">2015</span><a class="pub-doi" href="https://doi.org/10.1063/1.4918754">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2015" data-topics="molcom">
+  <p class="pub-title"><a href="https://doi.org/10.1109/TMBMC.2015.2465511">Joint Channel Parameter Estimation via Diffusive Molecular Communication</a></p>
+  <p class="pub-authors"><strong>Adam Noel</strong>, <strong>Karen C. Cheung</strong>, Robert Schober</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">IEEE Transactions on Molecular, Biological and Multi-Scale Communications</span>
+    <span class="pub-year">2015</span><a class="pub-doi" href="https://doi.org/10.1109/TMBMC.2015.2465511">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2015" data-topics="culture">
+  <p class="pub-title"><a href="https://doi.org/10.1007/s10544-014-9918-5">Alginate core-shell beads for simplified three-dimensional tumor spheroid culture and drug screening</a></p>
+  <p class="pub-authors"><strong>Linfen Yu</strong>, <strong>Cynthia Ni</strong>, <strong>Samantha M. Grist</strong>, Carmen Bayly, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Biomedical Microdevices</span>
+    <span class="pub-year">2015</span><a class="pub-doi" href="https://doi.org/10.1007/s10544-014-9918-5">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2014</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2014" data-topics="molcom">
+  <p class="pub-title"><a href="https://doi.org/10.1109/JSAC.2014.2367693">A Unifying Model for External Noise Sources and ISI in Diffusive Molecular Communication</a></p>
+  <p class="pub-authors"><strong>Adam Noel</strong>, <strong>Karen C. Cheung</strong>, Robert Schober</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">IEEE Journal on Selected Areas in Communications</span>
+    <span class="pub-year">2014</span><a class="pub-doi" href="https://doi.org/10.1109/JSAC.2014.2367693">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2014" data-topics="microfluidics molcom">
+  <p class="pub-title"><a href="https://doi.org/10.1109/TNB.2014.2337239">Optimal Receiver Design for Diffusive Molecular Communication With Flow and Additive Noise</a></p>
+  <p class="pub-authors"><strong>Adam Noel</strong>, <strong>Karen C. Cheung</strong>, Robert Schober</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">IEEE Transactions on NanoBioscience</span>
+    <span class="pub-year">2014</span><a class="pub-doi" href="https://doi.org/10.1109/TNB.2014.2337239">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2014" data-topics="sensors">
+  <p class="pub-title"><a href="https://doi.org/10.1002/bit.25294">A simple method for eliminating fixed‐region interference of aptamer binding during SELEX</a></p>
+  <p class="pub-authors">Eric Ouellet, Eric T. Lagally, <strong>Karen C. Cheung</strong>, Charles A. Haynes</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Biotechnology and Bioengineering</span>
+    <span class="pub-year">2014</span><a class="pub-doi" href="https://doi.org/10.1002/bit.25294">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2014" data-topics="molcom">
+  <p class="pub-title"><a href="https://doi.org/10.1109/TNB.2013.2295546">Improving Receiver Performance of Diffusive Molecular Communication With Enzymes</a></p>
+  <p class="pub-authors"><strong>Adam Noel</strong>, <strong>Karen C. Cheung</strong>, Robert Schober</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">IEEE Transactions on NanoBioscience</span>
+    <span class="pub-year">2014</span><a class="pub-doi" href="https://doi.org/10.1109/TNB.2013.2295546">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2014" data-topics="culture microfluidics">
+  <p class="pub-title"><a href="https://doi.org/10.1039/C3LC51352A">Application of a three-dimensional (3D) particle tracking method to microfluidic particle focusing</a></p>
+  <p class="pub-authors">Michael H. Winer, <strong>Ali Ahmadi</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Lab Chip</span>
+    <span class="pub-year">2014</span><a class="pub-doi" href="https://doi.org/10.1039/C3LC51352A">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2014" data-topics="organ oxygen">
+  <p class="pub-title"><a href="https://doi.org/10.1039/c4an00765d">Fabrication and laser patterning of polystyrene optical oxygen sensor films for lab-on-a-chip applications</a></p>
+  <p class="pub-authors"><strong>S. M. Grist</strong>, N. Oyunerdene, <strong>J. Flueckiger</strong>, J. Kim, P. C. Wong, L. Chrostowski, <strong>K. C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">The Analyst</span>
+    <span class="pub-year">2014</span><a class="pub-doi" href="https://doi.org/10.1039/c4an00765d">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2013</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2013" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.1002/jbio.201300012">A silicon photonic biosensor using phase‐shifted Bragg gratings in slot waveguide</a></p>
+  <p class="pub-authors">Xu Wang, <strong>Jonas Flueckiger</strong>, Shon Schmidt, <strong>Samantha Grist</strong>, Sahba T. Fard, James Kirk, Matt Doerfler, <strong>Karen C. Cheung</strong>, Daniel M. Ratner, Lukas Chrostowski</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Journal of Biophotonics</span>
+    <span class="pub-year">2013</span><a class="pub-doi" href="https://doi.org/10.1002/jbio.201300012">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2013" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.1364/OE.21.007994">Silicon photonic micro-disk resonators for label-free biosensing</a></p>
+  <p class="pub-authors"><strong>Samantha M. Grist</strong>, Shon A. Schmidt, <strong>Jonas Flueckiger</strong>, Valentina Donzella, Wei Shi, Sahba Talebi Fard, James T. Kirk, Daniel M. Ratner, <strong>Karen C. Cheung</strong>, Lukas Chrostowski</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Optics Express</span>
+    <span class="pub-year">2013</span><a class="pub-doi" href="https://doi.org/10.1364/OE.21.007994">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2012</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2012" data-topics="printing">
+  <p class="pub-title"><a href="https://doi.org/10.1002/bit.24562">Improving piezoelectric cell printing accuracy and reliability through neutral buoyancy of suspensions</a></p>
+  <p class="pub-authors"><strong>Daljeet Chahal</strong>, <strong>Ali Ahmadi</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Biotechnology and Bioengineering</span>
+    <span class="pub-year">2012</span><a class="pub-doi" href="https://doi.org/10.1002/bit.24562">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2011</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2011" data-topics="neural sensors">
+  <p class="pub-title"><a href="https://doi.org/10.3390/polym3041684">Biodegradable Cell-Seeded Nanofiber Scaffolds for Neural Repair</a></p>
+  <p class="pub-authors">Dong Han, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Polymers</span>
+    <span class="pub-year">2011</span><a class="pub-doi" href="https://doi.org/10.3390/polym3041684">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2011" data-topics="microfluidics sensors">
+  <p class="pub-title">Characterization of Postfabricated Parylene C Coatings inside PDMS Microdevices</p>
+  <p class="pub-authors"><strong>Jonas Flueckiger</strong>, Vahid Bazargan, Boris Stoeber, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Sensors and Actuators B – Chemical. (Elsevier) 160(1) (2011) 864-874</span>
+    <span class="pub-year">2011</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2010</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2010" data-topics="microfluidics">
+  <p class="pub-title"><a href="https://doi.org/10.1002/cyto.a.20910">Microfluidic impedance‐based flow cytometry</a></p>
+  <p class="pub-authors"><strong>Karen C. Cheung</strong>, Marco Di Berardino, Grit Schade‐Kampmann, Monika Hebeisen, Arkadiusz Pierzchalski, Jozsef Bocsi, Anja Mittag, Attila Tárnok</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Cytometry Part A</span>
+    <span class="pub-year">2010</span><a class="pub-doi" href="https://doi.org/10.1002/cyto.a.20910">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2010" data-topics="printing">
+  <p class="pub-title"><a href="https://doi.org/10.1088/1758-5082/2/2/025003">Effects of surfactant and gentle agitation on inkjet dispensing of living cells</a></p>
+  <p class="pub-authors">Shabnam Parsa, Madhuja Gupta, Frédéric Loizeau, <strong>Karen C Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Biofabrication</span>
+    <span class="pub-year">2010</span><a class="pub-doi" href="https://doi.org/10.1088/1758-5082/2/2/025003">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2010" data-topics="culture microfluidics">
+  <p class="pub-title"><a href="https://doi.org/10.1007/s10544-010-9417-2">Alginate-based microfluidic system for tumor spheroid formation and anticancer agent screening</a></p>
+  <p class="pub-authors">Michael C. W. Chen, Madhuja Gupta, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Biomedical Microdevices</span>
+    <span class="pub-year">2010</span><a class="pub-doi" href="https://doi.org/10.1007/s10544-010-9417-2">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2010" data-topics="culture printing microfluidics">
+  <p class="pub-title"><a href="https://doi.org/10.1039/c004590j">Droplet-based microfluidic system for multicellular tumor spheroid formation and anticancer drug testing</a></p>
+  <p class="pub-authors"><strong>Linfen Yu</strong>, Michael C. W. Chen, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Lab on a Chip</span>
+    <span class="pub-year">2010</span><a class="pub-doi" href="https://doi.org/10.1039/c004590j">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2010" data-topics="oxygen microfluidics">
+  <p class="pub-title">Optical Oxygen Sensors for Applications in Microfluidic Cell Culture</p>
+  <p class="pub-authors"><strong>Samantha Grist</strong>, Lukas Chrostowski, <strong>Karen C Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">(MDPI) 10(10) (2010) 9286-9316</span>
+    <span class="pub-year">2010</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2009</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2009" data-topics="sensors">
+  <p class="pub-title"><a href="https://doi.org/10.3390/s91109196">Microfabricated Formaldehyde Gas Sensors</a></p>
+  <p class="pub-authors"><strong>Jonas Flueckiger</strong>, Frank  K. Ko, <strong>Karen  C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Sensors</span>
+    <span class="pub-year">2009</span><a class="pub-doi" href="https://doi.org/10.3390/s91109196">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2009" data-topics="organ microfluidics">
+  <p class="pub-title"><a href="https://doi.org/10.1109/TBCAS.2009.2021657">Microfluidic System for Controlled Gelation of a Thermally Reversible Hydrogel</a></p>
+  <p class="pub-authors"><strong>Jonas Flueckiger</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">IEEE Transactions on Biomedical Circuits and Systems</span>
+    <span class="pub-year">2009</span><a class="pub-doi" href="https://doi.org/10.1109/TBCAS.2009.2021657">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2008</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2008" data-topics="neural">
+  <p class="pub-title"><a href="https://doi.org/10.1016/j.sna.2007.07.027">Demonstration of cortical recording using novel flexible polymer neural probes</a></p>
+  <p class="pub-authors">André Mercanzini, <strong>Karen Cheung</strong>, Derek L. Buhl, Marc Boers, Anne Maillard, Philippe Colin, Jean-Charles Bensadoun, Arnaud Bertsch, Philippe Renaud</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Sensors and Actuators A: Physical</span>
+    <span class="pub-year">2008</span><a class="pub-doi" href="https://doi.org/10.1016/j.sna.2007.07.027">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2007</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2007" data-topics="neural sensors">
+  <p class="pub-title"><a href="https://doi.org/10.1016/j.bios.2006.08.035">Flexible polyimide microelectrode array for in vivo recordings and current source density analysis</a></p>
+  <p class="pub-authors"><strong>Karen C. Cheung</strong>, Philippe Renaud, Heikki Tanila, Kaj Djupsund</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Biosensors and Bioelectronics</span>
+    <span class="pub-year">2007</span><a class="pub-doi" href="https://doi.org/10.1016/j.bios.2006.08.035">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2007" data-topics="neural">
+  <p class="pub-title"><a href="https://doi.org/10.1007/s10544-006-9045-z">Implantable microscale neural interfaces</a></p>
+  <p class="pub-authors"><strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Biomedical Microdevices</span>
+    <span class="pub-year">2007</span><a class="pub-doi" href="https://doi.org/10.1007/s10544-006-9045-z">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2006</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2006" data-topics="neural sensors">
+  <p class="pub-title"><a href="https://doi.org/10.1016/j.sse.2006.03.023">BioMEMS for medicine: On-chip cell characterization and implantable microelectrodes</a></p>
+  <p class="pub-authors"><strong>Karen C. Cheung</strong>, Philippe Renaud</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Solid-State Electronics</span>
+    <span class="pub-year">2006</span><a class="pub-doi" href="https://doi.org/10.1016/j.sse.2006.03.023">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2005</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2005" data-topics="microfluidics">
+  <p class="pub-title"><a href="https://doi.org/10.1002/cyto.a.20141">Impedance spectroscopy flow cytometry: On‐chip label‐free cell differentiation</a></p>
+  <p class="pub-authors"><strong>Karen Cheung</strong>, Shady Gawad, Philippe Renaud</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Cytometry Part A</span>
+    <span class="pub-year">2005</span><a class="pub-doi" href="https://doi.org/10.1002/cyto.a.20141">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2004</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2004" data-topics="microfluidics">
+  <p class="pub-title"><a href="https://doi.org/10.1039/B313761A">Dielectric spectroscopy in a micromachined flow cytometer: theoretical and practical considerations</a></p>
+  <p class="pub-authors">Shady Gawad, <strong>Karen Cheung</strong>, Urban Seger, Arnaud Bertsch, Philippe Renaud</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Lab on a Chip</span>
+    <span class="pub-year">2004</span><a class="pub-doi" href="https://doi.org/10.1039/B313761A">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2003</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="journal" data-year="2003" data-topics="imaging microfluidics">
+  <p class="pub-title"><a href="https://doi.org/10.1063/1.1576297">Simultaneous imaging of ionic conductivity and morphology of a microfluidic system</a></p>
+  <p class="pub-authors">Cristian Ionescu-Zanetti, <strong>Karen Cheung</strong>, Ratneshwar Lal, Luke P. Lee</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Journal of Applied Physics</span>
+    <span class="pub-year">2003</span><a class="pub-doi" href="https://doi.org/10.1063/1.1576297">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="journal" data-year="2003" data-topics="neural sensors">
+  <p class="pub-title"><a href="https://doi.org/10.1109/JMEMS.2003.809962">Implantable multichannel electrode array based on soi technology</a></p>
+  <p class="pub-authors"><strong>K.C. Cheung</strong>, K. Djupsund, Y. Dan, L.P. Lee</p>
+  <p class="pub-meta">
+    <span class="badge badge-journal">Journal</span>
+    <span class="pub-venue">Journal of Microelectromechanical Systems</span>
+    <span class="pub-year">2003</span><a class="pub-doi" href="https://doi.org/10.1109/JMEMS.2003.809962">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+    </section>
+    <section class="pub-section" id="conference" data-section="conference">
+      <h2>Conference papers <span class="count">84</span></h2>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2026</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2026" data-topics="education">
+  <p class="pub-title"><a href="https://doi.org/10.24908/pceea.2026.21578">STEM Outreach Long-Term Follow Up: Associations with Post-Secondary Education</a></p>
+  <p class="pub-authors">Caitlin Ambrose, Emily Adam, Kaylin McLeod, Jenna Usprech, <strong>Karen Cheung</strong>, Katherine Lyon, Agnes D'Entremont, Robyn Newell</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the Canadian Engineering Education Association (CEEA)</span>
+    <span class="pub-year">2026</span><a class="pub-doi" href="https://doi.org/10.24908/pceea.2026.21578">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2026" data-topics="education">
+  <p class="pub-title"><a href="https://doi.org/10.24908/pceea.2026.21647">The Evolution of a Canadian Translational Graduate Program in Clinical Needs-Driven Engineering Innovation</a></p>
+  <p class="pub-authors"><strong>Tanya Bennet</strong>, Saud Lingawi, Vishak Nandan Aathresh, <strong>Karen Cheung</strong>, Roger Tam</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the Canadian Engineering Education Association (CEEA)</span>
+    <span class="pub-year">2026</span><a class="pub-doi" href="https://doi.org/10.24908/pceea.2026.21647">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2026" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.1109/pn70808.2026.11657736">Wafer Scale Laser Integration to Resonators Using Photonic Wire Bonding for Portable Biosensing</a></p>
+  <p class="pub-authors">Sheri Jahan Chowdhury, Ben Cohen-Kleinstein, Rhiannon Evans, <strong>Samantha M. Grist</strong>, Peter van den Doel, Ella Yan, Sudip Shekhar, <strong>Karen C. Cheung</strong>, Lukas Chrostowski</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">2026 Photonics North (PN)</span>
+    <span class="pub-year">2026</span><a class="pub-doi" href="https://doi.org/10.1109/pn70808.2026.11657736">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2025</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2025" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.1109/sensors59705.2025.11331227">Towards decentralized diagnostics for women's health using silicon photonic integrated circuits</a></p>
+  <p class="pub-authors"><strong>Samantha M. Grist</strong>, Lauren S. Puumala, Karyn Newton, Mohammed A. Al-Qadasi, Maggie Wang, Myra Wei, Ben Cohen-Kleinstein, Sheri J. Chowdhury, Kithmin Wickremasinghe, So Jung Kim, Stephen Kioussis, Yuting Hou, Sajida Chowdhury, <strong>Avineet Randhawa</strong>, Matthew Mitchell, Lukas Chrostowski, Sudip Shekhar, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">2025 IEEE SENSORS</span>
+    <span class="pub-year">2025</span><a class="pub-doi" href="https://doi.org/10.1109/sensors59705.2025.11331227">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2025" data-topics="education">
+  <p class="pub-title"><a href="https://doi.org/10.24908/pceea.2025.19608">Exploring the association between STEM-related family habitus and engineering identities of high school summer campers</a></p>
+  <p class="pub-authors">Reena A Said, Raiaan Khan, Jess Tran, Kaylin McLeod, Jessica Wolf, Agnes D’Entremont, Robyn Newell, <strong>Karen Cheung</strong>, Jenna Usprech</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the Canadian Engineering Education Association (CEEA)</span>
+    <span class="pub-year">2025</span><a class="pub-doi" href="https://doi.org/10.24908/pceea.2025.19608">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2025" data-topics="photonics microfluidics">
+  <p class="pub-title"><a href="https://doi.org/10.1117/12.3040917">Towards on-chip integration of a silicon photonic microfluidic thermal flow rate sensor on a silicon-on-insulator process</a></p>
+  <p class="pub-authors">Kithmin Wickremasinghe, <strong>Samantha M. Grist</strong>, Mohammed A. Al-Qadasi, Sheri J. Chowdhury, Ben Cohen-Kleinstein, Stephen Kioussis, Karyn Newton, Kowsar Heydari, <strong>Karen C. Cheung</strong>, Lukas Chrostowski, Sudip Shekhar</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Microfluidics, BioMEMS, and Medical Microsystems XXIII</span>
+    <span class="pub-year">2025</span><a class="pub-doi" href="https://doi.org/10.1117/12.3040917">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2025" data-topics="education">
+  <p class="pub-title"><a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:VLnqNzywnoUC">Evaluating STEM/Engineering Identity of Elementary and High School Students in STEM Outreach Programs</a></p>
+  <p class="pub-authors">Yas Oloumi Yazdi, Chia-Chien Selina Tai, Chenxi Jenny Ge, Xinyang Liu, Jessica Wolf, Kaylin McLeod, Robyn Newell, Katherine Lyon, Agnes d’Entremont, Jenna Usprech, <strong>Karen C Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the Canadian Engineering Education Association (CEEA)</span>
+    <span class="pub-year">2025</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2024</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2024" data-topics="education">
+  <p class="pub-title"><a href="https://doi.org/10.24908/pceea.2024.18561">Economic, cultural, and science capital: Familial factors shaping access to STEM outreach programs for children and youth</a></p>
+  <p class="pub-authors">Jessica Tran, Katherine Lyon, Kaylin McLeod, Andrew Jamison, Shouka Farrokh, Jessica Wolf, Arjun Swani, <strong>Karen Cheung</strong>, Jenna Usprech, Agnes D'Entremont</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the Canadian Engineering Education Association (CEEA)</span>
+    <span class="pub-year">2024</span><a class="pub-doi" href="https://doi.org/10.24908/pceea.2024.18561">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2024" data-topics="education">
+  <p class="pub-title"><a href="https://doi.org/10.24908/pceea.2024.18567">Assessing STEM Outreach for historically marginalized groups in engineering: STEM/engineering identity and role models</a></p>
+  <p class="pub-authors">Shouka Farrokh, Mehmooda Evelyn-Piprawala, Naomi Endale, Jessica Wolf, Kaylin McLeod, <strong>Karen Cheung</strong>, Agnes D'Entremont</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the Canadian Engineering Education Association (CEEA)</span>
+    <span class="pub-year">2024</span><a class="pub-doi" href="https://doi.org/10.24908/pceea.2024.18567">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2024" data-topics="education">
+  <p class="pub-title"><a href="https://doi.org/10.18260/1-2--47774">Methodologies for Evaluating the Impact of STEM Outreach on Historically Marginalized Groups in Engineering: a Systematic Literature Review (Other, Diversity)</a></p>
+  <p class="pub-authors">Jessica Tran, Jessica Wolf, Shouka Farrokh, Katherine Lyon, Robyn Newell, Jenna Usprech, <strong>Karen Cheung</strong>, Agnes d'Entremont</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">2024 ASEE Annual Conference &amp; Exposition Proceedings</span>
+    <span class="pub-year">2024</span><a class="pub-doi" href="https://doi.org/10.18260/1-2--47774">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2024" data-topics="organ">
+  <p class="pub-title"><a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:Fu2w8maKXqMC">Injectable GelMA Hydrogels For Axonal Regeneration Following Spinal Cord Injury</a></p>
+  <p class="pub-authors">I Liubchak, A Pieters, <strong>T Bennet</strong>, TM Caffrey, <strong>KC Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">TISSUE ENGINEERING PART A 30 (15-16), S462-S462</span>
+    <span class="pub-year">2024</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2023</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2023" data-topics="photonics">
+  <p class="pub-title"><a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:LjlpjdlvIbIC">Silicon photonic biosensing: towards portable diagnostics at the point of need</a></p>
+  <p class="pub-authors"><strong>Samantha M Grist</strong>, Lauren S Puumala, Mohammed A Al-Qadasi, <strong>Avineet Randhawa</strong>, Sheri Jahan Chowdhury, Kithmin Wickremasinghe, So Jung Kim, Yas Oloumi Yazdi, Luis G Alde, Yifei Liu, Nicholas C Tang, Matthew Mitchell, Lukas Chrostowski, Sudip Shekhar, <strong>Karen C Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Microfluidics, BioMEMS, and Medical Microsystems XXI, PC1237404</span>
+    <span class="pub-year">2023</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2021</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2021" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.1117/12.2579095">A silicon photonic evanescent-field sensor architecture using a fixed-wavelength laser</a></p>
+  <p class="pub-authors">Lukas Chrostowski, Dias Leanne, Mitchell Matthew, Mosquera Connor, <strong>Enxiao Luan</strong>, Mohammed Al-Qadasi, Randhawa Avineet, Hassan R. Mojaver, Eric Lyall, Antoine Gervais, Raphaël Dubé-Demers, Kashif M. Awan, Steven Gou, Odile Liboiron-Ladouceur, Wei Shi, Sudip Shekhar, <strong>Karen Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Optical Interconnects XXI</span>
+    <span class="pub-year">2021</span><a class="pub-doi" href="https://doi.org/10.1117/12.2579095">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2020</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2020" data-topics="organ microfluidics">
+  <p class="pub-title"><a href="https://doi.org/10.1109/mems46641.2020.9056449">Airway-on-a-Chip: Development and in Vitro Validation of a Microfluidic Cell Culture Model for Chronic Obstructive Pulmonary Disease</a></p>
+  <p class="pub-authors"><strong>Tanya J. Bennet</strong>, Brenda Shen, Jeremy Siwik, Stephanie Pan, Cheng Wei Tony Yang, Don D. Sin, Tillie L. Hackett, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">2020 IEEE 33rd International Conference on Micro Electro Mechanical Systems (MEMS)</span>
+    <span class="pub-year">2020</span><a class="pub-doi" href="https://doi.org/10.1109/mems46641.2020.9056449">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2020" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.1364/ofc.2020.m1c.5">Phase-shifted Bragg grating-based Mach-Zehnder Interferometer Sensor using an Intensity Interrogation Scheme</a></p>
+  <p class="pub-authors"><strong>Enxiao Luan</strong>, Han Yun, Stephen H. Lin, <strong>Karen C. Cheung</strong>, Lukas Chrostowski, Nicolas A. F. Jaeger</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Optical Fiber Communication Conference (OFC) 2020</span>
+    <span class="pub-year">2020</span><a class="pub-doi" href="https://doi.org/10.1364/ofc.2020.m1c.5">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2019</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2019" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.23919/ps.2019.8817799">Advances in Silicon Photonic Sensors Using Sub-Wavelength Gratings</a></p>
+  <p class="pub-authors"><strong>Enxiao Luan</strong>, Valentina Donzella, <strong>Karen Cheung</strong>, Lukas Chrostowski</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">2019 24th OptoElectronics and Communications Conference (OECC) and 2019 International Conference on Photonics in Switching and Computing (PSC)</span>
+    <span class="pub-year">2019</span><a class="pub-doi" href="https://doi.org/10.23919/ps.2019.8817799">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2018</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2018" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.1109/group4.2018.8478728">System-Level Integrated Active Silicon Photonic Biosensor for Detecting Small Molecule Interactions</a></p>
+  <p class="pub-authors"><strong>Enxiao Luan</strong>, <strong>Loic Laplatine</strong>, <strong>Jonas Flueckiger</strong>, Osama Al'Mrayat, Daniel M. Ratner, <strong>Karen Cheung</strong>, Lukas Chrostowski</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">2018 IEEE 15th International Conference on Group IV Photonics (GFP)</span>
+    <span class="pub-year">2018</span><a class="pub-doi" href="https://doi.org/10.1109/group4.2018.8478728">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2018" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.1117/12.2287621">Sub-wavelength multi-box waveguide-based label-free sensors</a></p>
+  <p class="pub-authors"><strong>Enxiao Luan</strong>, Han Yun, <strong>Loic Laplatine</strong>, <strong>Karen Cheung</strong>, Yonathan Dattner, Daniel Ratner, <strong>Jonas Flückiger</strong>, Lukas Chrostowski</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Integrated Optics: Devices, Materials, and Technologies XXII</span>
+    <span class="pub-year">2018</span><a class="pub-doi" href="https://doi.org/10.1117/12.2287621">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2017</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2017" data-topics="imaging">
+  <p class="pub-title"><a href="https://doi.org/10.1109/iedm.2017.8268367">Tissue microenvironment and cellular imaging</a></p>
+  <p class="pub-authors"><strong>S. S. Nasseri</strong>, <strong>S. M. Grist</strong>, S. Chen, Y. Y. Tam, P. Cullis, <strong>K. C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">2017 IEEE International Electron Devices Meeting (IEDM)</span>
+    <span class="pub-year">2017</span><a class="pub-doi" href="https://doi.org/10.1109/iedm.2017.8268367">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2017" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.1117/12.2256068">System-level integration of active silicon photonic biosensors</a></p>
+  <p class="pub-authors"><strong>L. Laplatine</strong>, O. Al'Mrayat, <strong>E. Luan</strong>, C. Fang, S. Rezaiezadeh, D. M. Ratner, <strong>K. Cheung</strong>, Y. Dattner, L. Chrostowski</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">SPIE Proceedings</span>
+    <span class="pub-year">2017</span><a class="pub-doi" href="https://doi.org/10.1117/12.2256068">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2017" data-topics="printing">
+  <p class="pub-title"><a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:WA5NYHcadZ8C">Inkjet system design optimization for reliable cell printing</a></p>
+  <p class="pub-authors">B Enright, <strong>E Cheng</strong>, H Yu, <strong>KC Cheung</strong>, <strong>A Ahmadi</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Chemical and Biological Microsystems Society</span>
+    <span class="pub-year">2017</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2016</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2016" data-topics="oxygen microfluidics">
+  <p class="pub-title"><a href="https://doi.org/10.1109/newcas.2016.7604838">Microfluidic platform with integrated thin-film optical oxygen sensors for transient hypoxia</a></p>
+  <p class="pub-authors"><strong>Samantha M. Grist</strong>, <strong>Jonathan C. Schmok</strong>, Andrea Diaz Gaxiola, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">2016 14th IEEE International New Circuits and Systems Conference (NEWCAS)</span>
+    <span class="pub-year">2016</span><a class="pub-doi" href="https://doi.org/10.1109/newcas.2016.7604838">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2016" data-topics="molcom">
+  <p class="pub-title">Molecular Communication with a Reversible Adsorption Receiver</p>
+  <p class="pub-authors">Yansha Deng, <strong>Adam Noel</strong>, Maged Elkashlan, Arumugam Nallanathan, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the IEEE International Conference on Communications (IEEE ICC 2016). Kuala Lumpur, Malaysia. May 23-27 2016. Best Paper Award</span>
+    <span class="pub-year">2016</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2016" data-topics="printing">
+  <p class="pub-title">Effects of Rheological Manipulation on Suspended Cells for Inkjet Bioprinting Applications</p>
+  <p class="pub-authors"><strong>Eric Cheng</strong>, Haoran Yu, <strong>Ali Ahmadi</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 29th IEEE International Conference on. Micro Electro Mechanical Systems. (MEMS 2016). Shanghai, China. Jan. 24-28, 2016. (pp. 784-787)</span>
+    <span class="pub-year">2016</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2016" data-topics="printing">
+  <p class="pub-title">Investigations of Bio-Ink Rheological Properties for Piezoelectric Cell Printing</p>
+  <p class="pub-authors"><strong>Yan Li</strong>, <strong>Eric Cheng</strong>, Haoran Yu, <strong>Ali Ahmadi</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 16th Hilton Head Workshop on the science and technology of solid-state sensors, actuators, and microsystems (Hilton Head 2016). Hilton Head Island, USA. Jun. 5-9, 2016</span>
+    <span class="pub-year">2016</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2016" data-topics="culture oxygen imaging">
+  <p class="pub-title">Real-Time Monitoring of Tumour Spheroid Swelling Under Transient Hypoxia Using Two-Photon Microscopy</p>
+  <p class="pub-authors"><strong>Samantha M. Grist</strong>, <strong>Loic Laplatine</strong>, <strong>S. Soroush Nasseri</strong>, Andrea Diaz Gaxiola, Lukas Chrostowski, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 20th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2016). Dublin, Ireland. Oct. 9-13, 2016</span>
+    <span class="pub-year">2016</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2016" data-topics="culture oxygen">
+  <p class="pub-title">On-Chip Study of the Drug Response of MCF-7 Breast Cancer Tumour Spheroids under Chronic and Cycling Hypoxia</p>
+  <p class="pub-authors"><strong>Samantha M. Grist</strong>, <strong>Soroush Nasseri</strong>, <strong>Loic Laplatine</strong>, Andrea Diaz Gaxiola, Lukas Chrostowski, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 20th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2016). Dublin, Ireland. Oct. 9-13, 2016</span>
+    <span class="pub-year">2016</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2016" data-topics="microfluidics">
+  <p class="pub-title"><a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:AXPGKjj_ei8C">Density-based single particle isolation using micro-wells on digital microfluidics</a></p>
+  <p class="pub-authors">Mohammad Paknahad, <strong>Ali Ahmadi</strong>, Breanne Enright, <strong>Karen C Cheung</strong>, Mina Hoorfar</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Chemical and Biological Microsystems Society</span>
+    <span class="pub-year">2016</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2016" data-topics="printing">
+  <p class="pub-title"><a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:eMMeJKvmdy0C">Beyond poisson: Passive focusing toward one-cell-per-drop printing</a></p>
+  <p class="pub-authors"><strong>Y Li</strong>, <strong>A Ahmadi</strong>, H Yu, <strong>KC Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Chemical and Biological Microsystems Society</span>
+    <span class="pub-year">2016</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2015</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2015" data-topics="molcom">
+  <p class="pub-title"><a href="https://doi.org/10.1145/2800795.2800821">On the Statistics of Reaction-Diffusion Simulations for Molecular Communication</a></p>
+  <p class="pub-authors"><strong>Adam Noel</strong>, <strong>Karen C. Cheung</strong>, Robert Schober</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the Second Annual International Conference on Nanoscale Computing and Communication</span>
+    <span class="pub-year">2015</span><a class="pub-doi" href="https://doi.org/10.1145/2800795.2800821">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2015" data-topics="molcom">
+  <p class="pub-title">Multi-Scale Stochastic Simulation for Diffusive Molecular Communication</p>
+  <p class="pub-authors"><strong>Adam Noel</strong>, <strong>Karen C. Cheung</strong>, Robert Schober</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the IEEE International Conference on Communications (ICC 2015). London, UK. 8-12 June, 2015. (pp. 1109-1115)</span>
+    <span class="pub-year">2015</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2015" data-topics="culture imaging microfluidics">
+  <p class="pub-title">Two-Photon Imaging for Long-Term Tumor Model Monitoring in a Microfluidic Device</p>
+  <p class="pub-authors"><strong>Samantha Grist</strong>, <strong>Soroush Nasseri</strong>, Tak Poon, Meng-Chi (Andy) Liu, Calvin Roskelley, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 19th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2015). Gyeongju, South Korea. Oct. 25-29, 2015. (pp. 594-596)</span>
+    <span class="pub-year">2015</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2015" data-topics="culture imaging">
+  <p class="pub-title">μSee3D: On-Chip Tissue Clearing for Imaging 3D Cell Cultures</p>
+  <p class="pub-authors"><strong>Samantha Grist</strong>, <strong>Soroush Nasseri</strong>, Tak Poon, <strong>Cynthia Ni</strong>, Calvin Roskelley, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 19th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2015). Gyeongju, South Korea. Oct. 25-29, 2015. (pp. 308-310)</span>
+    <span class="pub-year">2015</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2015" data-topics="culture oxygen microfluidics">
+  <p class="pub-title">A Microfluidic Platform to Study Real-Time Tumour Spheroid Response to Chronic/Transient Hypoxia</p>
+  <p class="pub-authors"><strong>Samantha Grist</strong>, <strong>Jonathan C. Schmok</strong>, <strong>S. Soroush Nasseri</strong>, Meng-Chi (Andy) Liu, Lukas Chrostowski, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 19th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2015). Gyeongju, South Korea. Oct. 25-29, 2015. (pp. 2081-2082)</span>
+    <span class="pub-year">2015</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2014</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2014" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.1117/12.2062389">Improving the performance of silicon photonic rings, disks, and Bragg gratings for use in label-free biosensing</a></p>
+  <p class="pub-authors">Shon Schmidt, <strong>Jonas Flueckiger</strong>, WenXuan Wu, <strong>Samantha M. Grist</strong>, Sahba Talebi Fard, Valentina Donzella, Pakapreud Khumwan, Emily R. Thompson, Qian Wang, Pavel Kulik, Xu Wang, Ahmed Sherwali, James Kirk, <strong>Karen C. Cheung</strong>, Lukas Chrostowski, Daniel Ratner</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">SPIE Proceedings</span>
+    <span class="pub-year">2014</span><a class="pub-doi" href="https://doi.org/10.1117/12.2062389">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2014" data-topics="molcom">
+  <p class="pub-title">Overcoming Noise and Multiuser Interference in Diffusive Molecular Communication</p>
+  <p class="pub-authors"><strong>Adam Noel</strong>, <strong>Karen C. Cheung</strong>, Robert Schober</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 1st ACM International Conference on Nanoscale Computing and Communication (ACM NANOCOM 2014). Atlanta, Georgia, USA, May 13-14, 2014. (9 pp)</span>
+    <span class="pub-year">2014</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2014" data-topics="imaging printing">
+  <p class="pub-title">Imaging Method Developed for the Tracking of Single Cell Behaviours in Inkjet Cell Printing Systems</p>
+  <p class="pub-authors"><strong>Eric Cheng</strong>, <strong>Ali Ahmadi</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 37th Canadian Medical and Biological Engineering Conference (CMBES37). Vancouver, Canada. 20-24, 2014. (4 pp.)</span>
+    <span class="pub-year">2014</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2014" data-topics="microfluidics molcom">
+  <p class="pub-title">Diffusive Molecular Communication with Disruptive Flows</p>
+  <p class="pub-authors"><strong>Adam Noel</strong>, <strong>Karen C. Cheung</strong>, Robert Schober</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the IEEE International Conference on Communications (ICC 2014). Sydney, Australia. 10-14 June, 2014. (pp 3600 – 3606)</span>
+    <span class="pub-year">2014</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2014" data-topics="printing">
+  <p class="pub-title">Investigation of the Hydrodynamics of Suspended Cells for Reliable Inkjet Cell Printing</p>
+  <p class="pub-authors"><strong>Eric Cheng</strong>, <strong>Ali Ahmadi</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the ASME 2014 Fluids Engineering Summer Meeting (FEDSM2014). Chicago, USA. Aug. 3-7, 2014. (8 pp)</span>
+    <span class="pub-year">2014</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2014" data-topics="molcom">
+  <p class="pub-title">Bounds on Distance Estimation via Diffusive Molecular Communication</p>
+  <p class="pub-authors"><strong>Adam Noel</strong>, <strong>Karen C. Cheung</strong>, Robert Schober</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the IEEE Global Communications Conference (Globecom 2014), Symposium on Selected Areas in Communications: GC14 SAC Nanotechnology (‘GC14 SAC Nanotechnology’). Austin, USA. 8-12 Dec, 2014. (pp. 2813-2819). Best Paper Finalist (top 6%)</span>
+    <span class="pub-year">2014</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2014" data-topics="microfluidics">
+  <p class="pub-title">Transient Inertial Flows: A New Degree of Freedom for Particle Focusing in Microfluidic Channels</p>
+  <p class="pub-authors">Michael Winer, <strong>Ali Ahmadi</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 27th IEEE International Conference on Micro Electro Mechanical Systems (MEMS 2014). San Francisco, USA. Jan. 26-30, 2014. (pp 1051-4)</span>
+    <span class="pub-year">2014</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2014" data-topics="microfluidics">
+  <p class="pub-title">Apparent Size Correlation: A Simple Method to Determine Vertical Positions of Particles Using Conventional Microscopy</p>
+  <p class="pub-authors">Michael Winer, <strong>Ali Ahmadi</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 27th IEEE International Conference on Micro Electro Mechanical Systems (MEMS 2014). San Francisco, USA. Jan. 26-30, 2014. (pp 939-942)</span>
+    <span class="pub-year">2014</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2014" data-topics="culture oxygen">
+  <p class="pub-title">3D Cell Culture with Integrated Oxygen Control and Measurement</p>
+  <p class="pub-authors"><strong>Samantha M. Grist</strong>, Selim Gawad, Carmen Bayly, <strong>Linfen Yu</strong>, Lukas Chrostowski, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 37th Canadian Medical and Biological Engineering Conference (CMBES37). Vancouver, Canada. 20-24, 2014. (4 pp.)</span>
+    <span class="pub-year">2014</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2014" data-topics="culture">
+  <p class="pub-title">Matrix Composition and Uniformity of 3D Spheroids for Anticancer Drug Screening</p>
+  <p class="pub-authors"><strong>Linfen Yu</strong>, <strong>Eric Cheng</strong>, <strong>Cynthia Ni</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 18th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2014). San Antonio, USA. Oct. 26-30, 2014. (pp 527-529)</span>
+    <span class="pub-year">2014</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2014" data-topics="microfluidics">
+  <p class="pub-title">Effects of Density Difference Between Particles and Fluid on Inertial Focusing Positions in Transient Micro-Flows</p>
+  <p class="pub-authors">Michael Winer, <strong>Ali Ahmadi</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 18th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2014). San Antonio, USA. Oct. 26-30, 2014. (pp 2462-2464)</span>
+    <span class="pub-year">2014</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2014" data-topics="culture imaging">
+  <p class="pub-title">Modulated Two-Photon Imaging of Whole Spheroids for Three-Dimensional Cell Cultures</p>
+  <p class="pub-authors"><strong>Samantha Grist</strong>, <strong>Eric Cheng</strong>, <strong>Linfen Yu</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 18th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2014). San Antonio, USA. Oct. 26-30, 2014. (pp 551-553)</span>
+    <span class="pub-year">2014</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2014" data-topics="culture">
+  <p class="pub-title">Automated Analysis of Collagen Reorganization Over Time in Three-Dimensional Cell Cultures</p>
+  <p class="pub-authors"><strong>Eric Cheng</strong>, Chi Hoon Song, <strong>Linfen Yu</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 18th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2014). San Antonio, USA. Oct. 26-30, 2014. (pp 2514-2515)</span>
+    <span class="pub-year">2014</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2013</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2013" data-topics="photonics">
+  <p class="pub-title">Label-free silicon photonic biosensors for use in clinical diagnostics</p>
+  <p class="pub-authors">Sahba Talebi Fard, <strong>Samantha M. Grist</strong>, Valentina Donzella, Shon A. Schmidt, <strong>Jonas Flueckiger</strong>, Xu Wang, Wei Shi, Andrew Millspaugh, Mitchell Webb, Daniel M. Ratner, <strong>Karen C. Cheung</strong>, Lukas Chrostowski</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">SPIE Photonics West MEMS, 2-7 Feb, (13 pp)</span>
+    <span class="pub-year">2013</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2013" data-topics="molcom">
+  <p class="pub-title">Using Dimensional Analysis to Assess Scalability and Accuracy in Molecular Communication</p>
+  <p class="pub-authors"><strong>Adam Noel</strong>, <strong>Karen C. Cheung</strong>, Robert Schober</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">IEEE International Conference on Communications, 9-13 June, 2013. Budapest, Hungary. (pp 818-823)</span>
+    <span class="pub-year">2013</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2013" data-topics="culture microfluidics">
+  <p class="pub-title">Microfluidic core-shell beads for tumor spheroid culture</p>
+  <p class="pub-authors">Carmen Bayly, <strong>Linfen Yu</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">2013 Biomedical Engineering Society BMES Annual Meeting. Seattle, USA. Sep. 25-28, 2013</span>
+    <span class="pub-year">2013</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2013" data-topics="photonics">
+  <p class="pub-title">Phase-shifted Slot Waveguide Bragg Grating Biosensors</p>
+  <p class="pub-authors">Shon A Schmidt, Xu Wang, <strong>Jonas Flueckiger</strong>, <strong>Samantha M. Grist</strong>, James Kirk, <strong>Karen C. Cheung</strong>, Lukas Chrostowski, Daniel M. Ratner</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Biomedical Engineering Society BMES Annual Meeting. Seattle, USA. Sep. 25-28, 2013</span>
+    <span class="pub-year">2013</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2013" data-topics="culture">
+  <p class="pub-title">Matrigel-Alginate Core-Shell Beads for Controlled Tumor Spheroid Formation</p>
+  <p class="pub-authors"><strong>Linfen Yu</strong>, Carmen Bayly, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 17th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2013). Freiburg, Germany. Oct. 27-31, 2013. pp. 1716-1718</span>
+    <span class="pub-year">2013</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2013" data-topics="culture microfluidics">
+  <p class="pub-title">Alginate Encapsulation of Cell-Laden Beads for Microfluidic Tumor Spheroid Culture</p>
+  <p class="pub-authors">Carmen Bayly, <strong>Linfen Yu</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 17th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2013). Freiburg, Germany. Oct. 27-31, 2013. pp. 1710-1712</span>
+    <span class="pub-year">2013</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2013" data-topics="printing microfluidics">
+  <p class="pub-title"><a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:M3NEmzRMIkIC">Fluid Flow in Cell Printing</a></p>
+  <p class="pub-authors">Maziyar Jalaal, <strong>Eric Cheng</strong>, <strong>Ali Ahmadi</strong>, <strong>Karen Cheung</strong>, Boris Stoeber</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">APS Division of Fluid Dynamics Meeting Abstracts, D19. 001</span>
+    <span class="pub-year">2013</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2012</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2012" data-topics="photonics">
+  <p class="pub-title">Silicon photonic resonator sensors and devices</p>
+  <p class="pub-authors">Lukas Chrostowski, <strong>Samantha Grist</strong>, <strong>Jonas Flueckiger</strong>, Wei Shi, Xu Wang, Eric Ouellet, Han Yun, Mitch Webb, Ben Nie, Zhen Liang, <strong>Karen C. Cheung</strong>, Shon A. Schmidt, Daniel M. Ratner, Nicolas A. F. Jaeger</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the International Society for Optics and Photonics (SPIE Photonics West MOEMS-MEMS). San Francisco, USA. 21-26, 2012. 823610 (17 pp)</span>
+    <span class="pub-year">2012</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2012" data-topics="molcom">
+  <p class="pub-title">Improving Diffusion-Based Molecular Communication with Unanchored Enzymes</p>
+  <p class="pub-authors"><strong>Adam Noel</strong>, <strong>Karen C. Cheung</strong>, Robert Schober</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of Bionetics 2012, 7th International Conference on Bio- Inspired Models of Network, Information, and Computing Systems. Dec 10-11, 2012. Lugano, Switzerland (15 pp)</span>
+    <span class="pub-year">2012</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2012" data-topics="microfluidics">
+  <p class="pub-title">Microfluidic cell culture systems with integrated sensors for drug screening</p>
+  <p class="pub-authors"><strong>Samantha Grist</strong>, <strong>Linfen Yu</strong>, Lukas Chrostowski, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the International Society for Optics and Photonics (SPIE Photonics West MOEMS-MEMS). San Francisco, USA. 21-26, 2012. 825103 (12 pp)</span>
+    <span class="pub-year">2012</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2012" data-topics="sensors">
+  <p class="pub-title">Thin film patterning using a water-soluble etch mask</p>
+  <p class="pub-authors"><strong>Samantha Grist</strong>, Lukas Chrostowski, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 16th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2012). Okinawa, Japan. Oct. 28-Nov. 1, 2012. (pp 668-670)</span>
+    <span class="pub-year">2012</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2011</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2011" data-topics="photonics microfluidics">
+  <p class="pub-title">Cascaded silicon-on-insulator microring resonators for the detection of biomolecules in PDMS microfluidic channels</p>
+  <p class="pub-authors"><strong>Jonas Flueckiger</strong>, <strong>Samantha M. Grist</strong>, Gurpal Bisra, Lukas Chrostowski, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the International Society for Optics and Photonics (SPIE Photonics West MOEMS-MEMS). San Francisco, USA. 22-27, 2011. 79290I-1 (10 pp)</span>
+    <span class="pub-year">2011</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2011" data-topics="organ microfluidics">
+  <p class="pub-title">Hydrogel-based Microfluidic Cell Culture Systems for Drug Screening</p>
+  <p class="pub-authors"><strong>Linfen Yu</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 23rd Canadian Congress of Applied Mechanics (2011 CANCAM). Vancouver, Canada. 5-9, 2011. (pp 45-48)</span>
+    <span class="pub-year">2011</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2011" data-topics="microfluidics">
+  <p class="pub-title">Characterization of Drug-Induced Autophagy and Cytotoxicity in MCF7 Cells on Multilayer Microfluidic Device</p>
+  <p class="pub-authors"><strong>Linfen Yu</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 15th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2011). Seattle, USA. Oct. 2-6, 2011. pp.103-105</span>
+    <span class="pub-year">2011</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2011" data-topics="photonics microfluidics">
+  <p class="pub-title">Label-Free Biosensing Using Cascaded Silicon-on-Insulator Micro-Racetrack Resonators Integrated with PDMS Microfluidic Channels</p>
+  <p class="pub-authors"><strong>Jonas Flueckiger</strong>, <strong>Samantha M. Grist</strong>, Eric Ouellet, Lukas Chrostowski, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 15th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2011). Seattle, USA. Oct. 2-6, 2011. (pp 565-567)</span>
+    <span class="pub-year">2011</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2010</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2010" data-topics="sensors">
+  <p class="pub-title">Electrospun Nanofibre Based Chemical Sensor: Electrical Characterization</p>
+  <p class="pub-authors"><strong>Jonas Flueckiger</strong>, Frank Ko, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 33rd Conference of the Canadian Medical and Biological Engineering Society. (CMBEC 33). Vancouver, Canada. Jun 15-18, 2010. (3 pp.)</span>
+    <span class="pub-year">2010</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2010" data-topics="culture printing microfluidics">
+  <p class="pub-title">Droplet-Based Microfluidic System for Tumor Cell Encapsulation in Alginate Beads and Anticancer Drug Testing</p>
+  <p class="pub-authors"><strong>Linfen Yu</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 33rd Conference of the Canadian Medical and Biological Engineering Society. (CMBEC 33). Vancouver, Canada. Jun 15-18, 2010. (4 pp.)</span>
+    <span class="pub-year">2010</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2010" data-topics="sensors">
+  <p class="pub-title">Electrospun Electroactive Polymer and Metal Oxide Nanofibers for Chemical Sensor Applications</p>
+  <p class="pub-authors"><strong>Jonas Flueckiger</strong>, Frank Ko, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the ASME 2010 International Mechanical Engineering Congress & Exposition. (IMECE2010). Vancouver, Canada. 12-18, 2010. (pp 583-589)</span>
+    <span class="pub-year">2010</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2009</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2009" data-topics="culture organ microfluidics">
+  <p class="pub-title">Hydrogel-Based Microfluidic System for Cell-Based Anticancer Agent Screening</p>
+  <p class="pub-authors">Michael C.W. Chen, Madhuja Gupta, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 13th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS 2009). Jeju Island, Korea. Nov, 2009. 1916-1918</span>
+    <span class="pub-year">2009</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2008</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2008" data-topics="microfluidics">
+  <p class="pub-title"><a href="https://doi.org/10.1109/ims3tw.2008.4581623">Integrated microfluidic systems for cell culture and characterization</a></p>
+  <p class="pub-authors"><strong>Jonas Flueckiger</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">2008 IEEE 14th International Mixed-Signals, Sensors, and Systems Test Workshop</span>
+    <span class="pub-year">2008</span><a class="pub-doi" href="https://doi.org/10.1109/ims3tw.2008.4581623">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2008" data-topics="organ">
+  <p class="pub-title">Locally Defined Thermally Reversible Hydrogel Formation in Microchannels</p>
+  <p class="pub-authors"><strong>Jonas Flueckiger</strong>, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 12th International Conference on Miniaturized Systems for Chemistry and Life Sciences. (MicroTAS 2008). San Diego, California, United States. Oct, 2008. 775 – 777</span>
+    <span class="pub-year">2008</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2008" data-topics="organ microfluidics">
+  <p class="pub-title">Hydrogel-based microfluidic systems for co-culture of cells</p>
+  <p class="pub-authors">Michael C.W. Chen, Madhuja Gupta, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 30th Annual International Conference of the IEEE Engineering in Medicine and Biology Society. (IEEE EMBC’08). Vancouver, British Columbia, Canada. Aug, 2008. 4848-4851</span>
+    <span class="pub-year">2008</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2008" data-topics="culture organ microfluidics">
+  <p class="pub-title"><a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:isC4tDSrTZIC">Microfluidic patterning of alginate hydrogels for reversible co-culture of cells</a></p>
+  <p class="pub-authors">Michael CW Chen, Madhuja Gupta, <strong>Karen C Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Panomino 2008</span>
+    <span class="pub-year">2008</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2007</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2007" data-topics="neural">
+  <p class="pub-title">Demonstration of Cortical Recording and Reduced Inflammatory Response Using Flexible Polymer Neural Probes</p>
+  <p class="pub-authors">Andre Mercanzini, <strong>Karen C. Cheung</strong>, Derek Buhl, Marc Boers, Anne Maillard, Philippe Colin, Jean-Charles Bensadoun, Arnaud Bertsch, Alan Carleton, Philippe Renaud</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 20th IEEE International Conference on MEMS. Kobe, Japan. Jan, 2007. 573 – 576</span>
+    <span class="pub-year">2007</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2006</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2006" data-topics="neural sensors">
+  <p class="pub-title">Flexible Microelectrode Array: in vivo Recording and Tissue Reaction</p>
+  <p class="pub-authors"><strong>Karen C. Cheung</strong>, Philippe Renaud, Heikki Tanila, Kaj Djupsund</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 29th Canadian Medical and Biological Engineering Conference. Vancouver, British Columbia, Canada. Jun, 2006</span>
+    <span class="pub-year">2006</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2005</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2005" data-topics="neural sensors">
+  <p class="pub-title">Comparison of Tissue Reaction to Implanted Polyimide and Silicon Microelectrode Arrays</p>
+  <p class="pub-authors"><strong>Karen C. Cheung</strong>, Yinghui Zhong, Philippe Renaud, Ravi Bellamkonda</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">European Cells and Materials Vol. 10 Suppl. 5, page TM2 (Biosurf VI – Tissue-Surface Interaction, Lausanne, Switzerland). 2005</span>
+    <span class="pub-year">2005</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2005" data-topics="">
+  <p class="pub-title"><a href="https://doi.org/10.1109/essder.2005.1546656">Biomems in medicine: diagnostic and therapeutic systems</a></p>
+  <p class="pub-authors"><strong>K.C. Cheung</strong>, P. Renaud</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of 35th European Solid-State Device Research Conference, 2005. ESSDERC 2005.</span>
+    <span class="pub-year">2005</span><a class="pub-doi" href="https://doi.org/10.1109/essder.2005.1546656">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2004</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2004" data-topics="microfluidics">
+  <p class="pub-title">Microfluidic Impedance Spectroscopy Flow Cytometer: Particle Size Calibration</p>
+  <p class="pub-authors"><strong>Karen C. Cheung</strong>, Shady Gawad, Philippe Renaud</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 17th IEEE International Conference on MEMS. Maastricht, Netherlands. Jan, 2004. 343 – 346</span>
+    <span class="pub-year">2004</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2004" data-topics="microfluidics">
+  <p class="pub-title">Impedance Spectroscopy Flow Cytometry: Parameters for Label-Free Cell Differentiation</p>
+  <p class="pub-authors"><strong>Karen C. Cheung</strong>, Shady Gawad, Philippe Renaud</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 8th International Conference on Micro Total Analysis Systems. Malmo, Sweden. Sep, 2004. 55 – 57</span>
+    <span class="pub-year">2004</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2004" data-topics="microfluidics">
+  <p class="pub-title">Impedance Spectroscopy Flow Cytometry: Model Validation</p>
+  <p class="pub-authors">Shady Gawad, <strong>Karen C. Cheung</strong>, Philippe Renaud</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 8th International Conference on Micro Total Analysis Systems. Malmo, Sweden. Sep, 2004. 58 – 60</span>
+    <span class="pub-year">2004</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2002</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2002" data-topics="neural sensors">
+  <p class="pub-title">Nanostructured Electrodes for Neural Chip Applications</p>
+  <p class="pub-authors"><strong>Karen C. Cheung</strong>, Yang-Kyu Choi, Tim Kubow, Luke P. Lee</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 6th International Conference on Micro Total Analysis Systems. 6th International Conference on Micro Total Analysis Systems. Nara, Japan. Nov, 2002. 778 – 780</span>
+    <span class="pub-year">2002</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2002" data-topics="neural sensors">
+  <p class="pub-title">Nanostructured Electrodes for Improved Neural Recording</p>
+  <p class="pub-authors"><strong>Karen C. Cheung</strong>, Yang-Kyu Choi, Tim Kubow, Luke P. Lee</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the Materials Research Society Spring 2002 Meeting. San Francisco, United States. Jun, 2002</span>
+    <span class="pub-year">2002</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2002" data-topics="neural">
+  <p class="pub-title">Microfabricated Patch Clamp Array for Neural MEMS Applications</p>
+  <p class="pub-authors">Tim Kubow, <strong>Karen C. Cheung</strong>, Loren F. Bentley, Luke P. Lee</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the Materials Research Society Spring 2002 Meeting. San Francisco, United States. Jun, 2002</span>
+    <span class="pub-year">2002</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2002" data-topics="neural">
+  <p class="pub-title">Individually Addressable Planar Patch Clamp Array</p>
+  <p class="pub-authors"><strong>Karen C. Cheung</strong>, Tim Kubow, Luke P. Lee</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 2nd Annual International IEEE-EMBS Special Topic Conference on Microtechnologies in Medicine and Biology. Madison, Wisconsin, United States. May, 2002. 72 – 76</span>
+    <span class="pub-year">2002</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2000</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="2000" data-topics="neural">
+  <p class="pub-title">A new neural probe using SOI wafers with topological interlocking mechanisms</p>
+  <p class="pub-authors"><strong>Karen C. Cheung</strong>, Gun Lee, Kaj Djupsund, Yang Dan, Luke P. Lee</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 1st Annual International IEEE-EMBS Special Topic Conference on Microtechnologies in Medicine and Biology. Lyon, France. Oct, 2000. 507 – 511</span>
+    <span class="pub-year">2000</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="conference" data-year="2000" data-topics="neural">
+  <p class="pub-title"><a href="https://doi.org/10.1109/mmb.2000.893842">Mechanical interlocking with precisely controlled nano- and microscale geometries for implantable microdevices</a></p>
+  <p class="pub-authors">G.Y. Lee, <strong>K. Cheung</strong>, W. Chang, L.P. Lee</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">1st Annual International IEEE-EMBS Special Topic Conference on Microtechnologies in Medicine and Biology. Proceedings (Cat. No.00EX451)</span>
+    <span class="pub-year">2000</span><a class="pub-doi" href="https://doi.org/10.1109/mmb.2000.893842">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">1997</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="conference" data-year="1997" data-topics="sensors">
+  <p class="pub-title">In vitro immunoisolative properties of microfabricated biocapsules</p>
+  <p class="pub-authors">Tejal A. Desai, <strong>Karen C. Cheung</strong>, W.H. Chu, Mauro Ferrari</p>
+  <p class="pub-meta">
+    <span class="badge badge-conference">Conference</span>
+    <span class="pub-venue">Proceedings of the 19th Annual International Conference of the IEEE Engineering in Medicine and Biology Society. Chicago, USA. Oct, 1997. 2578 – 2581</span>
+    <span class="pub-year">1997</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+    </section>
+    <section class="pub-section" id="preprint" data-section="preprint">
+      <h2>Preprints <span class="count">5</span></h2>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2026</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="preprint" data-year="2026" data-topics="culture organ">
+  <p class="pub-title"><a href="https://doi.org/10.64898/2026.09.28.755099">Strategies to improve neurite outgrowth from primary neurons in gelatin methacrylate hydrogels polymerized with visible light exposure inside a microscale 3D model</a></p>
+  <p class="pub-authors">Iryna Liubchak, Joseph Sadden, Tanya Solomon, Yvonne Xie, Sai Cheong Ng, <strong>Tanya Bennet</strong>, Nasrin Zohreh, Peter Van den Doel, Alex Pieters, Paul Juralowicz, Alexis Hilts, Alicia Fung, Samantha Mung, Kaiwen Liu, Tara M. Caffrey, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-preprint">Preprint</span>
+    <span class="pub-venue">openRxiv</span>
+    <span class="pub-year">2026</span><a class="pub-doi" href="https://doi.org/10.64898/2026.09.28.755099">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="preprint" data-year="2026" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.64898/2026.09.26.754695">Multiplexed hormone immunoassays for women’s health on a regenerable silicon photonic chip</a></p>
+  <p class="pub-authors"><strong>Samantha M. Grist</strong>, Maggie Wang, Lauren S. Puumala, Myra Wei, Karyn Newton, Ben Cohen-Kleinstein, Kowsar Heydaria, Sajida Chowdhury, Jaden Sequeira, Kithmin Wickremasinghe, Zavary Koehn, Nicholas Tang, Lukas Chrostowski, Sudip Shekhar, <strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-preprint">Preprint</span>
+    <span class="pub-venue">openRxiv</span>
+    <span class="pub-year">2026</span><a class="pub-doi" href="https://doi.org/10.64898/2026.09.26.754695">DOI</a>
+  </p>
+</li>
+
+          <li class="pub" data-type="preprint" data-year="2026" data-topics="photonics">
+  <p class="pub-title"><a href="https://doi.org/10.1364/opticaopen.31314124.v1">Rapid prototyping of laser-integrated silicon photonic circuits using wafer-scale photonic wire bonding</a></p>
+  <p class="pub-authors">Sheri Chowdhury, Ben Cohen, <strong>Samantha Grist</strong>, Rhiannon Evans, Peter Doel, Ella Yan, Sudip Shekhar, <strong>Karen Cheung</strong>, Lukas Chrostowski</p>
+  <p class="pub-meta">
+    <span class="badge badge-preprint">Preprint</span>
+    <span class="pub-venue">Optica Publishing Group</span>
+    <span class="pub-year">2026</span><a class="pub-doi" href="https://doi.org/10.1364/opticaopen.31314124.v1">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2025</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="preprint" data-year="2025" data-topics="organ imaging">
+  <p class="pub-title"><a href="https://doi.org/10.1101/2025.09.15.676407">Optical Properties of Gelatin Methacrylate and Implications for In Situ Cross-Linking in Spinal Cord Lesions and Engineered Hydrogel Systems</a></p>
+  <p class="pub-authors">P. R. Juralowicz, <strong>T. J. Bennet</strong>, I. Liubchak, Z. Xie, Y. Oloumi Yazdi, T. M. Caffrey, <strong>K. C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-preprint">Preprint</span>
+    <span class="pub-venue">openRxiv</span>
+    <span class="pub-year">2025</span><a class="pub-doi" href="https://doi.org/10.1101/2025.09.15.676407">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2024</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="preprint" data-year="2024" data-topics="photonics">
+  <p class="pub-title"><a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:dQ2og3OwTAUC">An integrated evanescent-field biosensor in silicon</a></p>
+  <p class="pub-authors">Mohammed A Al-Qadasi, <strong>Samantha M Grist</strong>, Matthew Mitchell, Karyn Newton, Stephen Kioussis, Sheri J Chowdhury, <strong>Avineet Randhawa</strong>, Yifei Liu, Piramon Tisapramotkul, <strong>Karen C Cheung</strong>, Lukas Chrostowski, Sudip Shekhar</p>
+  <p class="pub-meta">
+    <span class="badge badge-preprint">Preprint</span>
+    <span class="pub-venue">arXiv preprint arXiv:2409.15489</span>
+    <span class="pub-year">2024</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+    </section>
+    <section class="pub-section" id="chapter" data-section="chapter">
+      <h2>Book chapters <span class="count">4</span></h2>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2018</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="chapter" data-year="2018" data-topics="printing sensors">
+  <p class="pub-title"><a href="https://doi.org/10.1007/978-1-4939-7778-9_30">Highly Efficient and Reliable DNA Aptamer Selection Using the Partitioning Capabilities of ddPCR: The Hi-Fi SELEX Method</a></p>
+  <p class="pub-authors">Aaron Ang, Eric Ouellet, <strong>Karen C. Cheung</strong>, Charles Haynes</p>
+  <p class="pub-meta">
+    <span class="badge badge-chapter">Chapter</span>
+    <span class="pub-venue">Methods in Molecular Biology</span>
+    <span class="pub-year">2018</span><a class="pub-doi" href="https://doi.org/10.1007/978-1-4939-7778-9_30">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2010</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="chapter" data-year="2010" data-topics="neural sensors">
+  <p class="pub-title"><a href="https://doi.org/10.1007/978-0-387-98120-8_6">Thin-Film Microelectrode Arrays for Biomedical Applications</a></p>
+  <p class="pub-authors"><strong>Karen C. Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-chapter">Chapter</span>
+    <span class="pub-venue">Biological and Medical Physics, Biomedical Engineering</span>
+    <span class="pub-year">2010</span><a class="pub-doi" href="https://doi.org/10.1007/978-0-387-98120-8_6">DOI</a>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2006</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="chapter" data-year="2006" data-topics="neural sensors">
+  <p class="pub-title"><a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:R3hNpaxXUhUC">The Lausanne Neuroprosthesis: A Flexible Polyimide Microelectrode for Acute and Chronic Cortical Recordings</a></p>
+  <p class="pub-authors">André Mercanzini, <strong>Karen Cheung</strong>, Arnaud Bertsch, Philippe Renaud</p>
+  <p class="pub-meta">
+    <span class="badge badge-chapter">Chapter</span>
+    <span class="pub-venue">Dynamical principles for neuroscience and intelligent biomimetic devices, 109</span>
+    <span class="pub-year">2006</span>
+  </p>
+</li>
+
+          <li class="pub" data-type="chapter" data-year="2006" data-topics="neural sensors">
+  <p class="pub-title"><a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:j3f4tGmQtD8C">Technological and Bioelectrical Considerations for Neural Interfacing Microelectrode Arrays</a></p>
+  <p class="pub-authors">Ph Renaud, P Linderholm, A Mercanzini, <strong>K Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-chapter">Chapter</span>
+    <span class="pub-venue">Dynamical principles for neuroscience and intelligent biomimetic devices, 45</span>
+    <span class="pub-year">2006</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+    </section>
+    <section class="pub-section" id="patent" data-section="patent">
+      <h2>Patents <span class="count">3</span></h2>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2024</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="patent" data-year="2024" data-topics="photonics">
+  <p class="pub-title"><a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:ye4kPcJQO24C">Photonic sensor using a fixed-wavelength laser</a></p>
+  <p class="pub-authors">Lukas Chrostowski, Sudip Shekhar, <strong>Samantha GRIST</strong>, <strong>Karen C Cheung</strong>, Mohammed Ali AL-QADASI</p>
+  <p class="pub-meta">
+    <span class="badge badge-patent">Patent</span>
+    <span class="pub-venue">US Patent 11,940,386</span>
+    <span class="pub-year">2024</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2022</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="patent" data-year="2022" data-topics="printing microfluidics">
+  <p class="pub-title"><a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:HE397vMXCloC">Facilitating controlled particle deposition from a droplet dispenser</a></p>
+  <p class="pub-authors"><strong>Karen Chihmin CHEUNG</strong>, <strong>Eric Kin-Kwok CHENG</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-patent">Patent</span>
+    <span class="pub-venue">US Patent App. 17/649,959</span>
+    <span class="pub-year">2022</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2013</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="patent" data-year="2013" data-topics="microfluidics">
+  <p class="pub-title"><a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:hMod-77fHWUC">Microfluidic arrays and methods for their preparation and use</a></p>
+  <p class="pub-authors">YU Linfen, <strong>Karen C Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-patent">Patent</span>
+    <span class="pub-venue">US Patent App. 13/567,801</span>
+    <span class="pub-year">2013</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+    </section>
+    <section class="pub-section" id="thesis" data-section="thesis">
+      <h2>Theses <span class="count">1</span></h2>
+      <div class="pub-year-group" data-year-group>
+        <h3 class="year">2002</h3>
+        <ol class="pub-list">
+          <li class="pub" data-type="thesis" data-year="2002" data-topics="neural">
+  <p class="pub-title"><a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=ff8dRzkAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=ff8dRzkAAAAJ:7PzlFSSx8tAC">Microscale and nanoscale neural interfaces</a></p>
+  <p class="pub-authors"><strong>Karen Chihmin Cheung</strong></p>
+  <p class="pub-meta">
+    <span class="badge badge-thesis">Thesis</span>
+    <span class="pub-venue">PhD thesis, University of California, Berkeley</span>
+    <span class="pub-year">2002</span>
+  </p>
+</li>
+
+        </ol>
+      </div>
+    </section>
+    <p class="empty-state" data-pub-empty hidden>No publications match. Try a different search or clear the filters.</p>
+  </div>
+</div>
+
+</div>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-title">Bio-Medical Micro Devices Laboratory</p>
+      <p class="muted">The Bio-Medical Micro Devices Laboratory at the University of British Columbia builds microfluidic, photonic and microfabricated tools for 3-D cell culture, organs-on-chip, biosensing and cell printing.</p>
+    </div>
+    <div>
+      <p class="eyebrow">Visit</p>
+      <address>
+        146A Brimacombe Building (AMPEL)<br>
+        2355 East Mall<br>
+        Vancouver, BC V6T 1Z4<br>
+        Canada
+      </address>
+    </div>
+    <div>
+      <p class="eyebrow">Connect</p>
+      <ul class="footer-links">
+        <li><a href="mailto:kcheung@ece.ubc.ca"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5h18v11H3z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m3.5 7 8.5 6.5L20.5 7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>kcheung@ece.ubc.ca</a></li>
+        <li><a href="https://scholar.google.ca/citations?user=ff8dRzkAAAAJ"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 1.5 9.5 12 16l10.5-6.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M5.5 12v4.5c0 1.5 3 3.5 6.5 3.5s6.5-2 6.5-3.5V12" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>Google Scholar</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLFpEETyPCgTSJdhBpAsKbH3AR96cyLS7O"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="3.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m10 9 5 3-5 3z" fill="currentColor"/></svg>YouTube</a></li>
+        <li><a href="https://ece.ubc.ca/"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3.2-3.2a4 4 0 0 0-5.7-5.7L12 6.3M14 10a4 4 0 0 0-5.7 0l-3.2 3.2a4 4 0 0 0 5.7 5.7l1.2-1.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>UBC ECE</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-base">
+    <span>&copy; 2026 The University of British Columbia</span>
+    <span>Last updated 7 November 2026</span>
+  </div>
+</footer>
+
+</body>
+</html>
