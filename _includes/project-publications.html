@@ -1,0 +1,15 @@
+{%- assign references = site.data.project-publications[include.project] -%}
+{%- include lab-keys.html -%}
+<ol class="pub-list project-publications">
+  {%- for reference in references -%}
+    {%- if reference.id -%}
+      {%- assign p = site.data.citations | where: "id", reference.id | first -%}
+    {%- else -%}
+      {%- assign p = site.data.citations | where: "title", reference.title | first -%}
+    {%- endif -%}
+    {%- if p %}
+      {% include pub.html link_to_list=true %}
+    {%- endif -%}
+  {%- endfor %}
+</ol>
+<p><a class="text-link" href="{{ '/publications/' | relative_url }}">Browse all lab publications {% include icon.html name="arrow" %}</a></p>

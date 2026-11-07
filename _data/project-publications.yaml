@@ -1,0 +1,34 @@
+# References resolve against the same citation records used by /publications/.
+# Use a title only when the existing record has no DOI id.
+silicon-photonic-biosensors:
+  - id: doi:10.64898/2026.09.26.754695
+  - id: doi:10.1063/5.0330876
+  - id: doi:10.1364/oe.545801
+  - id: doi:10.3390/bios13010053
+  - id: doi:10.3390/bios12100840
+
+precision-bioprinting:
+  - id: doi:10.1021/acs.analchem.5c07174
+  - id: doi:10.1039/d5lc00514k
+  - id: doi:10.1088/1758-5090/8/1/015008
+  - id: doi:10.1007/s10404-015-1589-x
+
+microfluidic-tissue-models:
+  - id: doi:10.1038/s41598-026-69468-5
+  - id: doi:10.1038/s41598-019-54001-8
+  - id: doi:10.1063/1.4959031
+  - id: doi:10.3390/s150820030
+
+biomaterials-neural-repair:
+  - id: doi:10.1038/s41598-026-68845-4
+  - id: doi:10.64898/2026.09.28.755099
+  - id: doi:10.1101/2025.09.15.676407
+
+engineering-education:
+  - id: doi:10.24908/pceea.2026.21647
+  - id: doi:10.24908/pceea.2026.21578
+  - title: Evaluating STEM/Engineering Identity of Elementary and High School Students in STEM Outreach Programs
+  - id: doi:10.24908/pceea.2025.19608
+  - id: doi:10.24908/pceea.2024.18567
+  - id: doi:10.24908/pceea.2024.18561
+  - id: doi:10.18260/1-2--47774

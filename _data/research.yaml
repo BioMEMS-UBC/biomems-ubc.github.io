@@ -5,25 +5,40 @@
   title: Silicon Photonic Biosensors for Accessible Molecular Measurements
   description: We develop miniature optical sensors to measure multiple biological molecules on a single chip. By combining silicon photonics, molecular recognition assays, and microfluidics, we aim to make molecular measurements more accessible and support the study of changing biological processes.
   link: /research/silicon-photonic-biosensors/
+  image: images/research/silicon-photonic-biosensors-concept.jpg
+  image_alt: Concept illustration of molecular targets binding to optical microring sensors beneath a microfluidic channel.
+  image_caption: 'Concept illustration: silicon photonic sensing, molecular recognition, and microfluidic sample delivery.'
 
 - slug: precision-bioprinting
   title: Precision Bioprinting and Single-Cell Technologies
   description: We combine inkjet printing, real-time optical imaging, and machine learning to dispense individual living cells with greater accuracy and efficiency. Our work connects fundamental studies of cell motion and fluid mechanics with automated workflows for single-cell genomic and proteomic analysis.
   link: /research/precision-bioprinting/
+  image: images/research/precision-bioprinting-concept.jpg
+  image_alt: Concept illustration of a nozzle dispensing a single-cell droplet into a nanowell array with optical monitoring.
+  image_caption: 'Concept illustration: image-guided dispensing of individual cells into nanowell arrays.'
   legacy_anchors: [inkjet]
 
 - slug: microfluidic-tissue-models
   title: Microfluidic Tissue Models and Organ-on-Chip Systems
   description: We build microfluidic platforms that recreate selected features of cellular environments under controlled laboratory conditions. Integrating three-dimensional cultures, engineered extracellular matrices, and quantitative imaging, we investigate how oxygen availability, fluid flow, and tissue interfaces influence cell behaviour and responses to treatment.
   link: /research/microfluidic-tissue-models/
+  image: images/research/microfluidic-tissue-models-concept.jpg
+  image_alt: Concept illustration of cell spheroids in an engineered matrix inside a microfluidic tissue culture chip.
+  image_caption: 'Concept illustration: three-dimensional tissue cultures within a controlled microfluidic environment.'
   legacy_anchors: [3d-culture, imaging, hypoxia]
 
 - slug: biomaterials-neural-repair
   title: Engineering Biomaterials for Neural Repair
   description: We investigate how engineered hydrogels and their physical properties influence neural growth and regeneration. As part of the interdisciplinary Mend the Gap initiative, we combine microscale neural tissue models, hydrogel characterization, and quantitative imaging to inform biomaterial-based approaches to spinal cord injury repair.
   link: /research/biomaterials-neural-repair/
+  image: images/research/biomaterials-neural-repair-concept.jpg
+  image_alt: Concept illustration of branching neural processes extending through an aligned hydrogel scaffold.
+  image_caption: 'Concept illustration: engineered hydrogel microstructures and neural growth.'
 
 - slug: engineering-education
   title: Engineering Education and Inclusion
   description: Through collaborative studies of STEM outreach, engineering identity, and educational program design, we examine how learning experiences can broaden participation in engineering. We also investigate educational approaches that prepare engineers for interdisciplinary and translational biomedical practice.
   link: /research/engineering-education/
+  image: images/research/engineering-education-concept.jpg
+  image_alt: Concept illustration of a diverse group of engineering learners collaborating around a biomedical prototype at an accessible workbench.
+  image_caption: 'Concept illustration: inclusive, collaborative learning in biomedical engineering.'

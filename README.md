@@ -22,6 +22,8 @@ For changes you want someone to check first, commit to a new branch and open a p
 | News | add `_posts/YYYY-MM-DD-short-title.md` |
 | Project blurbs and links | `_data/research.yaml` |
 | Full project descriptions | `research/<project-slug>/index.md` |
+| Project illustrations and captions | `images/research/*-concept.jpg` and `_data/research.yaml` (generation prompts in `_artwork/`) |
+| Publications selected for each project | `_data/project-publications.yaml` (references existing citation IDs or titles) |
 | Publication topics | `_data/topics.yml` (keywords matched against titles) |
 | Page text | `_layouts/home.html`, `research/`, `team/`, `join/`, `contact/` |
 | Site title, navigation, contact details | `_config.yaml` |

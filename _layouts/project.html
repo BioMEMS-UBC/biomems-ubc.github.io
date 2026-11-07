@@ -1,0 +1,11 @@
+---
+layout: page
+---
+{%- assign project = site.data.research | where: "slug", page.project | first -%}
+{%- if project.image %}
+<figure class="figure project-figure">
+  <img src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}" width="1536" height="1024" decoding="async">
+  <figcaption>{{ project.image_caption }}</figcaption>
+</figure>
+{%- endif %}
+{{ content }}

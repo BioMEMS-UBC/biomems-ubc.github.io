@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: project
 title: 'Engineering Education and Inclusion'
 eyebrow: Research project
+project: engineering-education
 lead: 'Broadening participation in engineering and preparing students for interdisciplinary practice.'
 ---
 
@@ -27,20 +28,8 @@ Together, these activities reflect an interest in both who participates in engin
 
 We are pleased to contribute to the Cultivating Inclusion in Engineering Lab (CIEL) at UBC, an interdisciplinary research team bringing together expertise in engineering, education, and the social sciences to better understand and address barriers to participation in engineering. Working alongside colleagues who lead this research, we have contributed to studies examining STEM outreach, engineering identity, and the influence of family background and prior experiences on young people's engagement with engineering. This collaboration has provided a valuable opportunity to contribute to evidence-based approaches for broadening participation in engineering, while learning from colleagues with complementary expertise in educational research.
 
-## Publications and links
+## Selected publications
 
-- [CEEA proceedings article 21647](https://ojs.library.queensu.ca/index.php/PCEEA/article/view/21647)
-
-- [CEEA proceedings article 21578](https://ojs.library.queensu.ca/index.php/PCEEA/article/view/21578)
-
-- [CEEA proceedings article 19623](https://ojs.library.queensu.ca/index.php/PCEEA/article/view/19623)
-
-- [CEEA proceedings article 19608](https://ojs.library.queensu.ca/index.php/PCEEA/article/view/19608)
-
-- [CEEA proceedings article 18567](https://ojs.library.queensu.ca/index.php/PCEEA/article/view/18567)
-
-- [CEEA proceedings article 18561](https://ojs.library.queensu.ca/index.php/PCEEA/article/view/18561)
-
-- [Methodologies for evaluating the impact of STEM outreach on historically marginalized groups in engineering: a systematic literature review](https://peer.asee.org/methodologies-for-evaluating-the-impact-of-stem-outreach-on-historically-marginalized-groups-in-engineering-a-systematic-literature-review-other-diversity)
+{% include project-publications.html project="engineering-education" %}
 
 [Back to all research projects]({{ '/research/' | relative_url }})

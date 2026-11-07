@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: project
 title: 'Precision Bioprinting and Single-Cell Technologies'
 eyebrow: Research project
+project: precision-bioprinting
 lead: 'Inkjet-based cell dispensing, intelligent automation, and high-throughput molecular analysis'
 ---
 
@@ -17,14 +18,8 @@ We subsequently extended this technology to single-cell proteomics through the S
 
 Together, these developments connect fundamental inkjet fluid mechanics with automated, intelligent cell handling and downstream molecular analysis. Our work advances the precision and scalability of single-cell sample preparation, supporting studies of cellular heterogeneity across genomic and proteomic applications.
 
-## Publications and links
+## Selected publications
 
-- [DOI: 10.1021/acs.analchem.5c07174](https://doi.org/10.1021/acs.analchem.5c07174)
-
-- [DOI: 10.1039/d5lc00514k](https://doi.org/10.1039/d5lc00514k)
-
-- [DOI: 10.1088/1758-5090/8/1/015008](https://iopscience.iop.org/article/10.1088/1758-5090/8/1/015008/meta)
-
-- [DOI: 10.1007/s10404-015-1589-x](https://link.springer.com/article/10.1007/s10404-015-1589-x)
+{% include project-publications.html project="precision-bioprinting" %}
 
 [Back to all research projects]({{ '/research/' | relative_url }})

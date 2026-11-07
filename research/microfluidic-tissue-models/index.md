@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: project
 title: 'Microfluidic Tissue Models and Organ-on-Chip Systems'
 eyebrow: Research project
+project: microfluidic-tissue-models
 lead: 'Controlled cellular microenvironments for biological research and therapeutic evaluation.'
 ---
 
@@ -28,5 +29,9 @@ Many physiological processes depend on interactions between neighbouring tissues
 Our research includes microfluidic platforms incorporating ultrathin extracellular matrix-derived membranes, with tunable physical and transport properties, to support cell culture and studies of tissue interfaces. Related work on airway and other microengineered tissue models explores how device architecture, biomaterial properties, and cell culture conditions can be integrated to create experimentally accessible representations of tissue environments.
 
 Together, these research directions combine microfluidic engineering, biomaterials, and tissue culture to investigate how cellular microenvironments influence biological behaviour and responses to therapeutic interventions.
+
+## Selected publications
+
+{% include project-publications.html project="microfluidic-tissue-models" %}
 
 [Back to all research projects]({{ '/research/' | relative_url }})

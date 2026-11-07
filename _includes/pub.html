@@ -9,8 +9,13 @@
 {%- endfor -%}
 {%- assign link = p.link -%}
 {%- if p.id contains "doi:" -%}{%- assign link = p.id | replace: "doi:", "https://doi.org/" -%}{%- endif -%}
-<li class="pub" data-type="{{ p.type }}" data-year="{{ year }}" data-topics="{{ ptopics | strip }}">
-  <p class="pub-title">{% if link %}<a href="{{ link }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</p>
+{%- assign publication_anchor = p.id | default: p.title | slugify -%}
+{%- assign title_link = link -%}
+{%- if include.link_to_list -%}
+  {%- assign title_link = '/publications/' | relative_url | append: '#publication-' | append: publication_anchor -%}
+{%- endif -%}
+<li class="pub" id="publication-{{ publication_anchor }}" data-type="{{ p.type }}" data-year="{{ year }}" data-topics="{{ ptopics | strip }}">
+  <p class="pub-title">{% if title_link %}<a href="{{ title_link }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</p>
   <p class="pub-authors">
     {%- for a in p.authors -%}
       {%- assign last = a | split: " " | last | downcase | remove: "." | remove: "," -%}

@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: project
 title: 'Engineering Biomaterials for Neural Repair'
 eyebrow: Research project
+project: biomaterials-neural-repair
 lead: 'Engineered hydrogels and microscale tissue models to study neural growth and regeneration.'
 ---
 
@@ -19,12 +20,8 @@ Together, these studies connect biomaterial design, microscale neural tissue mod
 
 Our research is part of Mend the Gap, a large international, interdisciplinary initiative led by the University of British Columbia and supported by the Government of Canada's New Frontiers in Research Fund. The initiative brings together researchers in biomaterials, neuroscience, engineering, rehabilitation, and clinical medicine, alongside partners from the spinal cord injury community, to develop new approaches for repairing the injured spinal cord. Our group contributes expertise in microengineered tissue models, hydrogel characterization, and quantitative analysis of neural growth, helping to evaluate and refine biomaterials designed to support neural regeneration. This work forms part of a broader effort integrating injectable biomaterials, therapeutic interventions, neural stimulation, and image-guided delivery to advance spinal cord injury repair.
 
-## Publications and links
+## Selected publications
 
-- [Scientific Reports: s41598-026-68845-4](https://www.nature.com/articles/s41598-026-68845-4)
-
-- [Preprint: 10.64898/2026.09.28.755099v1](https://www.biorxiv.org/content/10.64898/2026.09.28.755099v1.abstract)
-
-- [Preprint: 10.1101/2025.09.15.676407v2](https://www.biorxiv.org/content/10.1101/2025.09.15.676407v2.abstract)
+{% include project-publications.html project="biomaterials-neural-repair" %}
 
 [Back to all research projects]({{ '/research/' | relative_url }})

@@ -61,6 +61,7 @@ layout: default
     <div class="card-grid project-grid">
       {%- for a in site.data.research %}
       <a class="area-card" href="{{ a.link | relative_url }}" data-reveal style="--delay: {{ forloop.index0 | times: 80 }}ms">
+        {% if a.image %}<div class="area-media"><img src="{{ a.image | relative_url }}" alt="" width="1536" height="1024" loading="lazy" decoding="async"></div>{% endif %}
         <div class="area-body">
           <span class="area-num">{{ forloop.index | prepend: "0" }}</span>
           <h3>{{ a.title }}</h3>
