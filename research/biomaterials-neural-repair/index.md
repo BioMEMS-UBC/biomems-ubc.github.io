@@ -20,7 +20,7 @@ Together, these studies connect biomaterial design, microscale neural tissue mod
 
 Our research is part of Mend the Gap, a large international, interdisciplinary initiative led by the University of British Columbia and supported by the Government of Canada's New Frontiers in Research Fund. The initiative brings together researchers in biomaterials, neuroscience, engineering, rehabilitation, and clinical medicine, alongside partners from the spinal cord injury community, to develop new approaches for repairing the injured spinal cord. Our group contributes expertise in microengineered tissue models, hydrogel characterization, and quantitative analysis of neural growth, helping to evaluate and refine biomaterials designed to support neural regeneration. This work forms part of a broader effort integrating injectable biomaterials, therapeutic interventions, neural stimulation, and image-guided delivery to advance spinal cord injury repair.
 
-## Selected publications
+## Related publications
 
 {% include project-publications.html project="biomaterials-neural-repair" %}
 

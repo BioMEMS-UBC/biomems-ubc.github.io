@@ -28,7 +28,7 @@ Together, these activities reflect an interest in both who participates in engin
 
 We are pleased to contribute to the Cultivating Inclusion in Engineering Lab (CIEL) at UBC, an interdisciplinary research team bringing together expertise in engineering, education, and the social sciences to better understand and address barriers to participation in engineering. Working alongside colleagues who lead this research, we have contributed to studies examining STEM outreach, engineering identity, and the influence of family background and prior experiences on young people's engagement with engineering. This collaboration has provided a valuable opportunity to contribute to evidence-based approaches for broadening participation in engineering, while learning from colleagues with complementary expertise in educational research.
 
-## Selected publications
+## Related publications
 
 {% include project-publications.html project="engineering-education" %}
 

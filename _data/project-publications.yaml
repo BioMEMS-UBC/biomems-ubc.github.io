@@ -3,26 +3,61 @@
 silicon-photonic-biosensors:
   - id: doi:10.64898/2026.09.26.754695
   - id: doi:10.1063/5.0330876
+  - id: doi:10.1109/pn70808.2026.11657736
+  - id: doi:10.1364/opticaopen.31314124.v1
+  - id: doi:10.1016/j.biosx.2026.100759
+  - id: doi:10.1039/d5lc00575b
+  - id: doi:10.1109/sensors59705.2025.11331227
   - id: doi:10.1364/oe.545801
+  - id: doi:10.1364/oe.510036
   - id: doi:10.3390/bios13010053
   - id: doi:10.3390/bios12100840
+  - id: doi:10.1364/ol.44.005981
+  - id: doi:10.1364/boe.10.004825
+  - id: doi:10.1109/jstqe.2018.2821842
+  - id: doi:10.1016/j.snb.2018.07.025
+  - id: doi:10.3390/s18103519
+  - id: doi:10.1364/OE.24.015672
+  - id: doi:10.1002/jbio.201300012
+  - id: doi:10.1364/OE.21.007994
 
 precision-bioprinting:
   - id: doi:10.1021/acs.analchem.5c07174
   - id: doi:10.1039/d5lc00514k
   - id: doi:10.1088/1758-5090/8/1/015008
   - id: doi:10.1007/s10404-015-1589-x
+  - id: doi:10.1002/bit.24562
+  - id: doi:10.1088/1758-5082/2/2/025003
+  - title: Inkjet system design optimization for reliable cell printing
+  - title: Investigations of Bio-Ink Rheological Properties for Piezoelectric Cell Printing
+  - title: Effects of Rheological Manipulation on Suspended Cells for Inkjet Bioprinting Applications
+  - title: 'Beyond poisson: Passive focusing toward one-cell-per-drop printing'
 
 microfluidic-tissue-models:
   - id: doi:10.1038/s41598-026-69468-5
+  - id: doi:10.3390/cells11233854
+  - id: doi:10.3390/mi13101573
+  - id: doi:10.1146/annurev-anchem-061020-111458
+  - id: doi:10.3390/cells10071602
+  - id: doi:10.1096/fj.201802376rrrr
+  - id: doi:10.3390/mi12040441
   - id: doi:10.1038/s41598-019-54001-8
+  - id: doi:10.1007/s10544-018-0260-1
+  - id: doi:10.1016/j.jchromb.2017.09.041
   - id: doi:10.1063/1.4959031
   - id: doi:10.3390/s150820030
+  - id: doi:10.1063/1.4918754
+  - id: doi:10.1007/s10544-014-9918-5
+  - id: doi:10.1039/c4an00765d
+  - id: doi:10.1039/c004590j
+  - id: doi:10.1007/s10544-010-9417-2
 
 biomaterials-neural-repair:
   - id: doi:10.1038/s41598-026-68845-4
   - id: doi:10.64898/2026.09.28.755099
   - id: doi:10.1101/2025.09.15.676407
+  - title: Injectable GelMA Hydrogels For Axonal Regeneration Following Spinal Cord Injury
+  - id: doi:10.3390/polym3041684
 
 engineering-education:
   - id: doi:10.24908/pceea.2026.21647

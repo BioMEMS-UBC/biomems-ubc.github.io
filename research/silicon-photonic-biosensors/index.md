@@ -76,3 +76,7 @@ Our research continues to advance these interconnected technologies, with the go
 
 <span id="silicon-photonic-biosensing-research-and-technology"></span>
 <span id="applications-and-future-directions"></span>
+
+## Related publications
+
+{% include project-publications.html project="silicon-photonic-biosensors" %}

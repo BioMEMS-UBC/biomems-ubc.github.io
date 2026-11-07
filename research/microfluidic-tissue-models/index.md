@@ -30,7 +30,7 @@ Our research includes microfluidic platforms incorporating ultrathin extracellul
 
 Together, these research directions combine microfluidic engineering, biomaterials, and tissue culture to investigate how cellular microenvironments influence biological behaviour and responses to therapeutic interventions.
 
-## Selected publications
+## Related publications
 
 {% include project-publications.html project="microfluidic-tissue-models" %}
 

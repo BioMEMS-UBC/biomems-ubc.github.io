@@ -18,7 +18,7 @@ We subsequently extended this technology to single-cell proteomics through the S
 
 Together, these developments connect fundamental inkjet fluid mechanics with automated, intelligent cell handling and downstream molecular analysis. Our work advances the precision and scalability of single-cell sample preparation, supporting studies of cellular heterogeneity across genomic and proteomic applications.
 
-## Selected publications
+## Related publications
 
 {% include project-publications.html project="precision-bioprinting" %}
 
