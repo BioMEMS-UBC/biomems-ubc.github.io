@@ -13,6 +13,8 @@ env:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build-site:
@@ -46,3 +48,7 @@ jobs:
           folder: _site
           clean-exclude: ${{ env.PREVIEWS_FOLDER }}
           force: false
+
+  publish-pages:
+    needs: build-site
+    uses: ./.github/workflows/publish-pages.yaml

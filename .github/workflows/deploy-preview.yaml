@@ -12,6 +12,8 @@ permissions:
   actions: read
   contents: write
   pull-requests: write
+  pages: write
+  id-token: write
 
 env:
   PREVIEWS_FOLDER: preview
@@ -92,3 +94,7 @@ jobs:
         with:
           number: ${{ env.PREVIEW_NUMBER }}
           message: "🗑️ Preview removed"
+
+  publish-pages:
+    needs: deploy-preview
+    uses: ./.github/workflows/publish-pages.yaml

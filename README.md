@@ -2,7 +2,7 @@
 
 Website of the Bio-Medical Micro Devices Laboratory (Prof. Karen Cheung, UBC Electrical and Computer Engineering).
 
-Visit **[gsathish.github.io/biomems-lab](https://gsathish.github.io/biomems-lab)** 🚀
+Visit **[biomems-ubc.github.io](https://biomems-ubc.github.io)** 🚀
 
 Built with Jekyll and a custom theme (IBM Plex type, UBC colours), deployed to GitHub Pages by GitHub Actions.
 The automatic citation and preview workflows come from the [Lab Website Template](https://github.com/greenelab/lab-website-template).
@@ -86,6 +86,22 @@ One or two paragraphs.
 bundle install
 bundle exec jekyll serve
 ```
+
+## GitHub Pages deployment
+
+The production repository is `BioMEMS-UBC/biomems-ubc.github.io`, which serves
+`https://biomems-ubc.github.io/` without a repository subpath.
+
+In **Settings > Pages > Build and deployment**, set **Source** to **GitHub Actions**.
+The built-in branch Jekyll builder uses Jekyll 3 and cannot build this Jekyll 4 site.
+If the `github-pages` environment restricts deployment branches, allow `main`.
+
+Push to `main` or manually run **build-site** from the Actions tab. The workflow
+installs the locked Ruby dependencies, builds the site, stores generated files on
+`gh-pages`, and explicitly uploads and deploys that branch using the Pages actions.
+The branch also retains PR previews; preview updates republish the combined site.
+Citation updates run separately so an external citation service failure does not
+block production deployment.
 
 ## Known content gaps from the old site
 

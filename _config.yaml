@@ -1,6 +1,8 @@
 # BioMEMS Lab website (custom Jekyll theme)
 
 title: BioMEMS Lab
+url: https://biomems-ubc.github.io
+baseurl: ""
 long_title: Bio-Medical Micro Devices Laboratory
 tagline: UBC Electrical and Computer Engineering
 description: The Bio-Medical Micro Devices Laboratory at the University of British Columbia builds microfluidic, photonic and microfabricated tools for 3-D cell culture, organs-on-chip, biosensing and cell printing.
@@ -65,6 +67,7 @@ sass:
   style: compressed
 
 exclude:
+  - AGENTS.md
   - README.md
   - LICENSE.md
   - Gemfile
