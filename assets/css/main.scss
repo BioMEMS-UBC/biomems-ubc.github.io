@@ -355,6 +355,13 @@ address { font-style: normal; }
 .figure img { border-radius: var(--radius); width: 100%; background: var(--surface); }
 .figure figcaption, .video figcaption { margin-top: 10px; font-size: .88rem; color: var(--muted); line-height: 1.55; }
 .figure-wide { margin-top: 48px; }
+.figure-light img, .area-media-contain { background: #fff; }
+.area-media-contain img { object-fit: contain; }
+.project-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin: 28px 0; }
+.project-gallery .figure { margin: 0; min-width: 0; }
+.project-gallery .figure img { display: block; width: auto; max-width: 100%; height: auto; margin-inline: auto; }
+.figure-portrait img { display: block; max-width: 420px; height: auto; margin-inline: auto; }
+@media (max-width: 560px) { .project-gallery { grid-template-columns: 1fr; } }
 
 .callout {
   border-left: 4px solid #e0a100; background: color-mix(in srgb, #e0a100 10%, var(--bg));

@@ -61,7 +61,7 @@ layout: default
     <div class="card-grid project-grid">
       {%- for a in site.data.research %}
       <a class="area-card" href="{{ a.link | relative_url }}" data-reveal style="--delay: {{ forloop.index0 | times: 80 }}ms">
-        {% if a.image %}<div class="area-media"><img src="{{ a.image | relative_url }}" alt="" width="1536" height="1024" loading="lazy" decoding="async"></div>{% endif %}
+        {% if a.image %}<div class="area-media{% if a.image_fit == 'contain' %} area-media-contain{% endif %}"><img src="{{ a.image | relative_url }}"{% if a.image_srcset %} srcset="{{ a.image_srcset | relative_url }} {{ a.image_srcset_width }}w" sizes="(max-width: 560px) calc(100vw - 48px), 400px"{% endif %} alt="" width="{{ a.image_width | default: 1536 }}" height="{{ a.image_height | default: 1024 }}" loading="lazy" decoding="async"></div>{% endif %}
         <div class="area-body">
           <span class="area-num">{{ forloop.index | prepend: "0" }}</span>
           <h3>{{ a.title }}</h3>

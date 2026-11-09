@@ -3,8 +3,8 @@ layout: page
 ---
 {%- assign project = site.data.research | where: "slug", page.project | first -%}
 {%- if project.image %}
-<figure class="figure project-figure">
-  <img src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}" width="1536" height="1024" decoding="async">
+<figure class="figure project-figure {{ project.image_class }}">
+  <img src="{{ project.image | relative_url }}"{% if project.image_srcset %} srcset="{{ project.image_srcset | relative_url }} {{ project.image_srcset_width }}w" sizes="(max-width: 808px) calc(100vw - 48px), 760px"{% endif %} alt="{{ project.image_alt | escape }}" width="{{ project.image_width | default: 1536 }}" height="{{ project.image_height | default: 1024 }}" decoding="async">
   <figcaption>{{ project.image_caption }}</figcaption>
 </figure>
 {%- endif %}

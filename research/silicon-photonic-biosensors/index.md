@@ -29,6 +29,11 @@ By attaching molecular recognition elements, such as antibodies, to different se
 
 Our research combines these optical sensors with biochemical assays and microfluidic technologies, with the longer-term goal of creating compact systems capable of quantitative, multiplexed molecular measurements.
 
+<figure class="figure figure-light">
+  <img src="{{ '/images/research/SiP-fluidic-chemistry-variability.png' | relative_url }}" alt="Diagram connecting sample delivery, surface chemistry, molecular recognition, optical sensing, and variability in assay responses." width="679" height="373" loading="lazy" decoding="async">
+  <figcaption>Microfluidics, surface chemistry, and molecular recognition contribute to photonic biosensor assay performance and variability.</figcaption>
+</figure>
+
 [Explore our research and technology]({{ '/research/silicon-photonic-biosensors/research-and-technology/' | relative_url }})
 
 ## Demonstrating multiplexed hormone detection
@@ -68,6 +73,11 @@ Our longer-term goal is to make sophisticated molecular measurements more inform
 Achieving this vision requires advances in molecular assays, microfluidics, integrated instrumentation, and application-specific validation.
 
 Our research continues to advance these interconnected technologies, with the goal of enabling new ways to study changing biological processes and improve access to molecular information.
+
+<figure class="figure figure-portrait">
+  <img src="{{ '/images/research/DMF-droplet-2026-08.jpg' | relative_url }}" alt="Three coloured droplets resting on a glass surface in a digital microfluidics experiment." width="1414" height="2121" loading="lazy" decoding="async">
+  <figcaption>Digital microfluidics research, August 2026.</figcaption>
+</figure>
 
 ## Explore this project
 

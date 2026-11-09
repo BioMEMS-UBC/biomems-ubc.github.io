@@ -5,9 +5,13 @@
   title: Silicon Photonic Biosensors for Accessible Molecular Measurements
   description: We develop miniature optical sensors to measure multiple biological molecules on a single chip. By combining silicon photonics, molecular recognition assays, and microfluidics, we aim to make molecular measurements more accessible and support the study of changing biological processes.
   link: /research/silicon-photonic-biosensors/
-  image: images/research/silicon-photonic-biosensors-concept.jpg
-  image_alt: Concept illustration of molecular targets binding to optical microring sensors beneath a microfluidic channel.
-  image_caption: 'Concept illustration: silicon photonic sensing, molecular recognition, and microfluidic sample delivery.'
+  image: images/research/SiP-evanescent-biomarker.png
+  image_width: 2886
+  image_height: 1032
+  image_fit: contain
+  image_class: figure-light
+  image_alt: Diagram of biomarkers binding to surface receptors within the evanescent field of a silicon waveguide.
+  image_caption: Biomarker recognition at the surface of a silicon photonic sensor, within the evanescent field.
 
 - slug: precision-bioprinting
   title: Precision Bioprinting and Single-Cell Technologies
@@ -39,6 +43,12 @@
   title: Engineering Education and Inclusion
   description: Through collaborative studies of STEM outreach, engineering identity, and educational program design, we examine how learning experiences can broaden participation in engineering. We also investigate educational approaches that prepare engineers for interdisciplinary and translational biomedical practice.
   link: /research/engineering-education/
-  image: images/research/engineering-education-concept.jpg
-  image_alt: Concept illustration of a diverse group of engineering learners collaborating around a biomedical prototype at an accessible workbench.
-  image_caption: 'Concept illustration: inclusive, collaborative learning in biomedical engineering.'
+  image: images/research/engineering-education-website.png
+  image_srcset: images/research/engineering-education-website-2400.png
+  image_srcset_width: 2400
+  image_width: 20222
+  image_height: 4726
+  image_fit: contain
+  image_class: figure-light
+  image_alt: Colourful science symbols showing test tubes, a flask, a molecule, and a thermometer.
+  image_caption: Science and engineering learning across disciplines.

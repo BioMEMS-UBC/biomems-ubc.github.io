@@ -16,6 +16,27 @@ In collaboration with colleagues in engineering education and the social science
 
 This work combines systematic literature reviews with empirical studies using validated survey instruments and quantitative analyses of student experiences. By examining both changes in engineering identity and differences in participants' prior exposure to STEM, we aim to better understand the opportunities and limitations of outreach programs and inform more inclusive approaches to engineering engagement.
 
+### STEAM outreach
+
+<div class="project-gallery">
+  <figure class="figure">
+    <img src="{{ '/images/research/STEAM-2024a.jpg' | relative_url }}" srcset="{{ '/images/research/STEAM-2024a-web.jpg' | relative_url }} 1600w" sizes="(max-width: 560px) calc(100vw - 48px), 368px" alt="STEAM outreach team beside spinal cord models, posters, and a hands-on maze activity." width="4000" height="3000" loading="lazy" decoding="async">
+    <figcaption>STEAM outreach team, 2024.</figcaption>
+  </figure>
+  <figure class="figure">
+    <img src="{{ '/images/research/STEAM-2024b.jpg' | relative_url }}" srcset="{{ '/images/research/STEAM-2024b-web.jpg' | relative_url }} 1600w" sizes="(max-width: 560px) calc(100vw - 48px), 368px" alt="Spinal cord and brain models with posters explaining spinal cord injury at a STEAM outreach display." width="4000" height="3000" loading="lazy" decoding="async">
+    <figcaption>Models and educational displays at STEAM outreach, 2024.</figcaption>
+  </figure>
+  <figure class="figure">
+    <img src="{{ '/images/research/STEAM-2026a.jpeg' | relative_url }}" alt="STEAM outreach table with maze activities, anatomical models, and science displays." width="320" height="240" loading="lazy" decoding="async">
+    <figcaption>STEAM outreach displays and activities, 2026.</figcaption>
+  </figure>
+  <figure class="figure">
+    <img src="{{ '/images/research/STEAM-2026b.jpeg' | relative_url }}" alt="A visitor in a lab coat using a pipette during a hands-on STEAM activity." width="320" height="240" loading="lazy" decoding="async">
+    <figcaption>Hands-on STEAM activity, 2026.</figcaption>
+  </figure>
+</div>
+
 ## Interdisciplinary and translational engineering education
 
 A complementary area of our work examines educational models that prepare engineering students to address complex biomedical challenges. This includes research on clinically immersive, needs-driven graduate education, where students integrate engineering design with clinical observation, problem identification, interdisciplinary collaboration, and translational considerations.

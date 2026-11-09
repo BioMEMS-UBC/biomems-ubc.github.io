@@ -30,6 +30,13 @@ Our research includes microfluidic platforms incorporating ultrathin extracellul
 
 Together, these research directions combine microfluidic engineering, biomaterials, and tissue culture to investigate how cellular microenvironments influence biological behaviour and responses to therapeutic interventions.
 
+## Imaging and quantitative analysis
+
+<figure class="figure">
+  <img src="{{ '/images/research/drg-annotated-neurite-lengths.png' | relative_url }}" alt="Microscopy image of a neural explant with radiating neurites traced in different colours to annotate their lengths." width="1930" height="1026" loading="lazy" decoding="async">
+  <figcaption>Neurite outgrowth with colour-annotated lengths. <a href="{{ '/images/research/DRG-Colour-Annotated Neurite Lengths-250527-GSH5-LAM10.tif' | relative_url | uri_escape }}">View original TIFF</a>.</figcaption>
+</figure>
+
 ## Related publications
 
 {% include project-publications.html project="microfluidic-tissue-models" %}
