@@ -36,9 +36,4 @@ Create a polished editorial scientific concept illustration for the BioMEMS Lab 
 
 ## engineering-education
 
-Asset: `images/research/engineering-education-concept.jpg`
-
-Prompt:
-
-Create a polished editorial scientific concept illustration for the BioMEMS Lab at UBC website, landscape 3:2 composition. Consistent restrained palette matching the site: deep navy #002145, blue #0055b7, cyan #40b4e5, soft white, subtle warm accent. Refined dimensional cut-paper/soft 3D scientific illustration, clear geometry, matte surfaces, gentle light, generous breathing room, readable at card size. No words, labels, letters, numbers, logos, graphs, fabricated data, or claimed microscopy. Concept illustration rather than photograph or experimental evidence. A small diverse group of engineering learners collaboratively arranging a miniature biomedical engineering prototype on a shared workbench. Inclusive mix of adult learners, one seated wheelchair user naturally included at the accessible table. A simple microfluidic-chip-shaped prototype and notebooks without writing. Emphasize collaboration, mentorship, interdisciplinary learning and belonging, no stock-photo poses.
-
+The Engineering Education page uses the supplied `images/research/engineering-education-website.png`, with `images/research/engineering-education-website-2400.png` as its responsive web export, and the four STEAM outreach photographs. No generated Engineering Education illustration is used.
