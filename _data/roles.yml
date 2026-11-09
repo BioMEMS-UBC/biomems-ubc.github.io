@@ -2,6 +2,12 @@
 - id: principal-investigator
   title: Principal Investigator
   plural: Principal Investigator
+- id: research-coordinator
+  title: Research Coordinator
+  plural: Research Coordinator
+- id: research-associate
+  title: Research Associate
+  plural: Research Associates
 - id: postdoc
   title: Postdoctoral Fellow
   plural: Postdoctoral Fellows
