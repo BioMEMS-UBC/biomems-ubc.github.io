@@ -31,7 +31,7 @@ Our research combines these optical sensors with biochemical assays and microflu
 
 <figure class="figure figure-light">
   <img src="{{ '/images/research/SiP-fluidic-chemistry-variability.png' | relative_url }}" alt="Diagram connecting sample delivery, surface chemistry, molecular recognition, optical sensing, and variability in assay responses." width="679" height="373" loading="lazy" decoding="async">
-  <figcaption>Microfluidics, surface chemistry, and molecular recognition contribute to photonic biosensor assay performance and variability.</figcaption>
+  <figcaption>Microfluidics, surface chemistry, and molecular recognition contribute to photonic biosensor assay performance and variability. <cite>Lab Chip (2025) 25 (22): 6033–6062.</cite> <a href="https://doi.org/10.1039/d5lc00575b">https://doi.org/10.1039/d5lc00575b</a></figcaption>
 </figure>
 
 [Explore our research and technology]({{ '/research/silicon-photonic-biosensors/research-and-technology/' | relative_url }})

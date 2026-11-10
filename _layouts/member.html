@@ -2,6 +2,7 @@
 layout: default
 ---
 {%- assign role = site.data.roles | where: "id", page.role | first -%}
+{%- assign alumni_role = site.data.roles | where: "id", page.alumni_category | first -%}
 {%- include lab-keys.html member=page -%}
 {%- assign member_keys = lab_keys -%}
 {%- include lab-keys.html -%}
@@ -11,13 +12,14 @@ layout: default
       {%- if page.image %}<img src="{{ page.image | relative_url }}" alt="{{ page.name }}">{% else %}<span class="person-initials" aria-hidden="true">{{ page.name | split: " " | first | slice: 0 }}{{ page.name | split: " " | last | slice: 0 }}</span>{% endif -%}
     </div>
     <div>
-      <p class="eyebrow"><a href="{{ '/team/' | relative_url }}">Team</a> · {{ role.title }}</p>
+      <p class="eyebrow"><a href="{{ '/team/' | relative_url }}">Team</a> · {% if page.role == 'alumni' and alumni_role %}{{ alumni_role.alumni_title | default: alumni_role.plural }}{% else %}{{ role.title }}{% endif %}</p>
       <h1>{{ page.name }}</h1>
       <p class="person-links">
         {%- if page.links.email %}<a href="mailto:{{ page.links.email }}">{% include icon.html name="mail" %}{{ page.links.email }}</a>{% endif -%}
         {%- if page.links.google-scholar %}<a href="https://scholar.google.com/citations?user={{ page.links.google-scholar }}">{% include icon.html name="scholar" %}Google Scholar</a>{% endif -%}
         {%- if page.links.linkedin %}<a href="https://www.linkedin.com/in/{{ page.links.linkedin }}">{% include icon.html name="linkedin" %}LinkedIn</a>{% endif -%}
         {%- if page.links.home-page %}<a href="{{ page.links.home-page }}">{% include icon.html name="link" %}Website</a>{% endif -%}
+        {%- for thesis in page.links.theses %}<a href="{{ thesis | escape }}">{% include icon.html name="link" %}Thesis{% if page.links.theses.size > 1 %} {{ forloop.index }}{% endif %}</a>{% endfor -%}
       </p>
     </div>
   </div>

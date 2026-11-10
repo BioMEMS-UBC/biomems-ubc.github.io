@@ -40,9 +40,26 @@ wide: true
 {%- assign alumni = site.members | where: "role", "alumni" | sort: "name" -%}
 <section class="team-group">
   <h2>Alumni <span class="count">{{ alumni.size }}</span></h2>
-  <div class="people-grid people-grid-compact">
-    {%- for m in alumni %}{% include person-card.html compact=true %}{% endfor %}
-  </div>
+  {%- for r in site.data.roles %}
+    {%- if r.id == "principal-investigator" or r.id == "alumni" %}{% continue %}{% endif %}
+    {%- assign people = alumni | where: "alumni_category", r.id -%}
+    {%- if people.size == 0 %}{% continue %}{% endif %}
+  <section class="alumni-group">
+    <h3>{{ r.alumni_title | default: r.plural }} <span class="count">{{ people.size }}</span></h3>
+    <div class="people-grid people-grid-compact">
+      {%- for m in people %}{% include person-card.html compact=true %}{% endfor %}
+    </div>
+  </section>
+  {%- endfor %}
+  {%- assign other_alumni = alumni | where_exp: "m", "m.alumni_category == nil" -%}
+  {%- if other_alumni.size > 0 %}
+  <section class="alumni-group">
+    <h3>Other alumni <span class="count">{{ other_alumni.size }}</span></h3>
+    <div class="people-grid people-grid-compact">
+      {%- for m in other_alumni %}{% include person-card.html compact=true %}{% endfor %}
+    </div>
+  </section>
+  {%- endif %}
 </section>
 
 <figure class="figure figure-wide" data-reveal>

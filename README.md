@@ -17,7 +17,7 @@ For changes you want someone to check first, commit to a new branch and open a p
 | To change | Edit |
 |---|---|
 | A person | `_members/<name>.md` (photo in `images/team/`) |
-| Someone who left | set `role: alumni` in their file; don't delete it |
+| Someone who left | set `role: alumni` and `alumni_category` to their highest former role; don't delete the profile |
 | Publications | `_data/sources.yaml` |
 | News | add `_posts/YYYY-MM-DD-short-title.md` |
 | Project blurbs and links | `_data/research.yaml` |
@@ -38,13 +38,19 @@ Create `_members/first-last.md`:
 ---
 name: First Last
 image: images/team/first-last.jpg
-role: phd            # principal-investigator, research-facilitator, research-associate, postdoc, phd, masters, undergrad, staff, alumni
+role: phd            # principal-investigator, research-facilitator, research-associate, postdoc, phd, masters, research-assistant, undergrad, visiting-scholar, staff, alumni
 links:
   email: first.last@ubc.ca
 ---
 
 One or two sentences about their research.
 ```
+
+For alumni, use `alumni_category: phd` (or another role ID). If a member held
+several roles, choose the highest one in `_data/roles.yml`; alumni groups follow
+that same order. Profiles without a category remain under Other alumni.
+Add thesis URLs as a list under `links.theses`. When updating from a spreadsheet,
+retain existing bios and contact links wherever the corresponding cells are blank.
 
 ### Add a publication
 

@@ -5,24 +5,39 @@
 - id: research-facilitator
   title: Research Facilitator
   plural: Research Facilitators
+  alumni_title: Research Facilitator Alumni
 - id: research-associate
   title: Research Associate
   plural: Research Associates
+  alumni_title: Research Associate Alumni
 - id: postdoc
   title: Postdoctoral Fellow
   plural: Postdoctoral Fellows
+  alumni_title: Postdoctoral Alumni
 - id: phd
   title: PhD Student
   plural: PhD Students
+  alumni_title: PhD Alumni
 - id: masters
   title: MASc Student
   plural: MASc Students
+  alumni_title: MASc Alumni
+- id: research-assistant
+  title: Research Assistant
+  plural: Research Assistants
+  alumni_title: Research Assistant Alumni
 - id: undergrad
   title: Undergraduate Researcher
   plural: Undergraduate Researchers
+  alumni_title: Undergraduate Researcher Alumni
+- id: visiting-scholar
+  title: Visiting Scholar
+  plural: Visiting Scholars
+  alumni_title: Visiting Scholar Alumni
 - id: staff
   title: Research Staff
   plural: Research Staff
+  alumni_title: Research Staff Alumni
 - id: alumni
   title: Alumni
   plural: Alumni

@@ -1,12 +1,15 @@
 ---
 name: Samantha Grist
 image: images/team/samantha-grist.jpg
-role: postdoc
+role: alumni
 order: 2
 links:
   email: samantha.grist@ubc.ca
+  theses:
+  - https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0303474?o=0
 redirect_from:
-- /2021/03/31/samantha-grist-2/
+- "/2021/03/31/samantha-grist-2/"
+alumni_category: research-associate
 ---
 
 Samantha is a postdoctoral fellow, developing silicon photonic biosensors.
