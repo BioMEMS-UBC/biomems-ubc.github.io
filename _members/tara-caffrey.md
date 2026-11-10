@@ -1,7 +1,7 @@
 ---
 name: Tara Caffrey
-role: research-coordinator
+role: research-facilitator
 order: 59
 ---
 
-Tara Caffrey is the Research Coordinator in the BioMEMS Lab.
+Tara Caffrey is the Research Facilitator in the BioMEMS Lab.

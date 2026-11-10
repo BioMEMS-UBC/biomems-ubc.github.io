@@ -9,7 +9,7 @@ layout: default
     </div>
   </section>
   <div class="container page-body prose">
-    {%- if page.image %}<figure class="figure post-image"><img src="{{ page.image | relative_url }}" alt=""></figure>{% endif %}
+    {%- if page.image %}<figure class="figure post-image"><img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}"></figure>{% endif %}
     {{ content }}
     <nav class="post-nav">
       {%- if page.previous %}<a href="{{ page.previous.url | relative_url }}">&larr; {{ page.previous.title }}</a>{% else %}<span></span>{% endif -%}

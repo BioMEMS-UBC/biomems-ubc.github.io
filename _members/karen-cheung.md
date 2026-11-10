@@ -1,6 +1,6 @@
 ---
 name: Karen Cheung
-image: images/team/karen-cheung.jpg
+image: images/team/Karen-DSF1070(1)-small-square.jpg
 role: principal-investigator
 order: 1
 summary: Karen C. Cheung is a Professor in the Department of Electrical and Computer Engineering and the School of Biomedical Engineering at the University of British Columbia. Her research focuses on developing micro- and nanoscale technologies for biology and medicine, spanning biosensing, microfluidics, bioprinting, and biomaterials. She received her B.S. and Ph.D. in Bioengineering from the University of California, Berkeley, and conducted postdoctoral research at EPFL in Switzerland before joining UBC in 2006.

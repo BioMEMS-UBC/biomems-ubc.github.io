@@ -1,6 +1,6 @@
 # BioMEMS Lab website
 
-Website of the Bio-Medical Micro Devices Laboratory (Prof. Karen Cheung, UBC Electrical and Computer Engineering).
+Website of the Bio-Medical Micro Devices Laboratory (Prof. Karen Cheung, UBC Electrical and Computer Engineering and School of Biomedical Engineering).
 
 Visit **[biomems-ubc.github.io](https://biomems-ubc.github.io)** 🚀
 
@@ -38,7 +38,7 @@ Create `_members/first-last.md`:
 ---
 name: First Last
 image: images/team/first-last.jpg
-role: phd            # principal-investigator, research-coordinator, research-associate, postdoc, phd, masters, undergrad, staff, alumni
+role: phd            # principal-investigator, research-facilitator, research-associate, postdoc, phd, masters, undergrad, staff, alumni
 links:
   email: first.last@ubc.ca
 ---

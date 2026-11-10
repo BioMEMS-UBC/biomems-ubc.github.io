@@ -6,13 +6,11 @@ redirect_from:
   - /open-positions/
 ---
 
-<div class="callout" markdown="1">
-**Draft text for Karen to review.** The old site had no lab-specific openings on this page.
-</div>
-
 We look for people with backgrounds in electrical, biomedical or mechanical engineering, physics, chemistry or cell biology who enjoy working across disciplines.
 
 To ask about openings, email [Karen Cheung](mailto:kcheung@ece.ubc.ca) with a CV, transcripts and a short note about the research area that interests you.
-Graduate applicants also apply through the [UBC Department of Electrical and Computer Engineering](https://ece.ubc.ca/).
+Graduate applicants also apply through the [UBC Department of Electrical and Computer Engineering]({{ site.links.department }}) and the [UBC School of Biomedical Engineering]({{ site.links.school }}).
 
-<figure class="figure"><img src="{{ '/images/lab/group.jpg' | relative_url }}" alt="Group photo of UBC ECE researchers outside the MacLeod Building" loading="lazy"></figure>
+<figure class="figure"><img src="{{ '/images/team/team-2025-11-selfie.jpg' | relative_url }}" alt="BioMEMS Lab team selfie, November 2025" loading="lazy"></figure>
+
+Learn more about the [UBC Department of Electrical and Computer Engineering]({{ site.links.department }}) and the [UBC School of Biomedical Engineering]({{ site.links.school }}).
