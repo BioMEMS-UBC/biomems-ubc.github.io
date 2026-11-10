@@ -38,7 +38,7 @@ Create `_members/first-last.md`:
 ---
 name: First Last
 image: images/team/first-last.jpg
-role: phd            # principal-investigator, research-facilitator, research-associate, postdoc, phd, masters, research-assistant, undergrad, visiting-scholar, staff, alumni
+role: phd            # principal-investigator, research-facilitator, research-associate, postdoc, phd, masters, meng, research-assistant, undergrad, visiting-scholar, staff, alumni
 links:
   email: first.last@ubc.ca
 ---

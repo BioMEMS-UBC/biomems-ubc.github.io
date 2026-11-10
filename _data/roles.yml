@@ -22,6 +22,10 @@
   title: MASc Student
   plural: MASc Students
   alumni_title: MASc Alumni
+- id: meng
+  title: MEng student
+  plural: MEng students
+  alumni_title: MEng Alumni
 - id: research-assistant
   title: Research Assistant
   plural: Research Assistants

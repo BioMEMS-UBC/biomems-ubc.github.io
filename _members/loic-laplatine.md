@@ -5,8 +5,10 @@ role: alumni
 order: 19
 links:
   email: laplatine@ubc.ece.ca
+  linkedin: lo%C3%AFc-laplatine-photonics-biosensors
 redirect_from:
-- /2016/08/02/loic-laplatine/
+- "/2016/08/02/loic-laplatine/"
+alumni_category: postdoc
 ---
 
 Dr. Loic Laplatine’s research is focused on industrial technology transfer of biosensing techniques for medicine and environmental monitoring. His research interests include silicon photonics, optical microscopy, microfluidics and instrumentation. His current work is geared toward the proof-of-concept of an inexpensive disposable cartridge biochips that can be analyzed by a portable readout device to simultaneously measure the concentration of multiple analytes within tiny samples of physiological fluids or water. This project funded by a 2-year MITACS Accelerate grant is a collaboration between the Bio-Medical Micro Devices laboratory and the Photonics Research laboratory at UBC, and Luxmux, an industrial partner in Calgary. He also works on BioMEMS which reproduce the physiological hypoxic conditions (i.e. oxygen level) found in real tumors on 3D cell spheroids grown in vitro. He is mainly focusing on experiments based on two-photon and confocal microscopy to quantitatively analyze the spheroids response over time.

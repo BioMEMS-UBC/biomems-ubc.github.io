@@ -6,7 +6,8 @@ order: 15
 links:
   email: roy.yichuanwang@gmail.com
 redirect_from:
-- /2016/09/06/yichuan-wang/
+- "/2016/09/06/yichuan-wang/"
+alumni_category: undergrad
 ---
 
 Yichuan Wang was an undergraduate coop student in the BioMEMS group in 2016, focusing on the Hydrodynamic Response of the cells in Piezoelectric Inkjet Nozzles.

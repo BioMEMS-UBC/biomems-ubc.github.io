@@ -6,7 +6,8 @@ order: 24
 links:
   email: jingwu.hou@mail.utoronto.ca
 redirect_from:
-- /2016/07/01/bruce-jingwu-hou/
+- "/2016/07/01/bruce-jingwu-hou/"
+alumni_category: undergrad
 ---
 
 Summer Exchange Research Student, 2016
