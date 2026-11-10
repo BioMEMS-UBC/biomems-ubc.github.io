@@ -1,7 +1,7 @@
 ---
 title: Dr. Tara Caffrey receives the 2026 Neil Mackenzie Mentorship Excellence Award
-image: images/news/tara-caffrey-mentorship-2026.jpg
-image_alt: Dr. Tara Caffrey
+image: images/news/award-laurel.png
+image_alt: Award laurel wreath
 tags: [award]
 ---
 
