@@ -5,7 +5,7 @@ layout: page
 {%- if project.image %}
 <figure class="figure project-figure {{ project.image_class }}">
   <img src="{{ project.image | relative_url }}"{% if project.image_srcset %} srcset="{{ project.image_srcset | relative_url }} {{ project.image_srcset_width }}w" sizes="(max-width: 808px) calc(100vw - 48px), 760px"{% endif %} alt="{{ project.image_alt | escape }}" width="{{ project.image_width | default: 1536 }}" height="{{ project.image_height | default: 1024 }}" decoding="async">
-  <figcaption>{{ project.image_caption }}</figcaption>
+  <figcaption>{{ project.image_caption }}{% if project.image_original %} <a href="{{ project.image_original | relative_url | uri_escape }}">View original image</a>.{% endif %}</figcaption>
 </figure>
 {%- endif %}
 {{ content }}

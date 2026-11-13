@@ -3,6 +3,7 @@ name: Lauren S. Puumala
 role: phd
 order: 38
 links:
+  email: lauren.puumala@ubc.ca
   linkedin: lauren-puumala-5618723a7
 ---
 

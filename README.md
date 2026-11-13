@@ -24,6 +24,7 @@ For changes you want someone to check first, commit to a new branch and open a p
 | Full project descriptions | `research/<project-slug>/index.md` |
 | Project illustrations and captions | `images/research/*-concept.jpg` and `_data/research.yaml` (generation prompts in `_artwork/`) |
 | Publications selected for each project | `_data/project-publications.yaml` (references existing citation IDs or titles) |
+| Project videos and captions | `_data/project-videos.yaml` |
 | Publication topics | `_data/topics.yml` (keywords matched against titles) |
 | Page text | `_layouts/home.html`, `research/`, `team/`, `join/`, `contact/` |
 | Site title, navigation, contact details | `_config.yaml` |

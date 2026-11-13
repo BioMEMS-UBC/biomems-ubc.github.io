@@ -1,0 +1,34 @@
+# Videos and original captions restored from the previous research page.
+precision-bioprinting:
+- youtube: _KZxrcJRdxw
+  title: 'Play video: cell dispensing and reflection in an inkjet nozzle'
+  caption: 'Left: cell is dispensed with the dispensed droplet. Right: cell is unexpectedly
+    reflected backward into the nozzle! This phenomenon may reduce printing reliability.
+    For more details please see Eric Cheng et al 2016 Biofabrication 8 015008 http://dx.doi.org/10.1088/1758-5090/8/1/015008'
+  source: https://gsathish.github.io/biomems-lab/research/#inkjet
+microfluidic-tissue-models:
+- youtube: RXxNaLZLQ8Y
+  title: 'Play video: controlled oxygen levels in a microfluidic device'
+  caption: 'Video showing time-varying fluidic oxygen levels within a microfluidic
+    device.  Left: Gaseous oxygen levels supplied to the microfluidic device (red),
+    and average oxygen levels at the bottom of the water-filled cell culture channel
+    (black), measured (using fluorescence microscopy) by the integrated ratiometric
+    optical oxygen sensor films.  Fluidic oxygen levels closely follow gaseous oxygen
+    supply, with a fast switching time of less than 10 minutes.  Right: False-colour
+    oxygen levels (ranging from 0% (blue) to 10% (red)) measured by the integrated
+    sensor films, overlaid upon a brightfield image of the microfluidic device with
+    trapping structures for 3-D cultures.  After equilibration, the oxygen levels
+    are uniform across the width and length of the channel. For more information please
+    see [Sensors 2015, 15, 20030-20052; doi:10.3390/s150820030](http://www.mdpi.com/1424-8220/15/8/20030)'
+  source: https://gsathish.github.io/biomems-lab/research/#hypoxia
+- youtube: T97a58wnUis
+  title: 'Play video: tumour spheroid response to cyclic hypoxia'
+  caption: 'Video showing the response of an MCF-7 breast cancer tumour spheroid to
+    cyclic hypoxia within a microfluidic oxygen control device.  Left: Spheroid size
+    (black) and oxygen level supplied to the control device (red) during exposure
+    to a cycling oxygen profile (cycling between 0%, 3%, and 10% oxygen).  Right:
+    Brightfield video of spheroid overlaid with the segmentation (white line) used
+    to calculate the spheroid size plotted on the left.  The spheroid increases in
+    size when exposed to 0% oxygen and decreases again when exposed to 3% and 10%
+    oxygen, showing evidence of dynamic swelling and shrinkage during cycling hypoxia.'
+  source: https://gsathish.github.io/biomems-lab/research/#hypoxia

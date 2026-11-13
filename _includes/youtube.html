@@ -1,6 +1,6 @@
 {%- comment -%} Click-to-load YouTube video. Usage: {% include youtube.html id="ID" caption="..." %} {%- endcomment -%}
 <figure class="video">
-  <button type="button" class="video-frame" data-youtube="{{ include.id }}" aria-label="Play video">
+  <button type="button" class="video-frame" data-youtube="{{ include.id }}" aria-label="{{ include.title | default: 'Play video' | escape }}">
     <img src="https://i.ytimg.com/vi/{{ include.id }}/hqdefault.jpg" alt="" loading="lazy">
     <span class="video-play">{% include icon.html name="play" %}</span>
   </button>

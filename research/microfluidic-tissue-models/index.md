@@ -16,6 +16,8 @@ Oxygen availability is an important feature of the tumour microenvironment, infl
 
 We have developed microfluidic platforms that control oxygen conditions over space and time, enabling the study of three-dimensional tumour spheroids under physiologically relevant oxygen profiles. By integrating controlled oxygen delivery with live-cell microscopy, these systems allow us to investigate changes in tumour spheroid morphology, cell behaviour, and responses to anticancer treatments. This work provides tools for examining biological responses to environmental conditions that are difficult to reproduce using conventional cell culture systems.
 
+{% include project-videos.html project="microfluidic-tissue-models" %}
+
 ## Three-Dimensional Cell Culture and Engineered Tumour Models
 
 Three-dimensional cell culture provides opportunities to reproduce aspects of tissue architecture and cell-cell and cell-matrix interactions that are absent in conventional monolayer cultures. We develop microfluidic approaches for generating and maintaining cell-laden hydrogel structures, incorporating extracellular matrix components such as collagen and basement membrane-derived materials.

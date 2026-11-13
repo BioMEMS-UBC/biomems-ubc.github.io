@@ -3,6 +3,7 @@ name: Tara Caffrey
 role: research-facilitator
 order: 59
 links:
+  email: tara.caffrey@ubc.ca
   linkedin: tara-caffrey-1104444b
 ---
 

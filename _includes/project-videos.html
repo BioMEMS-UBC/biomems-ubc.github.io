@@ -1,0 +1,8 @@
+{%- assign videos = site.data.project-videos[include.project] -%}
+{%- if videos.size > 0 %}
+<div class="project-videos">
+  {%- for video in videos %}
+  {% include youtube.html id=video.youtube title=video.title caption=video.caption %}
+  {%- endfor %}
+</div>
+{%- endif %}

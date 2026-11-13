@@ -35,9 +35,12 @@
   title: Engineering Biomaterials for Neural Repair
   description: We investigate how engineered hydrogels and their physical properties influence neural growth and regeneration. As part of the interdisciplinary Mend the Gap initiative, we combine microscale neural tissue models, hydrogel characterization, and quantitative imaging to inform biomaterial-based approaches to spinal cord injury repair.
   link: /research/biomaterials-neural-repair/
-  image: images/research/biomaterials-neural-repair-concept.jpg
-  image_alt: Concept illustration of branching neural processes extending through an aligned hydrogel scaffold.
-  image_caption: 'Concept illustration: engineered hydrogel microstructures and neural growth.'
+  image: images/research/drg-annotated-neurite-lengths.png
+  image_width: 1930
+  image_height: 1026
+  image_alt: Microscopy image of a neural explant with radiating neurites traced in different colours to annotate their lengths.
+  image_caption: Neurite outgrowth with colour-annotated lengths.
+  image_original: images/research/DRG-Colour-Annotated Neurite Lengths-250527-GSH5-LAM10.tif
 
 - slug: engineering-education
   title: Engineering Education and Inclusion
